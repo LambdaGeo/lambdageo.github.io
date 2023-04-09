@@ -17,3 +17,13 @@ Desenvolver e apoiar pesquisas teóricas e práticas na área de desenvolvimento
 - Engenharia de Dados
 - Geoinformação
 - Tecnologias Web
+
+## Livros
+
+- [Real World Haskell (PT-BR)](https://lambdageo.github.io/rwh-ptbr/)
+- [Construindo compiladores com nand2tetris](https://profsergiocosta.notion.site/Construindo-compiladores-com-nand2tetris-193b291e3e02443984aeecc796682cfc)
+
+## Sofware
+
+- QGISSPARQL ([triple2layer](https://github.com/LambdaGeo/qgisparql-triple2layer) e [layer2triple](https://github.com/LambdaGeo/qgisparql-layer2triple))
+
