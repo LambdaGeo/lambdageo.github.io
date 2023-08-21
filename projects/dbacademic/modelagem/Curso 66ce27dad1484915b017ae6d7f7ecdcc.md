@@ -15,10 +15,3 @@ Classe: [https://w3id.org/ccso/ccso#ProgramofStudy](https://w3id.org/ccso/ccso#P
 | Area do Curso | Data Property | https://w3id.org/ccso/ccso#focusIn | Essa propriedade indica a área de foco ou especialização do curso | Sistemas de Computação e Redes | https://www.notion.so<http://www.w3.org/2001/XMLSchema#string> |
 | PPC | Object Property | https://w3id.org/ccso/ccso#hasSyllabus | Lidado ao Plano de Curso ou Plano de Ensino para o curso | https://w3id.org/ccso/ccso#courseURL | https://w3id.org/ccso/ccso#Syllabus |
 | Coordenador | Object Property | https://w3id.org/ccso/ccso#assistsInCourse | Ligado para propriedade que representa coordenador de curso. | https://purl.org/linked-data/ccso-dbacademic#hasCoordinator | http://schema.org/EducationalOrganization |
-| Turno | X |  |  |  |  |
-| Turma | X |  |  |  |  |
-| Modalidade  | X | LINK  |  |  |  |
-| Ano | X |  |  | course ou seja disciplina | https://w3id.org/ccso/ccso#academicYear |
-| Ingresso | X |  |  |  | https://w3id.org/ccso/ccso#academicYear |
-| Semestre | X | x att |  |  |  |
-| Município | X |  |  |  |  |
