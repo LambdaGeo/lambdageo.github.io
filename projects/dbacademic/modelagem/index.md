@@ -1,4 +1,4 @@
-# Modelagem - Github
+# Modelagem
 
 [Docente](Docente%20fa7684c8396449cf8abb628a708eeb80.md)
 
