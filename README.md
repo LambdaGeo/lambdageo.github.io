@@ -6,8 +6,8 @@ Desenvolver e apoiar pesquisas teóricas e práticas na área de desenvolvimento
 
 ## Projetos
 
-- [DBAcademic: Conectando os dados públicos e abertos de instituições públicas de ensino](https://lambdageo.github.io/dbacademic/)
-- [DBCells - an architecture for publishing linked modelling data](https://lambdageo.github.io/dbcells/)
+- [DBAcademic: Conectando os dados públicos e abertos de instituições públicas de ensino](https://lambdageo.github.io/projects/dbacademic/)
+- [DBCells - an architecture for publishing linked modelling data](https://lambdageo.github.io/projects/dbcells/)
 
 ## Linhas de Estudo e Pesquisa
 
@@ -20,10 +20,10 @@ Desenvolver e apoiar pesquisas teóricas e práticas na área de desenvolvimento
 
 ## Livros
 
-- [Real World Haskell (PT-BR)](https://lambdageo.github.io/rwh-ptbr/)
+- [Real World Haskell (PT-BR)](https://profsergiocosta.github.io/rwh-ptbr/)
 - [Construindo compiladores com nand2tetris](https://profsergiocosta.notion.site/Construindo-compiladores-com-nand2tetris-193b291e3e02443984aeecc796682cfc)
 
 ## Sofware
 
-- QGISSPARQL ([triple2layer](https://github.com/LambdaGeo/qgisparql-triple2layer) e [layer2triple](https://github.com/LambdaGeo/qgisparql-layer2triple))
+- QGISSPARQL ([triple2layer](https://lambdageo.github.io/qgisparql-triple2layer) e [layer2triple](https://lambdageo.github.io/qgisparql-layer2triple))
 

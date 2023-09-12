@@ -8,9 +8,8 @@ layout: default
 As instituições públicas detêm um grande volume de dados que poderiam ser usados para melhorar os seus serviços. Isso tem motivado um movimento denominado de dados abertos dados. Nesse sentido, o Brasil e outros países têm criado leis que incentivem e obriguem as instituições abrirem seus dados públicos. Um exemplo disso foi um decretou de 2016 que obrigou as instituições federais criarem seus Planos de Dados Abertos. Isso levou a criação de diversos portais de dados abertos. Porém, atualmente esses portais de dados abertos não estão conectados tornando impraticável a consulta de dados entre eles. A conexão destes dados pode ser realizado através de um conjunto de práticas denominadas de dados conectados. O objetivo desse trabalho é desenvolver um repositório de dados utilizando essas práticas denominado DBacademic. Com esse objetivo, os dados abertos de 25 instituições públicas de ensino foram extraídos, transformados e carregados para um repositório de dados conectados. Essa transformação resultou em quase 900 mil triplas que podem ser consultadas através do site dbacademic. 
 </div>
 
-## Sparql endpoint
 
-*   [http://sparql.dbacademic.tech](https://dbacademic-sparql.up.railway.app/)) 
+
 
 ## Conjunto de Dados
 
@@ -31,13 +30,28 @@ No entanto, para cumprir o propósito do projeto foram selecionados alguns conju
 | <i>Monografias (Trabalhos de Conclusão de Curso)</i> | Informações sobre as monografias (ou trabalho de conclusão) dos discentes, tais como  título, nome do aluno, nome do orientador, nome do curso, ano e data da defesa. |
 | <i>Discente</i> | Este conjunto engloba as informações dos alunos ativos, por ingresso ou egressos da universidade. Usualmente, contém poucos atributos, como nome do aluno, matrícula, período de ingresso e nome do curso. |
 
+## Modelagem
+
+* [Acesse aqui a modelagem para cada conjunto de dados](modelagem)
+
+## Dados Publicados
+
+* [Acesse aqui os dados publicados no Data.world]((https://data.world/dbacademic/dbacademic))
+
+
+
+## Exemplos de Consultas
+
+* [Acesse aqui alguns exemplos de consultas](queryexamples)
+
 
 ## Publicações
 
-1. Costa, Sérgio Souza; DUARTE, M. V. ; Silva, Micael Lopes ; OLIVEIRA, E. C. ; GUIMARAES, J. V. M. . DBacademic: Conectando os dados abertos das instituições de ensino do Brasil.. CIÊNCIA DA INFORMAÇÃO (ONLINE), v. 49, p. 142-158, 2021.
-2. Costa, Sérgio; Sousa, Mateus ; da Silva, Micael . Os cinco passos para transformar qualquer site de dados públicos em uma API de dados abertos. Minicursos da ERCEMAPI e EAComp 2019. 1ed.: SBC, 2019, v. , p. 90-112.
-3. Costa, Sérgio; DUARTE, M. V. ; SILVA, M. L. ; OLIVEIRA, E. C. ; GUIMARAES, J. V. M. Uma solução semi-automática para extração, transformação e carga de dados conectados. In: III Workshop de Informação, Dados e Tecnologia (WIDaT 2019), 2019, Brasilia. Workshop de informação, dados e tecnologia (WIDAT 2019), 2019.
-4. GUIMARAES, J. V. M. ; OLIVEIRA, E. C. ; Costa, Sérgio Souza . Migrando dos dados abertos para dados conectados: uma proposta para a Universidade Federal do Maranhão. In: JIM 2018 - VII Jornada de Informática do Maranhão, 2018, São Luis - MA. JIM 2018 - VII Jornada de Informática do Maranhão, 2018.
+- NAHUZ, Breno Baptista et al.. UMA ABORDAGEM BASEADA EM ENGENHARIA DE DADOS PARA EXTRAÇÃO, TRANSFORMAÇÃO E CARREGAMENTO DE DADOS DE INSTITUIÇÕES ACADÊMICAS.. In: III Simpósio REACT sobre Descarbonização: economia, energia e ambiente.. Anais...São Luís(MA) Online, 2023. Disponível em: https//www.even3.com.br/anais/Simposioreact2023/678111-UMA-ABORDAGEM-BASEADA-EM-ENGENHARIA-DE-DADOS-PARA-EXTRACAO-TRANSFORMACAO-E-CARREGAMENTO-DE-DADOS-DE-INSTITUICOES. Acesso em: 12/09/2023
+- Costa, Sérgio Souza; DUARTE, M. V. ; Silva, Micael Lopes ; OLIVEIRA, E. C. ; GUIMARAES, J. V. M. . DBacademic: Conectando os dados abertos das instituições de ensino do Brasil.. CIÊNCIA DA INFORMAÇÃO (ONLINE), v. 49, p. 142-158, 2021.
+- Costa, Sérgio; Sousa, Mateus ; da Silva, Micael . Os cinco passos para transformar qualquer site de dados públicos em uma API de dados abertos. Minicursos da ERCEMAPI e EAComp 2019. 1ed.: SBC, 2019, v. , p. 90-112.
+- Costa, Sérgio; DUARTE, M. V. ; SILVA, M. L. ; OLIVEIRA, E. C. ; GUIMARAES, J. V. M. Uma solução semi-automática para extração, transformação e carga de dados conectados. In: III Workshop de Informação, Dados e Tecnologia (WIDaT 2019), 2019, Brasilia. Workshop de informação, dados e tecnologia (WIDAT 2019), 2019.
+- GUIMARAES, J. V. M. ; OLIVEIRA, E. C. ; Costa, Sérgio Souza . Migrando dos dados abertos para dados conectados: uma proposta para a Universidade Federal do Maranhão. In: JIM 2018 - VII Jornada de Informática do Maranhão, 2018, São Luis - MA. JIM 2018 - VII Jornada de Informática do Maranhão, 2018.
 
 ## Orientações
 
@@ -47,12 +61,6 @@ No entanto, para cumprir o propósito do projeto foram selecionados alguns conju
 4. Abrindo os dados públicos da Universidade Federal do Maranhão, MICAEL LOPES DA SILVA , 01/2017
 
 
-## Portal não oficial de dados abertos da UFMA
-
-Esse portal foi desenvolvido para prover alguns dados que não estavam disponíveis através do portal oficial.
-
-* [Portal de dados abertos](https://opendata-ufma.up.railway.app/)
-* [Portal de dados abertos - tempo real](https://opendata-live-ufma.up.railway.app/)
 
 ## Portais oficiais de dados abertos
 
