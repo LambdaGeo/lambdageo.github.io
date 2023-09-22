@@ -1,3 +1,8 @@
+---
+layout: default
+title: DBCells
+---
+
 
 # DBCells - an architecture for publishing linked modelling data
 
