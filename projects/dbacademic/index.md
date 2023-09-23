@@ -41,7 +41,7 @@ No entanto, para cumprir o propósito do projeto foram selecionados alguns conju
 ## Ontologia
 
 * [Acesse aqui a ontologia utilizada na publicação dos dados](https://lambdageo.github.io/ccso-dbacademic/)
-* 
+  
 
 
 ## Dados Publicados
