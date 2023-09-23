@@ -6,7 +6,9 @@ title: DBAcademic
 # DBAcademic: Conectando os dados públicos e abertos de instituições públicas de ensino
 
 <div style="text-align: justify">
-As instituições públicas detêm um grande volume de dados que poderiam ser usados para melhorar os seus serviços. Isso tem motivado um movimento denominado de dados abertos dados. Nesse sentido, o Brasil e outros países têm criado leis que incentivem e obriguem as instituições abrirem seus dados públicos. Um exemplo disso foi um decretou de 2016 que obrigou as instituições federais criarem seus Planos de Dados Abertos. Isso levou a criação de diversos portais de dados abertos. Porém, atualmente esses portais de dados abertos não estão conectados tornando impraticável a consulta de dados entre eles. A conexão destes dados pode ser realizado através de um conjunto de práticas denominadas de dados conectados. O objetivo desse trabalho é desenvolver um repositório de dados utilizando essas práticas denominado DBacademic. Com esse objetivo, os dados abertos de todas as instituições públicas de ensino serão extraídos, transformados e carregados para um repositório de dados conectados. 
+As instituições públicas detêm um grande volume de dados que poderiam ser usados para melhorarem os seus serviços. Isso motiva um movimento denominado dados abertos. Nesse sentido, o Brasil e outros países, têm criado leis que incentivam e, de maneira compulsória, garantam que as instituições abram os seus dados públicos. Um exemplo disso foi o Decreto nº 8.777 de 2016 que definia que todas as instituições federais deveriam elaborar o seu Plano de Dados Abertos (PDA). Esse decreto levou a criação e publicação de um grande volume de dados abertos pelas diversas instituições públicas. Cada instituição mantêm isoladamente os seus dados e atualmente, tornando impraticável a consulta de dados entre elas.
+
+O objetivo deste projeto é então conectar estes dados em um grande repositório de dados conectados denominado DBacademic provendo assim um portal que permitirá realizar consultas envolvendo dados de diversas instituições públicas de ensino.
 </div>
 
 

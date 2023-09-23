@@ -6,9 +6,7 @@ title: DBCells
 
 # DBCells - an architecture for publishing linked modelling data
 
-Land change models require large amounts of data, and are difficult to be reproduced, as well as to be reused. Some initiatives to open and link data increase the reproducibility of scientific experiments and data reuse. One pillar of the linked data concept is the use of Uniform Resource Identifier (URI). In this project, we propose DBCells – an architecture for publication of a global cellular space where each cell has a URI. This new approach will allow comparison, reproduction and the reuse of models and data.
-
-
+Os modelos de mudança de uso e cobertura terra requerem uma grande quantidade de dados e são difíceis de serem reproduzidos, bem como de serem reutilizados. Algumas iniciativas para abrir e vincular dados aumentam a reprodutibilidade de experimentos científicos e a reutilização de dados. Um pilar do conceito de dados vinculados é o uso do Uniform Resource Identifier (URI). Este projeto visa avaliar e refinar uma metodologia para possibilitar o reuso, compartilhamento, comparação e reprodução de modelos e dados de uso e cobertura da terra. Esta abordagem é suportada por uma arquitetura para publicação de dados de espaços celulares conectados denominado DBCells. Com a conclusão deste projeto, espera-se avançar no apoio a realização de uma ciência mais aberta e reprodutível com relação aos modelos de uso e cobertura da terra.
 
 ### Dados Publicados
 
