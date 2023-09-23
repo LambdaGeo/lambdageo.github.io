@@ -26,7 +26,8 @@ df
 ```
 Executando em um Python Notebook, como o Google Colab, teriamos a seguinte saída:
 
-![image](https://github.com/LambdaGeo/dbacademic/assets/86836/f96b4c39-06a6-4879-98bf-44088e206cc1)
+![image](https://github.com/LambdaGeo/lambdageo.github.io/assets/86836/abaf4c1c-c218-45a5-a150-074779b69000)
+
 
 ## Contando a quantidade de docentes por estado
 
@@ -81,7 +82,8 @@ plt.xticks(rotation='vertical')
 plt.show()
 ```
 
-![image](https://github.com/LambdaGeo/dbacademic/assets/86836/9a0a306c-0f84-4aa2-93d6-ea3481c5d31a)
+![image](https://github.com/LambdaGeo/lambdageo.github.io/assets/86836/20c263b1-28ca-4bcd-a0e0-378ded574b48)
+
 
 ## Contando a quantidade de Universidades por estado
 
@@ -137,4 +139,5 @@ plt.xticks(rotation='vertical')
 # Exibindo o gráfico
 plt.show()
 ```
-![image](https://github.com/LambdaGeo/dbacademic/assets/86836/d508b726-d3da-428d-9ebd-51b8f307e7e7)
+![image](https://github.com/LambdaGeo/lambdageo.github.io/assets/86836/a8161e4a-01da-48db-ad32-5058c4260f9f)
+
