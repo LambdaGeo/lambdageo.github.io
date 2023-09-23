@@ -54,6 +54,10 @@ No entanto, para cumprir o propósito do projeto foram selecionados alguns conju
 
 * [Acesse aqui alguns exemplos de consultas](queryexamples)
 
+## SOFTWARE
+
+- [Simple Object-triple Mapping](https://lambdageo.github.io/simpot/)
+
 
 ## Publicações
 

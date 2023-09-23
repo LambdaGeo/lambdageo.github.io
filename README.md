@@ -25,5 +25,7 @@ Desenvolver e apoiar pesquisas teóricas e práticas na área de desenvolvimento
 
 ## Sofware
 
-- QGISSPARQL ([triple2layer](https://lambdageo.github.io/qgisparql-triple2layer) e [layer2triple](https://lambdageo.github.io/qgisparql-layer2triple))
 
+- [QGISSPARQL - Triple2Layer](https://lambdageo.github.io/qgisparql-triple2layer/)
+- [QGISSPARQL - Layer2Triple](https://github.com/LambdaGeo/qgisparql-layer2triple)
+- [Simple Object-triple Mapping](https://lambdageo.github.io/simpot/)
