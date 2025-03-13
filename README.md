@@ -46,7 +46,13 @@ Concluiu o Mestrado (2006) e Doutorado (2012) em Computação Aplicada pelo [Ins
 - [QGISSPARQL - Layer2Triple](https://github.com/LambdaGeo/qgisparql-layer2triple)
 - [Simple Object-triple Mapping](https://lambdageo.github.io/simpot/)
 
-## Orientações Concluídas de Iniciação Científica
+## Dissertações de Mestrado
+
+1. **Thomas Victor de Sousa Malheiros Rocha** - *Avaliação da acurácia na classificação de uso e cobertura da terra: um estudo de caso na região intermediária de São Luís com o MAPBIOMAS.* 2023. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGC&TAmb)) - Universidade Federal do Maranhão, Fundação de Amparo à Pesquisa ao Desenvolvimento Científico e Tecnológico - MA. Orientador: **Sergio Souza Costa**.
+2. **Luis Fernando Cirqueira da Silva Correia** - *Expansão do Desmatamento no Cerrado Maranhense entre os anos de 2001 e 2023.* 2023. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGC&TAmb)) - Universidade Federal do Maranhão, Fundação de Amparo à Pesquisa ao Desenvolvimento Científico e Tecnológico - MA. Orientador: **Sergio Souza Costa**.
+
+
+## Iniciação Científica
 
 1. **Breno Baptista Nahuz** - *Modelando e automatizando a extração, transformação e carregamento de dados abertos para dados conectados.* 2023. Iniciação Científica. (Graduando em Engenharia de Computação) - Universidade Federal do Maranhão. Orientador: **Sergio Souza Costa**.
 2. **Andre Moura Lima** - *Modelo de dados conectado para informação acadêmica de instituições públicas brasileiras.* 2023. Iniciação Científica. (Graduando em Engenharia de Computação) - Universidade Federal do Maranhão. Orientador: **Sergio Souza Costa**.
@@ -55,7 +61,3 @@ Concluiu o Mestrado (2006) e Doutorado (2012) em Computação Aplicada pelo [Ins
 5. **Nerval de Jesus Santos Junior** - *Um software de integração entre repositório de dados conectados e ambientes de modelagem de uso e cobertura da terra (PIBIT).* 2023. Orientação de outra natureza. (Engenharia de Computação) - Universidade Federal do Maranhão, Fundação de Amparo à Pesquisa ao Desenvolvimento Científico e Tecnológico - MA. Orientador: **Sergio Souza Costa**.
 6. **Jefferson da Conceição Umbelino** - *Uma solução de monitoramento de estacionamento usando crowdsensing participativo (PIBIT).* 2020. Orientação de outra natureza. (Ciência e Tecnologia) - Universidade Federal do Maranhão. Orientador: **Sergio Souza Costa**.
 
-## Dissertações de Mestrado
-
-1. **Thomas Victor de Sousa Malheiros Rocha** - *Avaliação da acurácia na classificação de uso e cobertura da terra: um estudo de caso na região intermediária de São Luís com o MAPBIOMAS.* 2023. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGC&TAmb)) - Universidade Federal do Maranhão, Fundação de Amparo à Pesquisa ao Desenvolvimento Científico e Tecnológico - MA. Orientador: **Sergio Souza Costa**.
-2. **Luis Fernando Cirqueira da Silva Correia** - *Expansão do Desmatamento no Cerrado Maranhense entre os anos de 2001 e 2023.* 2023. Dissertação (Mestrado em Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (PPGC&TAmb)) - Universidade Federal do Maranhão, Fundação de Amparo à Pesquisa ao Desenvolvimento Científico e Tecnológico - MA. Orientador: **Sergio Souza Costa**.
