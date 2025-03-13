@@ -15,7 +15,7 @@ Mais informações sobre o grupo: [Diretório dos Grupos de Pesquisa do CNPq](ht
 
 ## Liderança
 
-O grupo é liderado pelo **Professor Sergio Souza Costa**, Professor Associado do [Curso de Engenharia da Computação](https://sigaa.ufma.br/sigaa/public/curso/portal.jsf?lc=pt_br&id=16822859) na [Universidade Federal do Maranhão (UFMA)](http://www.ufma.br/) e docente permanente do [Programa de Pós-Graduação em Ciência e Tecnologia Ambiental](https://ppgctamb.ufma.br/), com foco em Biotecnologia e Tecnologias Aplicadas ao Meio Ambiente. Atualmente, lidera o grupo de pesquisa LambdaGeo, dedicado à Computação e Geotecnologias, com ênfase em Geoinformação, Engenharia e Ciência de Dados Geográficos, além de Tecnologias Web.
+O grupo é liderado pelo **[Professor Sergio Souza Costa](https://profsergiocosta.notion.site/)**, Professor Associado do [Curso de Engenharia da Computação](https://sigaa.ufma.br/sigaa/public/curso/portal.jsf?lc=pt_br&id=16822859) na [Universidade Federal do Maranhão (UFMA)](http://www.ufma.br/) e docente permanente do [Programa de Pós-Graduação em Ciência e Tecnologia Ambiental](https://ppgctamb.ufma.br/), com foco em Biotecnologia e Tecnologias Aplicadas ao Meio Ambiente. Atualmente, lidera o grupo de pesquisa LambdaGeo, dedicado à Computação e Geotecnologias, com ênfase em Geoinformação, Engenharia e Ciência de Dados Geográficos, além de Tecnologias Web.
 
 Concluiu o Mestrado (2006) e Doutorado (2012) em Computação Aplicada pelo [Instituto Nacional de Pesquisas Espaciais (INPE)](http://www.inpe.br/), onde desenvolveu pesquisas em geoprocessamento e modelos dinâmicos de uso e cobertura da terra.
 
