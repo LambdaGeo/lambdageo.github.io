@@ -6,7 +6,7 @@ subtitle: <a href="https://www.ufma.br">UFMA</a> | Computer Engineering | Geotec
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic.webp
   image_circular: true # Fica mais moderno para perfis acadêmicos
   more_info: >
     <p>sergio.costa@ufma.br</p>
