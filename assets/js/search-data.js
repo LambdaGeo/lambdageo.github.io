@@ -24,7 +24,7 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-software",
-          title: "Software",
+          title: "software",
           description: "",
           section: "Navigation",
           handler: () => {
