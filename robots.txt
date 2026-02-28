@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: http://lambdageo.github.io//al-folio/sitemap.xml
+Sitemap: https://lambdageo.github.io//sitemap.xml
