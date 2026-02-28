@@ -164,6 +164,9 @@ collections:
     output: true
   teachings:
     output: true
+  software:
+    output: true
+    permalink: /software/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

@@ -2,11 +2,13 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Course materials, schedules, and resources for classes taught.
+description: Core Courses (English Summaries).
 nav: true
 nav_order: 6
 calendar: true
 ---
+
+For materials, acess [here](https://profsergiocosta.notion.site/Teaching-311cce97509380eda691e7243b158806?pvs=74).
 
 ### ⚙️ Compilers
 

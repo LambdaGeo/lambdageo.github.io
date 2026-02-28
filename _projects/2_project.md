@@ -1,81 +1,62 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+title: DBCells
+description: An architecture for publishing and linking cellular space modeling data.
+#img: assets/img/publication_preview/dbcells.jpg # Caminho para sua imagem de preview
 importance: 2
-category: work
-giscus_comments: true
+category: Leadership
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# DBCells: An Architecture for Publishing Linked Modeling Data
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div style="text-align: justify">
+Land-use and land-cover change (LUCC) models require vast amounts of data and are often difficult to reproduce or reuse. Initiatives focused on Open and Linked Data enhance the reproducibility of scientific experiments and data portability. A core pillar of the Linked Data concept is the use of Uniform Resource Identifiers (URIs). 
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+This project aims to evaluate and refine a methodology to enable the reuse, sharing, comparison, and reproduction of land-use models and datasets. This approach is supported by **DBCells**, an architecture designed for the publication of connected cellular space data. By providing a structured framework for linked cells, we aim to advance open and reproducible science within the LUCC modeling community.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Published Data
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+* [**DBCells on Data.world**](https://data.world/dbcells/dbcells) – Access the published linked datasets.
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Software & Tools
 
-{% raw %}
+The following tools were developed to support the DBCells architecture:
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+- [**QGISSPARQL - Triple2Layer**](https://lambdageo.github.io/qgisparql-triple2layer/) – Integration for visualizing RDF data in QGIS.
+- [**QGISSPARQL - Layer2Triple**](https://github.com/LambdaGeo/qgisparql-layer2triple) – Tool for converting GIS layers into RDF triples.
 
-{% endraw %}
+## Key Publications
+
+* **Costa, Sergio Souza** et al. "DBCells: An Open and Global Multi-Scale Linked Cells." *Revista Brasileira de Cartografia*, 2018.
+* **Garcia, Deyvison Aguiar**, **Costa, Sérgio Souza**, & Moreira, E. G. "Publication of Linked Data for Land-Use and Land-Cover Models." *Revista Geonorte*, v. 10, 2019.
+
+## Talks & Presentations
+
+* [**GeoINFO 2016**](https://pt.slideshare.net/skosta/dbcells-an-open-and-global-multiscale-linked-cells) - "DBCells: An Open and Global Multi-Scale Linked Cells."
+
+## Research References
+
+* *Linked Brazilian Amazon Rainforest Data* – Semantic Web Journal.
+* *Linked Open Science* – Communicating, Sharing, and Evaluating Executable Papers.
+* *Tutorial: Using the SPARQL Package in R* – Handling Spatial Linked Data.
+
+---
+
+### English Feedback & Natural Phrasing
+
+* **"Land-use and land-cover change (LUCC)"**: Esta é a forma padrão acadêmica para "mudança de uso e cobertura da terra".
+* **"Core pillar"**: Usei para traduzir "Um pilar do conceito", soa mais forte e natural em inglês técnico.
+* **"Vast amounts of data"**: Uma alternativa mais natural para "grande quantidade de dados".
+
+### Chunks & Vocab Review
+
+| Type | Expression | Meaning |
+| :--- | :--- | :--- |
+| **Chunk** | **How natural it sounds** | O quão natural soa |
+| **Chunk** | **That brings me to...** | Isso me leva a... |
+| **Chunk** | **Building on that...** | Complementando isso... |
+| **Chunk** | **Wouldn't it be** | Não seria... |
+| **Vocab** | **Shipwreck** | Naufrágio |
+
+**Would you like me to help you draft the "English Posts" section for your blog, where you can start documenting these chunks?**
