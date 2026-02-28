@@ -1,81 +1,54 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: DBAcademic
+description: Connecting open data from Brazilian public educational institutions using Linked Data.
+#img: assets/img/publication_preview/dbacademic.jpg # Altere para o caminho da sua imagem
 importance: 1
-category: work
-related_publications: true
+category: Leadership
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+# DBAcademic: Connecting Open Public Data from Educational Institutions
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+<div style="text-align: justify">
+Public institutions hold a vast volume of data that could be leveraged to improve their services, fueling the Open Data movement. In Brazil, Decree No. 8.777 (2016) mandated that federal institutions create an Open Data Plan (PDA), leading to a surge in published datasets. However, these institutions often maintain their data in isolation, making cross-institutional queries practically impossible.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+The goal of this project is to connect these datasets into a large repository of **Linked Data** called <b>DBAcademic</b>. This portal allows users to perform complex queries involving data from multiple public educational institutions simultaneously.
 </div>
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Datasets
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+<div style="text-align: justify">
+Our research identified 45 public educational institutions with open data, averaging 20 datasets each. For this project, we selected the most relevant datasets to build our linked repository:
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+| Data | Description |
+| :------ | :------ |
+| <i>Faculty</i> | Information about professors, including name, bio, interests, department, and Lattes CV URL. |
+| <i>Courses</i> | Details on academic programs, CNPq knowledge areas, coordinators, and professional titles. |
+| <i>Department</i> | Data regarding university departments, including location, leadership, and associated centers. |
+| <i>Center</i> | Information on the higher-level hierarchy (Colleges/Centers) that oversees departments. |
+| <i>Research Groups</i> | Groups of faculty and students organized by theme, including areas of expertise and coordinators. |
+| <i>Monographs (TCC)</i> | Data on student theses, including titles, advisors, defense dates, and years. |
+| <i>Students</i> | Records of active, incoming, or former students, including enrollment IDs and course names. |
 
-{% raw %}
+## Technical Resources
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
+* [**Modeling**](modelagem): Access the data modeling for each dataset.
+* [**Ontology**](https://lambdageo.github.io/ccso-dbacademic/): Access the ontology used for data publication.
+* [**Published Data**](https://data.world/dbacademic/dbacademic): Explore the datasets published on Data.world.
+* [**Query Examples**](queryexamples): See examples of SPARQL queries.
 
-{% endraw %}
+## Software
+
+- [**Simple Object-triple Mapping (SiMPoT)**](https://lambdageo.github.io/simpot/) - A tool developed to facilitate the publication of these data.
+
+## Selected Publications
+
+- **Costa, Sérgio Souza** et al. "DBacademic: Connecting open data from educational institutions in Brazil." *Ciência da Informação*, v. 49, 2021.
+- **Costa, Sérgio Souza** et al. "A semi-automatic solution for extraction, transformation, and loading of linked data." *WIDaT*, 2019.
+
+## Mentorship & Supervision
+
+1. **Mateus Vitor Duarte Sousa**. *An Extensible Solution for Extracting Public Data into Linked Data*. (Undergraduate Thesis), 2019.
+2. **Jose Victor Meireles Guimaraes**. *Migrating from Open Data to Linked Data: A Proposal for UFMA*. (Undergraduate Thesis), 2018.
+
