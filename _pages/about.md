@@ -2,33 +2,63 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: <a href="https://www.ufma.br">UFMA</a> | Computer Engineering | Geotechnology & Applied Computing
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # Fica mais moderno para perfis acadêmicos
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>sergio.costa@ufma.br</p>
+    <p>UFMA - São Luís, MA, Brazil</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # Mude para true quando alimentar o seu _bibliography/papers.bib
+social: true # Ativa os ícones de redes (configurados no seu _config.yml)
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true # Aqui aparecerão as novidades do grupo automaticamente
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: true # Aqui aparecerão seus posts de aprendizado de inglês!
+  scrollable: true
+  limit: 3
+---
+# 🛰️ LambdaGEO — Computing and Geotechnology Research Group
+
+Welcome to the official repository of **LambdaGEO**, a research group dedicated to developing innovative solutions in **Geoinformation**, **Geotechnologies**, **Spatial Modeling**, **Applied Computing**, and **Linked Data**. Our mission is to produce scientific knowledge and open-source technologies with significant social and academic impact.
+
+Based at the **Federal University of Maranhão (UFMA)**, the group is affiliated with the **Graduate Program in Environmental Science & Technology (PPGC&TAmb)**.
+
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+## 👨‍🏫 Leadership
+**Professor Sergio Souza Costa** is an Associate Professor of Computer Engineering at UFMA. With a PhD in Applied Computing from the **National Institute for Space Research (INPE)**, his work focuses on Geoinformation, Environmental Data, Web Systems, and LUCC (Land Use and Cover Change) Modeling.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+> **Note to students:** I use **Notion** for detailed lecture materials and mentorship guidelines. You can access my workspace here: [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+---
+
+## 🔬 Research Interests
+Our team conducts theoretical and practical research across several domains:
+* **Geoprocessing & GIS** (Geographic Information Systems)
+* **Geographic Data Science**
+* **Environmental Modeling**
+* **Software Engineering**
+* **Linked Open Data** (Semantic Web)
+
+---
+
+## 📦 Key Projects & Software
+We actively develop tools to bridge the gap between environmental data and web technologies:
+
+* **DBAcademic:** Connecting public open data from educational institutions.
+* **DBCells:** An architecture for publishing modeling data as Linked Data.
+* **QGISSPARQL:** Tools for integrating Triple stores with QGIS (Triple2Layer & Layer2Triple).
+* **SiMPoT:** Simple Object-triple Mapping for easier data integration.
+
+---
+
+## 🌟 Acknowledgments
+We are grateful to all the students, collaborators, and partners who contribute to LambdaGEO's initiatives. Whether through Master's dissertations or Undergraduate Research (IC), your work drives our progress.
