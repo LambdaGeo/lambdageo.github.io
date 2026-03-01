@@ -2,7 +2,14 @@
   <a href="{% if item.redirect %}{{ item.redirect }}{% else %}{{ item.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
       {% if item.img %}
-        {% include figure.liquid loading="eager" path=item.img sizes="250px" alt="software thumbnail" class="card-img-top" %}
+        {%
+          include figure.liquid
+          loading="eager"
+          path=item.img
+          sizes="250px"
+          alt="software thumbnail"
+          class="card-img-top"
+        %}
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ item.title }}</h2>
