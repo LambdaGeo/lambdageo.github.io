@@ -427,12 +427,12 @@ ninja.data = [{
           title: 'DBAcademic',
           description: "Connecting open data from Brazilian public educational institutions using Linked Data.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/dbacademic/";
             },},{id: "projects-dbcells",
           title: 'DBCells',
           description: "An architecture for publishing and linking cellular space modeling data.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/projects/dbcells/";
             },},{id: "software-dissmodel",
           title: 'DisSModel',
           description: "A Discrete Spatial Modeling framework for Python.",
