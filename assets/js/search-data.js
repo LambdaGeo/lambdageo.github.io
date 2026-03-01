@@ -437,7 +437,17 @@ ninja.data = [{
           title: 'DisSModel',
           description: "A Discrete Spatial Modeling framework for Python.",
           section: "Software",handler: () => {
-              window.location.href = "/software/1_software/";
+              window.location.href = "/software/dissmodel/";
+            },},{id: "software-qgissparql-layer2triple",
+          title: 'QGISSPARQL - Layer2Triple',
+          description: "A QGIS plugin to export geographic layers as Linked Data (RDF/Turtle).",
+          section: "Software",handler: () => {
+              window.location.href = "/software/layer2triple/";
+            },},{id: "software-qgissparql-triple2layer",
+          title: 'QGISSPARQL - Triple2Layer',
+          description: "A QGIS plugin to import Linked Data into geographic layers.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/triple2layer/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
