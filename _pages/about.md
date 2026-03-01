@@ -12,18 +12,18 @@ profile:
     <p>sergio.costa@ufma.br</p>
     <p>UFMA - São Luís, MA, Brazil</p>
 
-selected_papers: false # Mude para true quando alimentar o seu _bibliography/papers.bib
+selected_papers: true # Mude para true quando alimentar o seu _bibliography/papers.bib
 social: true # Ativa os ícones de redes (configurados no seu _config.yml)
 
 announcements:
-  enabled: true # Aqui aparecerão as novidades do grupo automaticamente
+  enabled: false # Aqui aparecerão as novidades do grupo automaticamente
   scrollable: true
-  limit: 5
+  limit: 0
 
 latest_posts:
-  enabled: true # Aqui aparecerão seus posts de aprendizado de inglês!
+  enabled: false # Aqui aparecerão seus posts de aprendizado de inglês!
   scrollable: true
-  limit: 3
+  limit: 0
 ---
 # 🛰️ LambdaGEO — Computing and Geotechnology Research Group
 
