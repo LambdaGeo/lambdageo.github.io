@@ -2,9 +2,8 @@
 layout: page
 title: DBCells
 description: An architecture for publishing and linking cellular space modeling data.
-#img: assets/img/publication_preview/dbcells.jpg # Caminho para sua imagem de preview
 importance: 2
-category: Leadership
+category: Research Leadership
 ---
 
 # DBCells: An Architecture for Publishing Linked Modeling Data
@@ -35,28 +34,43 @@ The following tools were developed to support the DBCells architecture:
 
 * [**GeoINFO 2016**](https://pt.slideshare.net/skosta/dbcells-an-open-and-global-multiscale-linked-cells) - "DBCells: An Open and Global Multi-Scale Linked Cells."
 
-## Research References
+## Technical References & Resources
 
-* *Linked Brazilian Amazon Rainforest Data* – Semantic Web Journal.
-* *Linked Open Science* – Communicating, Sharing, and Evaluating Executable Papers.
-* *Tutorial: Using the SPARQL Package in R* – Handling Spatial Linked Data.
+### Vocabularies & Ontologies
+* [**Data Cube Vocabulary**](http://ukgovld.github.io/ukgovldwg/guides/data-cube.html)
+* [**W3C Data Cube Vocabulary**](https://www.w3.org/TR/vocab-data-cube/)
+* [**Publishing EO Data as Data Cubes (W3C)**](https://www.w3.org/TR/eo-qb/)
+* [**Linked Earth**](http://linkedearth.org/)
+* [**Amazon Observed Change Namespace**](http://observedchange.com/amazon/ns/)
+* [**Earth Science Ontology Wiki**](http://ontolog.cim3.net/wiki/EarthScienceOntolog.html)
+* [**List of Open Vocabularies**](http://vocab.org/open/)
+* [**Basics of Protege (Portuguese)**](http://mba.eci.ufmg.br/onto_frames/)
+* [**Ontologies and Semantic Web Lecture (Video)**](https://www.youtube.com/watch?v=9jqq8Ahtj0U)
 
----
+### Open Science & Geocomputation
+* [**Open Science, Open Source, and R**](https://www.linuxjournal.com/content/open-science-open-source-and-r)
+* [**Geocomputation with R**](https://bookdown.org/robinlovelace/geocompr/)
+* [**Spatial Data in R: Using R as a GIS**](https://pakillo.github.io/R-GIS-tutorial/)
 
-### English Feedback & Natural Phrasing
+### Developer Tools & Documentation
+* [**RDF Translator**](https://rdf-translator.appspot.com/)
+* [**Python Library for data.world**](https://pypi.org/project/datadotworld/)
+* [**PyQGIS Developer Cookbook**](https://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/index.html)
+* [**Generating HTML Documentation for OWL**](https://www.w3.org/2011/prov/wiki/Generating_HTML_documentation_of_OWL)
+* [**PostgreSQL Installation on Manjaro Linux**](https://lobotuerto.com/blog/how-to-install-postgresql-in-manjaro-linux/)
 
-* **"Land-use and land-cover change (LUCC)"**: Esta é a forma padrão acadêmica para "mudança de uso e cobertura da terra".
-* **"Core pillar"**: Usei para traduzir "Um pilar do conceito", soa mais forte e natural em inglês técnico.
-* **"Vast amounts of data"**: Uma alternativa mais natural para "grande quantidade de dados".
+### Tips & External Data
+* [**Federated SPARQL Queries**](http://www.snee.com/bobdc.blog/2010/01/federated-sparql-queries.html)
+* [**Interacting with Layers in QGIS**](https://www.e-education.psu.edu/geog489/node/2296)
+* [**Downloadable Shapefiles (Forest-GIS)**](http://forest-gis.com/download-de-shapefiles/)
 
-### Chunks & Vocab Review
+## Further Reading
 
-| Type | Expression | Meaning |
-| :--- | :--- | :--- |
-| **Chunk** | **How natural it sounds** | O quão natural soa |
-| **Chunk** | **That brings me to...** | Isso me leva a... |
-| **Chunk** | **Building on that...** | Complementando isso... |
-| **Chunk** | **Wouldn't it be** | Não seria... |
-| **Vocab** | **Shipwreck** | Naufrágio |
-
-**Would you like me to help you draft the "English Posts" section for your blog, where you can start documenting these chunks?**
+* *Linked Data: A Paradigm Shift for Geographic Information Science*
+* *GeoTriples: A Tool For Publishing Earth Observation and Geospatial Data as RDF Graphs*
+* *GeoSPARQL: Enabling a Geospatial Semantic Web*
+* *Geospatial Semantics and Linked Spatiotemporal Data: Past, Present, and Future*
+* *Linked Data of Temporal Information*
+* *Wāhi: A Discrete Global Grid Gazetteer built using Linked Open Data*
+* *Data Models and Query Languages for Linked Geospatial Data*
+* *Best Practices for Publishing, Retrieving, and Using Spatial Data on the Web*
