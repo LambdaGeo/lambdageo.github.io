@@ -3,7 +3,7 @@ layout: page
 title: DBCells
 description: An architecture for publishing and linking cellular space modeling data.
 importance: 2
-category: Research Leadership
+category: Research
 ---
 
 # DBCells: An Architecture for Publishing Linked Modeling Data
