@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-mentorship",
+          title: "mentorship",
+          description: "Over 13 years of fostering technical excellence and supervising undergraduate and graduate research.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/mentorship/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
