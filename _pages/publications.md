@@ -11,11 +11,18 @@ nav_order: 2
 
 <div class="publications">
 
+  <h2 class="category">Theses</h2>
+  {% bibliography -f papers -q @phdthesis %}
+  {% bibliography -f papers -q @mastersthesis %}
+
   <h2 class="category">Journals</h2>
   {% bibliography -f papers -q @article %}
 
   <h2 class="category">Book Chapters</h2>
   {% bibliography -f papers -q @incollection %}
+
+  <h2 class="category">Technical Reports & Manuals</h2>
+  {% bibliography -f papers -q @techreport %}
 
   <h2 class="category">Conferences</h2>
   {% bibliography -f papers -q @inproceedings %}
