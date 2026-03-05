@@ -98,6 +98,11 @@ ninja.data = [{
           description: "A QGIS plugin to export geographic layers as Linked Data (RDF/Turtle).",
           section: "Software",handler: () => {
               window.location.href = "/software/layer2triple/";
+            },},{id: "software-rdfmapper",
+          title: 'rdfmapper',
+          description: "A declarative Object-RDF Mapper for Python to map classes to RDF graphs.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/rdfmapper/";
             },},{id: "software-qgissparql-triple2layer",
           title: 'QGISSPARQL - Triple2Layer',
           description: "A QGIS plugin to import Linked Data into geographic layers.",
