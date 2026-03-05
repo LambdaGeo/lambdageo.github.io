@@ -56,7 +56,8 @@ We actively develop tools to bridge the gap between environmental data and web t
 * **DBAcademic:** Connecting public open data from educational institutions.
 * **DBCells:** An architecture for publishing modeling data as Linked Data.
 * **QGISSPARQL:** Tools for integrating Triple stores with QGIS (Triple2Layer & Layer2Triple).
-* **SiMPoT:** Simple Object-triple Mapping for easier data integration.
+* **rdfmapper:** A declarative Object-RDF Mapper for Python.
+* **DisSMdel:** A modular Python framework for spatially explicit dynamic modeling, Cellular Automata, and System Dynamics.
 
 ---
 
