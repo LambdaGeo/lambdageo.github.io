@@ -3,7 +3,7 @@ layout: cv
 title: Curriculum Vitae
 permalink: /cv/
 title: CV
-nav: false
+nav: true
 nav_order: 5
 ---
 
