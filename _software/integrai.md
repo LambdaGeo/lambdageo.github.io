@@ -2,7 +2,6 @@
 layout: page
 title: IntegrAI
 description: A microservices architecture for maternal health decision support using LLMs and RAG.
-img: /assets/img/integrai_arch.png
 importance: 1
 category: Team
 ---
