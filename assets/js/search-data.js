@@ -93,6 +93,11 @@ ninja.data = [{
           description: "A Discrete Spatial Modeling framework for Python.",
           section: "Software",handler: () => {
               window.location.href = "/software/dissmodel/";
+            },},{id: "software-integrai",
+          title: 'IntegrAI',
+          description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/integrai/";
             },},{id: "software-qgissparql-layer2triple",
           title: 'QGISSPARQL - Layer2Triple',
           description: "A QGIS plugin to export geographic layers as Linked Data (RDF/Turtle).",
