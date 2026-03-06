@@ -4,7 +4,7 @@ title: IntegrAI
 description: A microservices architecture for maternal health decision support using LLMs and RAG.
 img: /assets/img/integrai_arch.png
 importance: 1
-category: Research Projects
+category: Team
 ---
 
 ## Overview
@@ -45,4 +45,13 @@ The platform is built on a **microservices architecture**, fully containerized w
 
 ## Team & Contact
 
-Developed by the **LambdaGEO** team. For collaborations or inquiries, reach out at [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br).
+This project is developed by the **LambdaGEO** team at **Universidade Federal do Maranhão (UFMA)**, in collaboration with the Postgraduate Program in Collective Health.
+
+| Role | Name |
+|:--- |:--- |
+| **Project Coordination** | Prof. Cecília C. C. Ribeiro |
+| **Backend Development, Microservices & Deployment** | Sergio S. Costa |
+| **Prompt Engineering** | Pedro A. F. França, João D. S. de Almeida, João O. B. Diniz |
+| **Research & Health Domain** | Rafaela V. P. Sá, Silas Alves-Costa, Poliana C. de A. F. Viola, Bruno F. de Souza |
+
+For collaborations or inquiries, reach out at [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br).
