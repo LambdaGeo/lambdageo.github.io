@@ -88,6 +88,11 @@ ninja.data = [{
           description: "An architecture for publishing and linking cellular space modeling data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dbcells/";
+            },},{id: "projects-integrai",
+          title: 'IntegrAI',
+          description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/integrai/";
             },},{id: "software-dissmodel",
           title: 'DisSModel',
           description: "A Discrete Spatial Modeling framework for Python.",
