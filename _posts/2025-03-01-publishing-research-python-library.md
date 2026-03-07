@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Shipping a Python Library to PyPI: The Complete Checklist"
-date: 2025-01-01 00:00:00 -0300
+date: 2026-03-01 00:00:00 -0300
 description: Everything you need to take a Python library from research code to a production-grade PyPI package — packaging, testing, CI/CD, docs, and common pitfalls.
 tags: [python, pypi, packaging, github-actions, mkdocs, mypy, open-source]
 categories: tutorial
