@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-shipping-a-python-library-to-pypi-the-complete-checklist",
+        },{id: "post-revitalizing-lambdageo-from-student-projects-to-production-ready-software",
+        
+          title: "Revitalizing LambdaGEO: From Student Projects to Production-Ready Software",
+        
+        description: "How AI assisted in finishing, publishing, and documenting years of research group projects in record time.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/launching-lambdageo-site/";
+          
+        },
+      },{id: "post-shipping-a-python-library-to-pypi-the-complete-checklist",
         
           title: "Shipping a Python Library to PyPI: The Complete Checklist",
         
