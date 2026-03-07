@@ -36,7 +36,6 @@ I lead students through Undergraduate Research (PIBIC) and Technological Innovat
 
 | Project Title | Student | Category | Period |
 | :--- | :--- | :--- | :--- |
-| **LuccME-Py:** A Python framework for land use and cover change modeling | Antonio Lucas S. Vale | **PIBIC** (FAPEMA) | 2023 – 2024 |
 | Data integration software for Linked Data repositories and spatial modeling | Nerval de Jesus S. Jr. | **PIBITI** (FAPEMA) | 2022 – 2023 |
 | Modeling and automating ETL processes for Open Linked Data | Breno Baptista Nahuz | Volunteer (IC) | 2022 – 2023 |
 | A Linked Data model for representing land use and land cover data | Carlos Daniel S. Silva | **PIBIC** (CNPq) | 2022 – 2023 |
