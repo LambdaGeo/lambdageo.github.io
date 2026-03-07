@@ -70,7 +70,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/publishing-research-python-library/";
+            window.location.href = "/blog/2026/publishing-research-python-library/";
           
         },
       },{id: "books-the-godfather",
