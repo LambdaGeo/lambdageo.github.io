@@ -1,0 +1,274 @@
+---
+layout: post
+title: "Two Ways to Simulate the Same World: Raster and Vector Backends in DisSModel"
+date: 2026-03-10
+categories: [research, simulation, python]
+tags: [dissmodel, geospatial, numpy, geopandas, salabim, mangrove, coastal-dynamics]
+author: Sergio Souza Costa
+---
+
+I want to share something that has been quietly coming together over the past few months in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: *yes, this is working the way I hoped it would.*
+
+We've been developing [DisSModel](https://github.com/lambdageo/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe *what* their model does without fighting the infrastructure of *how* it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
+
+But what I really want to talk about in this post is something more specific: what happens when you implement the same ecological model twice — once on top of NumPy arrays, once on top of GeoDataFrames — and both versions run correctly, look similar, and each has a clear reason to exist.
+
+---
+
+## The Problem We Were Solving
+
+Our group works on coastal dynamics models. Specifically, we've been implementing the BR-MANGUE model (Bezerra 2014), which simulates mangrove migration and flood propagation under IPCC RCP8.5 sea-level rise scenarios. The original model was written in TerraME/Lua. We've been translating it to Python.
+
+The domain is a 94,704-cell grid at 100×100m resolution, running 88 time steps from 2012 to 2100. At that scale, iterating cell by cell in Python is too slow to be useful. But we also wanted to keep a readable, geometry-aware version for comparison and validation.
+
+That tension — between performance and legibility — is what led us to the dual backend design.
+
+---
+
+## salabim as the Execution Backbone
+
+Before getting into the two backends, I want to say a few words about the choice to use salabim.
+
+When we first considered it, the question was: do we need a full discrete event simulation engine, or should we just write a loop? Salabim felt like overkill for cellular automata. But the more we used it, the more we appreciated what it gives us for free.
+
+Every model in DisSModel is a salabim `Component`. The environment controls the clock. Models register themselves and execute at every tick. This means:
+
+- Multiple models sharing the same environment and clock with zero coordination code
+- `env.now()` giving the current simulation time to any model at any point
+- The execution order is deterministic and follows registration order
+- Adding visualization models (like `RasterMap` or `Map`) is just registering another component — they observe passively without touching the simulation logic
+
+That last point matters more than it sounds. In the BR-MANGUE simulation, we have:
+
+```python
+env = Environment(start_time=1, end_time=88)
+
+FloodRasterModel(backend=backend, taxa_elevacao=0.011)
+MangroveModel(backend=backend)
+RasterMap(backend=backend, band="uso", color_map=USO_COLORS, labels=USO_LABELS)
+RasterMap(backend=backend, band="alt", cmap="terrain")
+```
+
+Four objects, each doing its own thing, all synchronized by salabim. No callbacks, no explicit step loops, no shared state management. The flood model runs first, then the mangrove model reads the updated state, then the maps render. Every step. This emerged naturally from salabim's architecture.
+
+---
+
+## The Two Backends
+
+DisSModel 0.2.0 formalized a class hierarchy that had been implicit for a while:
+
+```
+Model  (salabim Component)
+  ├── SpatialModel              → GeoDataFrame + libpysal neighborhood
+  │     └── CellularAutomaton  → rule(idx) per cell (pull pattern)
+  │
+  └── RasterModel              → RasterBackend (NumPy 2D arrays)
+        └── RasterCellularAutomaton → rule(arrays) → dict (vectorized)
+```
+
+The two branches are independent. A model that inherits `SpatialModel` never touches NumPy. A model that inherits `RasterModel` never touches GeoDataFrame. But both live in the same salabim environment, share the same clock, and are registered the same way.
+
+### The Vector Side: legibility
+
+The vector backend uses GeoDataFrame + libpysal. Each cell is a polygon row. Neighborhoods are computed once via Queen or Rook weights and cached. The transition rule is a Python function called once per cell per step.
+
+Here is the flood model's execute loop in the vector version:
+
+```python
+def execute(self) -> None:
+    nivel_mar = self.env.now() * self.taxa_elevacao
+
+    uso_past = self.gdf[self.attr_uso].copy()
+    alt_past = self.gdf[self.attr_alt].copy()
+
+    fontes = set(
+        uso_past.index[uso_past.isin(USOS_INUNDADOS) & (alt_past >= 0)]
+    )
+
+    # altimetry diffusion from flooded sources
+    alt_nova = alt_past.copy()
+    for idx in fontes:
+        alt_atual = alt_past[idx]
+        vizinhos  = self.neighs_id(idx)
+        viz_baixos = 1 + sum(1 for n in vizinhos if alt_past[n] <= alt_atual)
+        fluxo = self.taxa_elevacao / viz_baixos
+        alt_nova[idx] += fluxo
+        for n in vizinhos:
+            if alt_past[n] <= alt_atual:
+                alt_nova[n] += fluxo
+
+    self.gdf[self.attr_alt] = alt_nova
+
+    # absolute flood threshold
+    uso_novo = uso_past.copy()
+    for idx in self.gdf.index:
+        uso_atual = uso_past[idx]
+        if uso_atual not in REGRAS_INUNDACAO:
+            continue
+        if alt_past[idx] > nivel_mar:
+            continue
+        if any(n in fontes for n in self.neighs_id(idx)):
+            uso_novo[idx] = REGRAS_INUNDACAO[uso_atual]
+
+    self.gdf[self.attr_uso] = uso_novo
+```
+
+This is readable. You can trace the logic. You can see exactly where `alt_past` is used instead of the updated `alt_nova` — which is the critical `.past` semantics from TerraME. A student can read this alongside the original Lua code and verify they match.
+
+The cost: at 94,704 cells, each step takes around 2 minutes. Fine for a 10×10 test grid. Unusable at real scale.
+
+### The Raster Side: performance
+
+The raster backend replaces the cell loop with NumPy array operations. The same flood logic:
+
+```python
+def execute(self) -> None:
+    nivel_mar = self.env.now() * self.taxa_elevacao
+
+    uso_past  = self.backend.get("uso").copy()
+    alt_past  = self.backend.get("alt").copy()
+
+    eh_inundado = np.isin(uso_past, USOS_INUNDADOS) & (alt_past >= 0)
+
+    # altimetry diffusion
+    alt_nova = alt_past.copy()
+    for dr, dc in self.dirs:
+        viz_alt   = self.shift(alt_past, dr, dc)
+        viz_baixo = (viz_alt <= alt_past) & eh_inundado
+        contagem  = self.backend.focal_sum_mask(viz_baixo) + 1
+        fluxo     = np.where(eh_inundado, self.taxa_elevacao / contagem, 0)
+        alt_nova += fluxo
+
+    self.backend.arrays["alt"] = alt_nova
+
+    # absolute flood threshold
+    tem_fonte = self.backend.neighbor_contact(eh_inundado)
+    cond = (
+        np.isin(uso_past, list(REGRAS_INUNDACAO.keys()))
+        & (alt_past <= nivel_mar)
+        & tem_fonte
+    )
+    uso_novo = uso_past.copy()
+    for uso_orig, uso_dest in REGRAS_INUNDACAO.items():
+        uso_novo = np.where(cond & (uso_past == uso_orig), uso_dest, uso_novo)
+
+    self.backend.arrays["uso"] = uso_novo
+```
+
+The structure is the same. The concepts are the same — `uso_past`, `alt_past`, the `.past` semantics, the source/neighbor pattern. But instead of iterating, we shift entire arrays and apply masks.
+
+At 94,704 cells: each step takes around 8ms. The same logic, roughly 15,000× faster.
+
+---
+
+## The Mangrove Model: Three Processes, Two Substrates
+
+The mangrove model has three sub-processes per step: soil migration, use migration, and optional sediment accretion. The use migration step has a subtle but critical dependency: it reads from `solo_past` — the soil state *before* this step — not `solo_novo`, the soil state after migration. This is the TerraME `.past` semantics.
+
+In the vector version:
+
+```python
+solo_past = self.gdf[self.attr_solo].copy()
+# ... compute solo_novo ...
+
+# use migration reads solo_past, not solo_novo
+for idx in self.gdf.index:
+    if solo_past[idx] not in self.SOLOS_MANGUE:   # ← solo_past
+        continue
+    ...
+    uso_novo[idx] = MANGUE_MIGRADO
+```
+
+In the raster version:
+
+```python
+solo_past = self.backend.get("solo").copy()   # snapshot before step
+# ... build solo_novo ...
+
+# same rule, same correctness requirement
+cond = (
+    fonte_viz
+    & np.isin(uso_past,  self.USOS_ALVO)
+    & np.isin(solo_past, self.SOLOS_MANGUE)   # ← solo_past
+    & (alt_past <= zi)
+)
+```
+
+The same rule, the same correctness requirement, expressed in the natural idiom of each substrate. Having both versions forced us to make this dependency explicit — it was easy to miss in the Lua original.
+
+---
+
+## What Symmetry Looks Like in Practice
+
+Here is the full simulation setup in each mode:
+
+**Raster:**
+
+```python
+backend, meta = load_geotiff("flood_p000_0.000m.tif", BAND_SPEC)
+env = Environment(start_time=1, end_time=88)
+
+FloodRasterModel(backend=backend, taxa_elevacao=0.011)
+MangroveModel(backend=backend)
+RasterMap(backend=backend, band="uso", color_map=USO_COLORS, labels=USO_LABELS)
+
+env.run()
+```
+
+**Vector:**
+
+```python
+gdf = gpd.read_file("flood_model.shp")
+env = Environment(start_time=1, end_time=88)
+
+FloodVectorModel(gdf=gdf, taxa_elevacao=0.011)
+MangroveModel(gdf=gdf)
+Map(gdf=gdf, plot_params={"column": "uso", "cmap": USO_CMAP})
+
+env.run()
+```
+
+The pattern is identical: create environment, register models, register visualization, run. The only difference is what you pass in — `backend` or `gdf` — and which classes you instantiate. Salabim handles the rest.
+
+This symmetry is not cosmetic. It means that if a student learns to write a vector model, they already understand 80% of how to write the raster version. The concepts transfer: snapshot semantics, source/neighbor patterns, separate models composing in the same environment.
+
+---
+
+## What This Enables
+
+Having both substrates now opens things we couldn't do before:
+
+**Validation.** We can run both versions on the same 60×60 synthetic grid and compare cell by cell. If they match, we trust the raster version. If they don't, the vector version is easier to debug because you can inspect individual cells and their neighbors directly.
+
+**Teaching.** Students can start with the vector version — it reads like pseudocode. When performance becomes a constraint, they migrate to the raster version. The class hierarchy guides the migration: change the parent class, change `rule(idx)` to `rule(arrays)`, done.
+
+**Scale.** The raster version runs 1000×1000 grids interactively. We tested it. The vector version would take hours on the same grid. Having both isn't redundant — they serve different phases of model development.
+
+---
+
+## The Python Ecosystem Is the Right Bet
+
+One thing I keep noticing as this framework grows: we don't need to invent much. NumPy gives us the array operations. libpysal gives us the spatial weights. geopandas gives us the geometry. rasterio gives us the GeoTIFF I/O. salabim gives us the simulation clock and component lifecycle. matplotlib gives us the visualization.
+
+Our contribution is the glue and the abstraction layer. We're not competing with any of these libraries — we're making them easier to use together for spatial simulation.
+
+That feels like the right approach. Not building everything from scratch, but making the existing ecosystem accessible to researchers who want to focus on the model, not the infrastructure.
+
+---
+
+## What's Next
+
+The framework is published as `dissmodel 0.2.0` on PyPI. The coastal dynamics models are in a separate repository at [github.com/LambdaGeo/coastal-dynamics](https://github.com/lambdageo/coastal-dynamics), demonstrating how a domain project builds on top of the framework.
+
+Still on the roadmap:
+
+- A benchmark notebook comparing raster vs vector across grid sizes
+- Validation of `MangroveVectorModel` against the raster version on identical initial conditions
+- Reorganizing `dissmodel.geo` into clean `vector/` and `raster/` subpackages
+- More test coverage, particularly integration tests validating substrate equivalence
+
+I'm genuinely happy with where this is going. Not because it's finished — it isn't — but because the architecture is holding up under real use. That's usually the first sign that you made a reasonable decision.
+
+---
+
+*Sergio Souza Costa is an Associate Professor of Computer Engineering at the Federal University of Maranhão (UFMA) and lead researcher of the [LambdaGEO](https://lambdageo.github.io) group.*
