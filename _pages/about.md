@@ -23,7 +23,7 @@ announcements:
 latest_posts:
   enabled: false # Aqui aparecerão seus posts de aprendizado de inglês!
   scrollable: true
-  limit: 0
+  limit: 3
 ---
 # 🛰️ LambdaGEO — Computing and Geotechnology Research Group
 
