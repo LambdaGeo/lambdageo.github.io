@@ -9,7 +9,7 @@ permalink: /blog/raster-vs-vector-dissmodel/
 author: Sergio Souza Costa
 ---
 
-I want to share something that has been quietly coming together over the past few months in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: *yes, this is working the way I hoped it would.*
+I want to share something that has been quietly coming together over the past few weeks in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: *yes, this is working the way I hoped it would.*
 
 We've been developing [DisSModel](https://github.com/lambdageo/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe *what* their model does without fighting the infrastructure of *how* it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
 
