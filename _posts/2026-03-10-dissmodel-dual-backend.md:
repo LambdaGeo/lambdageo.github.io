@@ -5,6 +5,7 @@ date: 2026-03-10
 categories: [research, simulation, python]
 tags: [dissmodel, geospatial, numpy, geopandas, salabim, mangrove, coastal-dynamics]
 categories: news
+permalink: /blog/raster-vs-vector-dissmodel/
 author: Sergio Souza Costa
 ---
 
