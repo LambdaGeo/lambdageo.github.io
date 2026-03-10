@@ -51,7 +51,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-revitalizing-lambdageo-from-student-projects-to-production-ready-software",
+        },{id: "post-two-ways-to-simulate-the-same-world-raster-and-vector-backends-in-dissmodel",
+        
+          title: "Two Ways to Simulate the Same World: Raster and Vector Backends in DisSModel...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/raster-vs-vector-dissmodel/";
+          
+        },
+      },{id: "post-revitalizing-lambdageo-from-student-projects-to-production-ready-software",
         
           title: "Revitalizing LambdaGEO: From Student Projects to Production-Ready Software",
         
