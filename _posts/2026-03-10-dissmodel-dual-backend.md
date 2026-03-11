@@ -2,9 +2,8 @@
 layout: post
 title: "Two Ways to Simulate the Same World: Raster and Vector Backends in DisSModel"
 date: 2026-03-10
-categories: [research, simulation, python]
-tags: [dissmodel, geospatial, numpy, geopandas, salabim, mangrove, coastal-dynamics]
 categories: news
+tags: [dissmodel, geospatial, numpy, geopandas, salabim, mangrove, coastal-dynamics]
 permalink: /blog/raster-vs-vector-dissmodel/
 author: Sergio Souza Costa
 ---
@@ -70,7 +69,45 @@ Model  (salabim Component)
 
 The two branches are independent. A model that inherits `SpatialModel` never touches NumPy. A model that inherits `RasterModel` never touches GeoDataFrame. But both live in the same salabim environment, share the same clock, and are registered the same way.
 
-### The Vector Side: legibility
+---
+
+## A Simple Example First: Conway's Game of Life
+
+Before getting into the coastal models, it's worth showing what this symmetry looks like for a simple cellular automaton.
+
+Conway's Game of Life has three rules: a live cell with 2 or 3 live neighbors survives; a dead cell with exactly 3 live neighbors becomes alive; all others die or stay dead.
+
+Here it is in the vector version:
+
+```python
+class GameOfLife(CellularAutomaton):
+    def rule(self, idx):
+        state     = self.gdf.loc[idx, self.state_attr]
+        neighbors = (self.neighbor_values(idx, self.state_attr) == 1).sum()
+        if state == 1:
+            return 1 if neighbors in (2, 3) else 0
+        return 1 if neighbors == 3 else 0
+```
+
+And in the raster version:
+
+```python
+class GameOfLife(RasterCellularAutomaton):
+    def rule(self, arrays):
+        state     = arrays[self.state_attr]
+        neighbors = self.backend.focal_sum_mask(state == 1)
+        survive   = (state == 1) & np.isin(neighbors, [2, 3])
+        born      = (state == 0) & (neighbors == 3)
+        return {self.state_attr: np.where(survive | born, 1, 0).astype(np.int8)}
+```
+
+The rules are identical. The only thing that changes is the contract of `rule()`: the vector version receives a cell index and returns a single value; the raster version receives a snapshot of all arrays and returns a dict of updated arrays.
+
+For a 20×20 grid this difference barely matters. Both versions run in milliseconds. But the pattern is the same one that scales to a million cells when the domain demands it.
+
+---
+
+## The Vector Side: legibility
 
 The vector backend uses GeoDataFrame + libpysal. Each cell is a polygon row. Neighborhoods are computed once via Queen or Rook weights and cached. The transition rule is a Python function called once per cell per step.
 
