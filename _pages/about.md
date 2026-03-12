@@ -61,5 +61,18 @@ We actively develop tools to bridge the gap between environmental data and web t
 
 ---
 
+## 📖 Work in Progress: Geospatial Modeling with Python
+
+We are writing an open, freely accessible book on geographic data science and discrete spatial simulation with Python.
+
+The book covers three parts: Python for Data Science, Geographic Data Science with Python, and Discrete Spatial Modeling — including the DisSModel framework and real-world coastal dynamics case studies.
+
+Content is being developed gradually and released chapter by chapter. Feedback and contributions are welcome.
+
+➡️ [Read the book (work in progress)](https://lambdageo.github.io/geospatial-modeling-python/)
+➡️ [Book repository on GitHub](https://github.com/lambdageo/geospatial-modeling-python)
+
+---
+
 ## 🌟 Acknowledgments
 We are grateful to all the students, collaborators, and partners who contribute to LambdaGEO's initiatives. Whether through Master's dissertations or Undergraduate Research (IC), your work drives our progress.
