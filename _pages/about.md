@@ -27,7 +27,7 @@ latest_posts:
 ---
 # 🛰️ LambdaGEO — Computing and Geotechnology Research Group
 
-Welcome to the official repository of **LambdaGEO**, a research group dedicated to developing innovative solutions in **Geoinformation**, **Geotechnologies**, **Spatial Modeling**, **Applied Computing**, and **Linked Data**. Our mission is to produce scientific knowledge and open-source technologies with significant social and academic impact.
+Welcome to the official repository of [**LambdaGEO**](http://dgp.cnpq.br/dgp/espelhogrupo/2312253584207754), a research group dedicated to developing innovative solutions in **Geoinformation**, **Geotechnologies**, **Spatial Modeling**, **Applied Computing**, and **Linked Data**. Our mission is to produce scientific knowledge and open-source technologies with significant social and academic impact.
 
 Based at the **Federal University of Maranhão (UFMA)**, the group is affiliated with the **Graduate Program in Environmental Science & Technology (PPGC&TAmb)**.
 
