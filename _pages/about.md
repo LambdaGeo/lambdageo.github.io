@@ -21,7 +21,7 @@ announcements:
   limit: 0
 
 latest_posts:
-  enabled: false # Aqui aparecerão seus posts de aprendizado de inglês!
+  enabled: true # Aqui aparecerão seus posts de aprendizado de inglês!
   scrollable: true
   limit: 3
 ---
