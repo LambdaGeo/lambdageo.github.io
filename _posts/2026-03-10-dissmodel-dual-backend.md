@@ -105,6 +105,27 @@ The rules are identical. The only thing that changes is the contract of `rule()`
 
 For a 20×20 grid this difference barely matters. Both versions run in milliseconds. But the pattern is the same one that scales to a million cells when the domain demands it.
 
+### Benchmark — Game of Life: Vector vs Raster
+
+**Platform:** Python 3.12 · NumPy · salabim · GeoPandas  
+**Steps:** 10 per grid · Vector skipped above 10,000 cells
+
+
+| Grid | Cells | Raster (ms/step) | Vector (ms/step) | Speedup | Identical |
+|-----:|------:|-----------------:|-----------------:|--------:|:---------:|
+| 10×10 | 100 | 0.15 | 30.11 | 206× | ✅ |
+| 50×50 | 2,500 | 0.20 | 647.22 | 3,164× | ✅ |
+| 100×100 | 10,000 | 0.60 | 2,715.16 | 4,491× | ✅ |
+| 200×200 | 40,000 | 1.11 | — | — | — |
+| 500×500 | 250,000 | 15.36 | — | — | — |
+| 1,000×1,000 | 1,000,000 | 25.85 | — | — | — |
+
+#### Key takeaways
+
+- At **100×100** (10,000 cells) the raster substrate is **4,491× faster** than the vector substrate.
+- The raster substrate scales to **1,000,000 cells in ~26 ms/step** — well within the budget for the BR-MANGUE model (94,704 cells, 88 steps).
+- Results were validated cell-by-cell: both substrates produce **identical output** for all comparable grid sizes.
+
 ---
 
 ## The Vector Side: legibility
