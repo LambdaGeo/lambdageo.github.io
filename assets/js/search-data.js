@@ -110,6 +110,11 @@ ninja.data = [{
           description: "An architecture for publishing and linking cellular space modeling data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dbcells/";
+            },},{id: "projects-python-framework-for-lucc-and-coastal-dynamics",
+          title: 'Python Framework for LUCC and Coastal Dynamics',
+          description: "Developing a discrete event simulation-based framework for Land-Use and Cover Change analysis.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/disslucc/";
             },},{id: "projects-integrai",
           title: 'IntegrAI',
           description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
