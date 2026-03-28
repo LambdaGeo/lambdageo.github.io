@@ -110,9 +110,9 @@ ninja.data = [{
           description: "An architecture for publishing and linking cellular space modeling data.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/dbcells/";
-            },},{id: "projects-python-framework-for-lucc-and-coastal-dynamics",
-          title: 'Python Framework for LUCC and Coastal Dynamics',
-          description: "Developing a discrete event simulation-based framework for Land-Use and Cover Change analysis.",
+            },},{id: "projects-disslucc-discrete-spatial-simulation-for-lucc",
+          title: 'DisSLUCC: Discrete Spatial Simulation for LUCC',
+          description: "A Python framework for Land Use and Cover Change and coastal dynamics based on discrete event simulation.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/disslucc/";
             },},{id: "projects-integrai",
