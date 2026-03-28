@@ -2,7 +2,6 @@
 layout: page
 title: Python Framework for LUCC and Coastal Dynamics
 description: Developing a discrete event simulation-based framework for Land-Use and Cover Change analysis.
-img: assets/img/mangrove_simulation.jpg 
 importance: 1
 category: Leadership 
 ---
