@@ -7,72 +7,65 @@ subtitle: <a href="https://www.ufma.br">UFMA</a> | Computer Engineering | Geotec
 profile:
   align: right
   image: prof_pic.webp
-  image_circular: true # Fica mais moderno para perfis acadêmicos
+  image_circular: true
   more_info: >
     <p>sergio.costa@ufma.br</p>
     <p>UFMA - São Luís, MA, Brazil</p>
 
-selected_papers: true # Mude para true quando alimentar o seu _bibliography/papers.bib
-social: true # Ativa os ícones de redes (configurados no seu _config.yml)
+selected_papers: true 
+social: true 
 
 announcements:
-  enabled: false # Aqui aparecerão as novidades do grupo automaticamente
+  enabled: true
   scrollable: true
-  limit: 0
+  limit: 3
 
 latest_posts:
-  enabled: true # Aqui aparecerão seus posts de aprendizado de inglês!
+  enabled: true
   scrollable: true
   limit: 3
 ---
+
 # 🛰️ LambdaGEO — Computing and Geotechnology Research Group
 
-Welcome to the official repository of [**LambdaGEO**](http://dgp.cnpq.br/dgp/espelhogrupo/2312253584207754), a research group dedicated to developing innovative solutions in **Geoinformation**, **Geotechnologies**, **Spatial Modeling**, **Applied Computing**, and **Linked Data**. Our mission is to produce scientific knowledge and open-source technologies with significant social and academic impact.
-
-Based at the **Federal University of Maranhão (UFMA)**, the group is affiliated with the **Graduate Program in Environmental Science & Technology (PPGC&TAmb)**.
+Welcome to **LambdaGEO**, a research group at the **Federal University of Maranhão (UFMA)** dedicated to the intersection of **Computer Engineering** and **Geosciences**. We develop high-impact, open-source solutions for spatial simulation, semantic data, and environmental modeling.
 
 ---
 
-## 👨‍🏫 Leadership
-**Professor Sergio Souza Costa** is an Associate Professor of Computer Engineering at UFMA. With a PhD in Applied Computing from the **National Institute for Space Research (INPE)**, his work focuses on Geoinformation, Environmental Data, Web Systems, and LUCC (Land Use and Cover Change) Modeling.
+## 🌍 The DisSModel Ecosystem
+Our current flagship initiative is the development of a modern, Pythonic ecosystem for discrete spatial simulation, designed to bridge the gap between scientific modeling and cloud-native execution.
 
-> **Note to students:** I use **Notion** for detailed lecture materials and mentorship guidelines. You can access my workspace here: [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
+### 🛠️ Core Framework & Infrastructure
+* **[DisSModel Core](https://github.com/LambdaGeo/dissmodel):** A modular engine for Cellular Automata and System Dynamics with a dual-substrate (Vector/Raster) architecture.
+* **[DisSModel Platform](https://github.com/LambdaGeo/dissmodel-platform):** A scalable execution environment using FastAPI, Redis, and MinIO for high-performance simulation services.
 
----
-
-## 🔬 Research Interests
-Our team conducts theoretical and practical research across several domains:
-* **Geoprocessing & GIS** (Geographic Information Systems)
-* **Geographic Data Science**
-* **Environmental Modeling**
-* **Software Engineering**
-* **Linked Open Data** (Semantic Web)
+### 🧩 Domain Plugins & Applications
+We maintain specialized libraries that extend the core engine for specific scientific domains:
+* **[DisSModel-CA](https://github.com/LambdaGeo/dissmodel-ca):** Standard library for Cellular Automata models.
+* **[DisSModel-SysDyn](https://github.com/LambdaGeo/dissmodel-sysdyn):** Library for System Dynamics and compartmental modeling.
+* **[Coastal Dynamics](https://github.com/LambdaGeo/coastal-dynamics):** Specialized models for flood propagation and mangrove migration on the Maranhão coast.
 
 ---
 
-## 📦 Key Projects & Software
-We actively develop tools to bridge the gap between environmental data and web technologies:
+## 🧠 Semantic Web & Geoinformatics
+We are pioneers in integrating **Linked Open Data (LOD)** with Geographic Information Systems (GIS):
 
-* **DBAcademic:** Connecting public open data from educational institutions.
-* **DBCells:** An architecture for publishing modeling data as Linked Data.
-* **QGISSPARQL:** Tools for integrating Triple stores with QGIS (Triple2Layer & Layer2Triple).
-* **rdfmapper:** A declarative Object-RDF Mapper for Python.
-* **DisSMdel:** A modular Python framework for spatially explicit dynamic modeling, Cellular Automata, and System Dynamics.
+* **[QGISSPARQL](https://github.com/LambdaGeo):** Tools to bridge Triple Stores and QGIS.
+* **[rdfmapper](https://github.com/LambdaGeo/rdfmapper):** A declarative Object-RDF Mapper for Python.
+* **[DBCells](https://github.com/LambdaGeo/dbcells):** Publishing spatial modeling data as Linked Data.
 
 ---
 
-## 📖 Work in Progress: Geospatial Modeling with Python
+## 📖 Geospatial Modeling with Python (The Book)
+We are currently writing an open-access book to empower researchers with modern Python tools for geographic data science and simulation.
 
-We are writing an open, freely accessible book on geographic data science and discrete spatial simulation with Python.
-
-The book covers three parts: Python for Data Science, Geographic Data Science with Python, and Discrete Spatial Modeling — including the DisSModel framework and real-world coastal dynamics case studies.
-
-Content is being developed gradually and released chapter by chapter. Feedback and contributions are welcome.
-
-➡️ [Read the book (work in progress)](https://lambdageo.github.io/geospatial-modeling-python/)
-➡️ [Book repository on GitHub](https://github.com/lambdageo/geospatial-modeling-python)
+➡️ [Read the book (Work in Progress)](https://lambdageo.github.io/geospatial-modeling-python/)
 
 ---
 
-## 🌟 Acknowledgments
-We are grateful to all the students, collaborators, and partners who contribute to LambdaGEO's initiatives. Whether through Master's dissertations or Undergraduate Research (IC), your work drives our progress.
+## 👨‍🏫 Leadership & Mentorship
+**Professor Sergio Souza Costa** is an Associate Professor of Computer Engineering at UFMA and a researcher at the **Graduate Program in Environmental Science & Technology (PPGC&TAmb)**. 
+
+> **Students & Collaborators:** We use **Notion** for mentorship and lecture materials. Access our workspace: [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
+
+**Interested in joining us?** We are always looking for motivated **PIBIC** and Graduate students interested in Python, GIS, and Software Engineering.
