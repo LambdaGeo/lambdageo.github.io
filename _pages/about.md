@@ -33,25 +33,25 @@ Welcome to **LambdaGEO**, a research group at the **Federal University of Maranh
 ---
 
 ## 🌍 The DisSModel Ecosystem
-Our current flagship initiative is the development of a modern, Pythonic ecosystem for discrete spatial simulation, designed to bridge the gap between scientific modeling and cloud-native execution.
+Our flagship initiative is the **DisSModel Ecosystem**, a modern, Pythonic framework for discrete spatial simulation. To ensure scalability and community-driven development, the project is now hosted under its own dedicated organization: [**github.com/dissmodel**](https://github.com/dissmodel).
 
 ### 🛠️ Core Framework & Infrastructure
-* **[DisSModel Core](https://github.com/LambdaGeo/dissmodel):** A modular engine for Cellular Automata and System Dynamics with a dual-substrate (Vector/Raster) architecture.
-* **[DisSModel Platform](https://github.com/LambdaGeo/dissmodel-platform):** A scalable execution environment using FastAPI, Redis, and MinIO for high-performance simulation services.
+* **[DisSModel Core](https://github.com/dissmodel/dissmodel):** A modular engine for Cellular Automata and System Dynamics with a dual-substrate (Vector/Raster) architecture.
+* **[DisSModel Platform](https://github.com/dissmodel/dissmodel-platform):** A scalable execution environment using FastAPI, Redis, and MinIO for high-performance simulation services.
 
 ### 🧩 Domain Plugins & Applications
-We maintain specialized libraries that extend the core engine for specific scientific domains:
-* **[DisSModel-CA](https://github.com/LambdaGeo/dissmodel-ca):** Standard library for Cellular Automata models.
-* **[DisSModel-SysDyn](https://github.com/LambdaGeo/dissmodel-sysdyn):** Library for System Dynamics and compartmental modeling.
-* **[Coastal Dynamics](https://github.com/LambdaGeo/coastal-dynamics):** Specialized models for flood propagation and mangrove migration on the Maranhão coast.
+Specialized libraries extending the core engine for scientific domains:
+* **[DisSModel-CA](https://github.com/dissmodel/dissmodel-ca):** Standard library for Cellular Automata models.
+* **[DisSModel-SysDyn](https://github.com/dissmodel/dissmodel-sysdyn):** Library for System Dynamics and compartmental modeling.
+* **[Coastal Dynamics](https://github.com/dissmodel/coastal-dynamics):** Specialized models for flood propagation and mangrove migration.
 
 ---
 
 ## 🧠 Semantic Web & Geoinformatics
-We are pioneers in integrating **Linked Open Data (LOD)** with Geographic Information Systems (GIS):
+We bridge **Linked Open Data (LOD)** with Geographic Information Systems (GIS):
 
-* **[QGISSPARQL](https://github.com/LambdaGeo):** Tools to bridge Triple Stores and QGIS.
 * **[rdfmapper](https://github.com/LambdaGeo/rdfmapper):** A declarative Object-RDF Mapper for Python.
+* **[QGISSPARQL](https://github.com/LambdaGeo/qgissparql):** Tools to bridge Triple Stores and QGIS.
 * **[DBCells](https://github.com/LambdaGeo/dbcells):** Publishing spatial modeling data as Linked Data.
 
 ---
@@ -59,7 +59,7 @@ We are pioneers in integrating **Linked Open Data (LOD)** with Geographic Inform
 ## 📖 Geospatial Modeling with Python (The Book)
 We are currently writing an open-access book to empower researchers with modern Python tools for geographic data science and simulation.
 
-➡️ [Read the book (Work in Progress)](https://lambdageo.github.io/geospatial-modeling-python/)
+➡️ [**Read the book (Work in Progress)**](https://lambdageo.github.io/geospatial-modeling-python/)
 
 ---
 
