@@ -1,0 +1,263 @@
+---
+layout: default
+title: Minha Página
+permalink: /research-timeline/
+---
+
+   <title>Timeline Carreira e Pesquisa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Custom Scrollbar for elegant horizontal scrolling */
+        ::-webkit-scrollbar {
+            height: 10px;
+        }
+        ::-webkit-scrollbar-track {
+            background: rgba(15, 23, 42, 0.5);
+            border-radius: 8px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #334155;
+            border-radius: 8px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #475569;
+        }
+
+        /* Glow Effects */
+        .glow-line {
+            box-shadow: 0 0 15px #2dd4bf;
+        }
+        .glow-node {
+            box-shadow: 0 0 20px rgba(45, 212, 191, 0.6);
+            transition: all 0.3s ease;
+        }
+        .glow-node:hover {
+            box-shadow: 0 0 30px rgba(45, 212, 191, 1);
+            transform: scale(1.1);
+        }
+        
+        /* Card Hover Effects */
+        .card-top {
+            box-shadow: 0 10px 25px -5px rgba(45, 212, 191, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-top:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px -5px rgba(45, 212, 191, 0.3);
+            z-index: 50;
+        }
+        .card-bottom {
+            box-shadow: 0 10px 25px -5px rgba(59, 130, 246, 0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-bottom:hover {
+            transform: translateY(5px);
+            box-shadow: 0 15px 30px -5px rgba(59, 130, 246, 0.3);
+            z-index: 50;
+        }
+
+        body {
+            background-image: radial-gradient(circle at top, #1e293b 0%, #0f172a 100%);
+        }
+    </style>
+ <!-- Cabeçalho -->
+    <div class="text-center mb-10 px-4 w-full max-w-4xl">
+        <h1 class="text-3xl md:text-5xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-blue-500 drop-shadow-sm">
+            Evolução da Carreira e Pesquisa
+        </h1>
+        <p class="text-lg md:text-xl text-slate-300">
+            Foco em Modelagem Espacial e Dados Geográficos
+        </p>
+        <div class="flex justify-center gap-6 mt-6 text-sm font-medium">
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-teal-400 glow-line"></div> Pesquisa (Cima)</span>
+            <span class="flex items-center gap-2"><div class="w-3 h-3 rounded-full bg-blue-500" style="box-shadow: 0 0 10px #3b82f6;"></div> Marcos Acadêmicos/Profissionais (Baixo)</span>
+        </div>
+    </div>
+
+    <!-- Container da Timeline (Rolagem Horizontal) -->
+    <div class="w-full overflow-x-auto pb-12 px-8 flex-1 flex items-center">
+        <div class="flex flex-row relative min-w-max justify-start mx-auto px-10">
+            
+            <!-- Linha Central Contínua -->
+            <div class="absolute top-1/2 left-0 w-full h-1.5 bg-gradient-to-r from-teal-500 via-blue-400 to-teal-500 rounded-full glow-line -translate-y-1/2 z-0"></div>
+
+            <!-- Estrutura de Dados da Timeline -->
+            
+            <!-- 2000 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8"></div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2000</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-blue-500/40 rounded-xl p-5 text-center card-bottom relative w-[90%]">
+                        <div class="absolute -top-8 left-1/2 w-1 h-8 bg-gradient-to-b from-teal-400 to-blue-500 -translate-x-1/2 rounded-t-full"></div>
+                        <i class="fas fa-desktop text-3xl text-blue-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Graduação</p>
+                        <p class="text-xs text-blue-200 mt-1.5 leading-tight">(Processamento de Dados)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2002 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-exchange-alt text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Intercâmbio de dados geográficos</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(Terra Translator)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2002</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8"></div>
+            </div>
+
+            <!-- 2004 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8"></div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2004</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-blue-500/40 rounded-xl p-5 text-center card-bottom relative w-[90%]">
+                        <div class="absolute -top-8 left-1/2 w-1 h-8 bg-gradient-to-b from-teal-400 to-blue-500 -translate-x-1/2 rounded-t-full"></div>
+                        <i class="fas fa-user-graduate text-3xl text-blue-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Mestrado</p>
+                        <p class="text-xs text-blue-200 mt-1.5 leading-tight">(INPE)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2006 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-layer-group text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Prototyping Novel Ideas in GIScience</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(TerraHS)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2006</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8"></div>
+            </div>
+
+            <!-- 2007 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8"></div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2007</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-blue-500/40 rounded-xl p-5 text-center card-bottom relative w-[90%]">
+                        <div class="absolute -top-8 left-1/2 w-1 h-8 bg-gradient-to-b from-teal-400 to-blue-500 -translate-x-1/2 rounded-t-full"></div>
+                        <i class="fas fa-award text-3xl text-blue-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Doutorado</p>
+                        <p class="text-xs text-blue-200 mt-1.5 leading-tight">(INPE)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2008 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-project-diagram text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Agent Based Models for Land Use Change</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(TerraME, LuccME)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2008</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8"></div>
+            </div>
+
+            <!-- 2010 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8"></div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2010</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-blue-500/40 rounded-xl p-5 text-center card-bottom relative w-[90%]">
+                        <div class="absolute -top-8 left-1/2 w-1 h-8 bg-gradient-to-b from-teal-400 to-blue-500 -translate-x-1/2 rounded-t-full"></div>
+                        <i class="fas fa-university text-3xl text-blue-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Docência / Pesquisa</p>
+                        <p class="text-xs text-blue-200 mt-1.5 leading-tight">(UNIFEI)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2013 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-map-marker-alt text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Aplicativos baseados em Localização</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(OpenCampusMap)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2013</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-blue-500/40 rounded-xl p-5 text-center card-bottom relative w-[90%]">
+                        <div class="absolute -top-8 left-1/2 w-1 h-8 bg-gradient-to-b from-teal-400 to-blue-500 -translate-x-1/2 rounded-t-full"></div>
+                        <i class="fas fa-university text-3xl text-blue-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Docência / Pesquisa</p>
+                        <p class="text-xs text-blue-200 mt-1.5 leading-tight">(UFMA)</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2016 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-database text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Publicação de dados Conectados</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(Dbcells, DBAcademic)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2016</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8"></div>
+            </div>
+
+            <!-- 2024 -->
+            <div class="w-64 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border border-teal-500/40 rounded-xl p-5 text-center card-top relative w-[90%]">
+                        <div class="absolute -bottom-8 left-1/2 w-1 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full"></div>
+                        <i class="fas fa-cubes text-3xl text-teal-400 mb-3 drop-shadow-md"></i>
+                        <p class="text-[15px] font-bold text-slate-100">Modelos Espaciais Dinâmicos</p>
+                        <p class="text-xs text-teal-200 mt-1.5 leading-tight">(DisSModel)</p>
+                    </div>
+                </div>
+                <div class="h-16 w-16 rounded-full bg-slate-900 border-4 border-teal-400 flex items-center justify-center font-bold text-teal-300 glow-node z-20 text-lg">2024</div>
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8"></div>
+            </div>
+
+            <!-- 2027 -->
+            <div class="w-72 flex flex-col items-center justify-between h-[550px] relative z-10 shrink-0">
+                <div class="w-full flex-1 flex flex-col justify-end items-center pb-8">
+                    <div class="bg-slate-800/90 backdrop-blur-sm border-2 border-teal-400 rounded-xl p-5 text-center card-top relative w-[95%] shadow-[0_0_20px_rgba(45,212,191,0.3)]">
+                        <div class="absolute -bottom-8 left-1/2 w-1.5 h-8 bg-gradient-to-t from-teal-400 to-teal-500 -translate-x-1/2 rounded-b-full glow-line"></div>
+                        <i class="fas fa-globe-americas text-4xl text-teal-400 mb-3 drop-shadow-[0_0_10px_#2dd4bf]"></i>
+                        <p class="text-base font-extrabold text-white">Modelagem de uso e cobertura da Terra</p>
+                        <p class="text-sm font-semibold text-teal-300 mt-1.5 leading-tight">(INPE / LuccME++)</p>
+                    </div>
+                </div>
+                
+                <div class="h-20 w-20 rounded-full bg-slate-900 border-4 border-teal-300 flex items-center justify-center font-extrabold text-teal-300 glow-node z-20 text-xl shadow-[0_0_25px_#2dd4bf]">
+                    2027
+                </div>
+                
+                <div class="w-full flex-1 flex flex-col justify-start items-center pt-8">
+                    <div class="bg-gradient-to-br from-blue-900/80 to-slate-900/80 backdrop-blur-sm border-2 border-blue-400 rounded-xl p-4 text-center card-bottom relative w-[95%]">
+                        <div class="absolute -top-8 left-1/2 w-1.5 h-8 bg-gradient-to-b from-teal-400 to-blue-400 -translate-x-1/2 rounded-t-full glow-line"></div>
+                        <i class="fas fa-rocket text-2xl text-blue-300 mb-2 drop-shadow-md"></i>
+                        <p class="text-base font-bold text-blue-100">Retorno à Pesquisa com INPE</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Espaçamento extra no final para scroll confortável -->
+            <div class="w-10 shrink-0"></div>
+
+        </div>
+    </div>
+    
