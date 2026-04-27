@@ -1,4 +1,3 @@
-
 ---
 layout: about
 title: About
@@ -25,13 +24,13 @@ announcements:
   enabled: true
   scrollable: true
   limit: 3
-  heading: "📢 News & Opportunities"  # ← Mais descritivo
+  heading: "📢 News & Opportunities"  
 
 latest_posts:
   enabled: true
   scrollable: true
   limit: 3
-  heading: "📝 Recent Updates"  # ← Mais descritivo
+  heading: "📝 Recent Updates"  
 ---
 
 # 🛰️ LambdaGEO  
