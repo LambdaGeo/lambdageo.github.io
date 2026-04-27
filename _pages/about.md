@@ -1,16 +1,22 @@
+
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href="https://www.ufma.br">UFMA</a> | Computer Engineering | Geotechnology & Applied Computing
+subtitle: >
+  <a href="https://www.ufma.br">UFMA</a> · Computer Engineering · 
+  Geotechnology & Applied Computing · 
+  <a href="https://github.com/DisSModel">DisSModel Ecosystem</a>
 
 profile:
   align: right
   image: prof_pic.webp
   image_circular: true
   more_info: >
-    <p>sergio.costa@ufma.br</p>
-    <p>UFMA - São Luís, MA, Brazil</p>
+    <p>✉️ sergio.costa@ufma.br</p>
+    <p>📍 UFMA — São Luís, MA, Brazil</p>
+    <p><a href="https://lattes.cnpq.br/...">Lattes</a> · 
+       <a href="https://scholar.google.com/...">Google Scholar</a></p>
 
 selected_papers: true 
 social: true 
@@ -19,53 +25,139 @@ announcements:
   enabled: true
   scrollable: true
   limit: 3
+  heading: "📢 News & Opportunities"  # ← Mais descritivo
 
 latest_posts:
   enabled: true
   scrollable: true
   limit: 3
+  heading: "📝 Recent Updates"  # ← Mais descritivo
 ---
 
-# 🛰️ LambdaGEO — Computing and Geotechnology Research Group
+# 🛰️ LambdaGEO  
+### Computing & Geotechnology Research Group
 
-Welcome to **LambdaGEO**, a research group at the **Federal University of Maranhão (UFMA)** dedicated to the intersection of **Computer Engineering** and **Geosciences**. We develop high-impact, open-source solutions for spatial simulation, semantic data, and environmental modeling.
+**LambdaGEO** is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.  
+
+We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — with a 20+ year research trajectory focused on one question:
+
+> *How can geospatial models be built so that others can understand, reuse, and trust them?*
+
+[→ Learn about our research trajectory](#-research-trajectory)
 
 ---
 
 ## 🌍 The DisSModel Ecosystem
-Our flagship initiative is the **DisSModel Ecosystem**, a modern, Pythonic framework for discrete spatial simulation. To ensure scalability and community-driven development, the project is now hosted under its own dedicated organization: [**github.com/dissmodel**](https://github.com/dissmodel).
+
+Our flagship initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation. To foster community-driven development, the ecosystem is hosted under its own organization:  
+🔗 [**github.com/DisSModel**](https://github.com/DisSModel)
 
 ### 🛠️ Core Framework & Infrastructure
-* **[DisSModel Core](https://github.com/dissmodel/dissmodel):** A modular engine for Cellular Automata and System Dynamics with a dual-substrate (Vector/Raster) architecture.
-* **[DisSModel Platform](https://github.com/dissmodel/dissmodel-platform):** A scalable execution environment using FastAPI, Redis, and MinIO for high-performance simulation services.
 
-### 🧩 Domain Plugins & Applications
-Specialized libraries extending the core engine for scientific domains:
-* **[DisSModel-CA](https://github.com/dissmodel/dissmodel-ca):** Standard library for Cellular Automata models.
-* **[DisSModel-SysDyn](https://github.com/dissmodel/dissmodel-sysdyn):** Library for System Dynamics and compartmental modeling.
-* **[Coastal Dynamics](https://github.com/dissmodel/coastal-dynamics):** Specialized models for flood propagation and mangrove migration.
+| Repository | Description | Status |
+|------------|-------------|--------|
+| **[dissmodel](https://github.com/DisSModel/dissmodel)** | Modular engine for CA & System Dynamics; dual-substrate (Vector/Raster) | ✅ PyPI · v0.4 |
+| **[dissmodel-platform](https://github.com/DisSModel/dissmodel-platform)** | Scalable execution via FastAPI, Redis, MinIO; cloud-ready | 🚧 Beta |
+| **[dissmodel-docs](https://github.com/DisSModel/dissmodel-docs)** | Documentation, tutorials, and API reference (MkDocs) | 📚 Live |
+
+### 🧩 Domain Libraries
+
+Specialized extensions for scientific applications:
+
+| Repository | Domain | Key Models |
+|------------|--------|-----------|
+| **[dissmodel-ca](https://github.com/DisSModel/dissmodel-ca)** | Cellular Automata | Game of Life, Forest Fire, Growth |
+| **[dissmodel-sysdyn](https://github.com/DisSModel/dissmodel-sysdyn)** | System Dynamics | SIR, Predator-Prey, Lorenz |
+| **[coastal-dynamics](https://github.com/DisSModel/coastal-dynamics)** | Coastal Systems | Flood propagation, mangrove migration |
+| **[DisSLUCC](https://github.com/DisSModel/DisSLUCC)** | Land Use Change | CLUE-inspired allocation, demand modeling |
+
+💡 *All libraries follow the Executor Pattern: same model code runs locally or on cloud clusters without modification.*
 
 ---
 
 ## 🧠 Semantic Web & Geoinformatics
-We bridge **Linked Open Data (LOD)** with Geographic Information Systems (GIS):
 
-* **[rdfmapper](https://github.com/LambdaGeo/rdfmapper):** A declarative Object-RDF Mapper for Python.
-* **[QGISSPARQL](https://github.com/LambdaGeo/qgissparql):** Tools to bridge Triple Stores and QGIS.
-* **[DBCells](https://github.com/LambdaGeo/dbcells):** Publishing spatial modeling data as Linked Data.
+We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)** to enable interoperable, FAIR-compliant spatial research:
+
+| Project | Description | Link |
+|---------|-------------|------|
+| **rdfmapper** | Declarative Object-RDF Mapper for Python | [GitHub](https://github.com/LambdaGeo/rdfmapper) |
+| **QGISSPARQL** | Bridge Triple Stores ↔ QGIS for semantic mapping | [GitHub](https://github.com/LambdaGeo/qgissparql) |
+| **DBCells** | Publish spatial modeling data as Linked Data cubes | [GitHub](https://github.com/LambdaGeo/dbcells) |
+
+> 🎯 *These projects feed into DisSModel's provenance layer: every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility.*
 
 ---
 
-## 📖 Geospatial Modeling with Python (The Book)
-We are currently writing an open-access book to empower researchers with modern Python tools for geographic data science and simulation.
+## 📖 Research Trajectory
 
-➡️ [**Read the book (Work in Progress)**](https://lambdageo.github.io/geospatial-modeling-python/)
+DisSModel did not emerge from a blank slate. It synthesizes two decades of inquiry:
+
+| Period | Project | Contribution |
+|--------|---------|-------------|
+| **2001–2002** | Terra Translator (XML, ontologies) | Foundation: semantics + open standards for geographic data |
+| **2005** | TerraHS (Haskell + GIS) | Vision: scientific models as verifiable, executable artifacts |
+| **2007–2010** | TerraME / LuccME (INPE) | Maturity: spatially explicit dynamic models as scientific objects |
+| **2015–2024** | DbCells, Linked Data, QGIS plugins | Infrastructure: reproducibility via rich metadata  |
+| **2024–2026** | **DisSModel** (Python, FAIR, cloud-native) | Synthesis: same code from CLI to distributed cluster |
+
+Three principles unite this trajectory:  
+🔓 **Openness as method** · 🧩 **Interoperability as architecture** · ♻️ **Reproducibility as requirement**
+
+[→ Read the full research statement](#) *(link para PDF ou página dedicada)*
+
+---
+
+## 📚 Geospatial Modeling with Python *(The Book)*
+
+We are writing an open-access book to empower researchers with modern Python tools for geographic data science and simulation.
+
+📘 **[Read the book (Work in Progress)](https://lambdageo.github.io/geospatial-modeling-python/)**  
+🛠️ *Contributions welcome! See the [repository](https://github.com/LambdaGeo/geospatial-modeling-python) for guidelines.*
 
 ---
 
 ## 👨‍🏫 Leadership & Mentorship
-**Professor Sergio Souza Costa** is an Associate Professor of Computer Engineering at UFMA and a researcher at the **Graduate Program in Environmental Science & Technology (PPGC&TAmb)**. 
 
-> **Students & Collaborators:** We use **Notion** for mentorship and lecture materials. Access our workspace: [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
+**Prof. Sérgio Souza Costa**  
+*Associate Professor of Computer Engineering, UFMA*  
+*Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)*  
 
-**Interested in joining us?** We are always looking for motivated **PIBIC** and Graduate students interested in Python, GIS, and Software Engineering.
+🎓 **Background**: MSc & PhD in Remote Sensing (INPE); Data Processing Technology (UFMA)  
+🔬 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure  
+
+### 🎓 For Students & Collaborators
+
+> We use **Notion** for mentorship, lecture materials, and project tracking:  
+> 🔗 [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
+
+**Interested in joining LambdaGEO?**  
+We welcome motivated **PIBIC**, and **master's** students with interest in:
+- 🐍 Python for scientific computing
+- 🗺️ GIS, remote sensing, and spatial analysis
+- ♻️ Reproducibility, FAIR principles, and open science
+- ⚙️ Software engineering for research software
+
+📩 *Contact: sergio.costa@ufma.br with a brief note about your background and interests.*
+
+---
+
+## 🤝 Partners & Affiliations
+
+- 🏛️ **UFMA** — Federal University of Maranhão
+- 🛰️ **INPE** — National Institute for Space Research (Brazil)
+- 🌐 **Brazil Data Cube** — Open Earth Observation platform
+- 🎓 **PPGC&TAmb** — Graduate Program in Environmental Science & Technology
+
+---
+
+## 📬 Stay Connected
+
+- 💻 **Code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/DisSModel](https://github.com/DisSModel)  
+- 📘 **Docs**: [lambdageo.github.io/dissmodel](https://lambdageo.github.io/dissmodel)  
+- 📦 **PyPI**: `pip install dissmodel`  
+- ✉️ **Email**: sergio.costa@ufma.br  
+
+> *"A ciência não deve ser reescrita para ir para a produção."*  
+> *("Science should not need to be rewritten to go into production.")*  
+> — **DisSModel Design Principle**
