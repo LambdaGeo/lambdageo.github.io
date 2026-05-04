@@ -109,9 +109,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "presentations-building-open-and-reproducible-geospatial-simulations-with-python",
           title: 'Building Open and Reproducible Geospatial Simulations with Python',
-          description: "",
+          description: "A seminar presenting the DisSModel framework and its philosophy for open and reproducible geospatial science.",
           section: "Presentations",handler: () => {
-              window.location.href = "/presentations/2026-05-04-inpe-seminar/";
+              window.location.href = "/presentations/2026-05-07-inpe-seminar/";
             },},{id: "projects-dbacademic",
           title: 'DBAcademic',
           description: "Connecting open data from Brazilian public educational institutions using Linked Data.",
