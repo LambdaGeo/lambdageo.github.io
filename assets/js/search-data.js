@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/mentorship/";
           },
+        },{id: "nav-presentations",
+          title: "presentations",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/presentations/";
+          },
         },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of your cool projects.",
@@ -100,7 +107,12 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-dbacademic",
+          section: "News",},{id: "presentations-building-open-and-reproducible-geospatial-simulations-with-python",
+          title: 'Building Open and Reproducible Geospatial Simulations with Python',
+          description: "",
+          section: "Presentations",handler: () => {
+              window.location.href = "/presentations/2026-05-04-inpe-seminar/";
+            },},{id: "projects-dbacademic",
           title: 'DBAcademic',
           description: "Connecting open data from Brazilian public educational institutions using Linked Data.",
           section: "Projects",handler: () => {
