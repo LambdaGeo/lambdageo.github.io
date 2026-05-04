@@ -1,14 +1,12 @@
 ---
-layout: page
+layout: presentation
 title: "Building Open and Reproducible Geospatial Simulations with Python"
+description: "A seminar presenting the DisSModel framework and its philosophy for open and reproducible geospatial science."
 date: 2026-05-07
 event: "Seminar at INPE - CAP"
 location: "Remote"
 slides: /assets/pdf/dissmodel_presentation_english.pdf
-
 ---
-
-
 
 ### Abstract
 
