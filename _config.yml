@@ -167,6 +167,9 @@ collections:
   software:
     output: true
     permalink: /software/:path/
+  presentations:
+    output: true
+    permalink: /presentations/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
