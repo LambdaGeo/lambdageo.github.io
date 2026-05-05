@@ -3,7 +3,7 @@ layout: page
 title: "DisSLUCC: Discrete Spatial Simulation for LUCC"
 description: "A Python framework for Land Use and Cover Change and coastal dynamics based on discrete event simulation."
 importance: 1
-category: Research
+category: Leadership
 ---
 
 ## 🛰️ Overview
