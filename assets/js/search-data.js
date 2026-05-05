@@ -107,7 +107,22 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "presentations-building-open-and-reproducible-geospatial-simulations-with-python",
+          section: "News",},{id: "presentations-integration-of-functional-programming-and-spatial-databases-for-gis-application-development",
+          title: 'Integration of Functional Programming and Spatial Databases for GIS Application Development',
+          description: "Master thesis presentation introducing TerraHS, an integration of Haskell with spatial databases.",
+          section: "Presentations",handler: () => {
+              window.location.href = "/presentations/2006-11-01-master-thesis-presentation/";
+            },},{id: "presentations-regional-scale-agent-based-modelling-of-land-change-evolving-institutional-arrangements-in-frontier-areas",
+          title: 'Regional scale agent-based modelling of land change: evolving institutional arrangements in frontier areas...',
+          description: "PhD thesis presentation focusing on spatial dynamic modeling and agent-based simulation of land-use change.",
+          section: "Presentations",handler: () => {
+              window.location.href = "/presentations/2012-10-30-doctorate-presentation/";
+            },},{id: "presentations-dbcells-an-open-and-global-multi-scale-linked-cells",
+          title: 'DBCells: An Open and Global Multi-Scale Linked Cells',
+          description: "Presentation of the DBCells architecture for publishing global cellular spaces as Linked Data.",
+          section: "Presentations",handler: () => {
+              window.location.href = "/presentations/2017-05-15-dbcells-presentation/";
+            },},{id: "presentations-building-open-and-reproducible-geospatial-simulations-with-python",
           title: 'Building Open and Reproducible Geospatial Simulations with Python',
           description: "A seminar presenting the DisSModel framework and its philosophy for open and reproducible geospatial science.",
           section: "Presentations",handler: () => {
