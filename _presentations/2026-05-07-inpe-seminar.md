@@ -5,12 +5,14 @@ description: "A seminar presenting the DisSModel framework and its philosophy fo
 date: 2026-05-07
 event: "Seminar at INPE - CAP"
 location: "Remote"
-slides: /assets/pdf/dissmodel_presentation_english.pdf
+slides: /assets/pdf/dissmodel_keynote.pdf
 ---
 
 ### Abstract
 
 This presentation introduces the **DisSModel [(Discrete Spatial Modeling Framework)](https://dissmodel.github.io/)**, a Python-native ecosystem designed to address the reproducibility crisis in geospatial simulations. The framework bridges the gap between scientific experimentation and scale production, allowing researchers to develop dynamic models—such as Cellular Automata and System Dynamics—with full traceability and native cloud integration.
+
+For a deeper dive into the technical details and architecture, you can also access the [more detailed slides here](/assets/pdf/dissmodel_presentation_english.pdf).
 
 ### Key Takeaways
 
