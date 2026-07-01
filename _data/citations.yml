@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-05'
+  last_updated: '2026-07-01'
 papers:
   ggu2II0AAAAJ:-_dYPAW6P2MC:
     citations: 55
@@ -34,7 +34,7 @@ papers:
     title: "MarIA-DeepSeek: Uma Proposta de Assistente por Modelo Amplo de Linguagem para Agentes Comunit\xE1rios de Sa\xFAde"
     year: '2025'
   ggu2II0AAAAJ:9pM33mqn1YgC:
-    citations: 9
+    citations: 8
     title: "Perfil de adolescentes e jovens adultos portadores de HIV/AIDS na regi\xE3o nordeste brasileira entre os anos de 2004 e 2016"
     year: '2019'
   ggu2II0AAAAJ:9yKSN-GCB0IC:
@@ -161,6 +161,10 @@ papers:
     citations: 9
     title: 'TerraHS: integration of functional programming and spatial databases for GIS application development'
     year: '2007'
+  ggu2II0AAAAJ:dBIO0h50nwkC:
+    citations: 0
+    title: "Jogo como estrat\xE9gia pedag\xF3gica no aprendizado da tabela peri\xF3dica na disciplina de Qu\xEDmica atrav\xE9s da Intermedia\xE7\xE3o Tecnol\xF3gica."
+    year: '2018'
   ggu2II0AAAAJ:dQ2og3OwTAUC:
     citations: 4
     title: "Hiperm\xEDdia e interdisciplinaridade na gera\xE7\xE3o de conhecimento"
@@ -174,7 +178,7 @@ papers:
     title: Agent placement for land change modelsin frontier regions
     year: '2013'
   ggu2II0AAAAJ:evX43VCCuoAC:
-    citations: 24
+    citations: 25
     title: Population-based seroprevalence of SARS-CoV-2 is more than halfway through the herd immunity threshold in the State of Maranhao, Brazil
     year: '2020'
   ggu2II0AAAAJ:fEOibwPWpKIC:
@@ -222,7 +226,7 @@ papers:
     title: "Um estudo explorat\xF3rio dos games para introdu\xE7\xE3o ao pensamento computacional"
     year: '2015'
   ggu2II0AAAAJ:u-x6o8ySG0sC:
-    citations: 63
+    citations: 64
     title: Dynamical coupling of multiscale land change models
     year: '2009'
   ggu2II0AAAAJ:u5HHmVD_uO8C:
