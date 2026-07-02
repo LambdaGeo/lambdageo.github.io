@@ -36,7 +36,7 @@ latest_posts:
 # 🛰️ LambdaGEO  
 ### Computing & Geotechnology Research Group
 
-**LambdaGEO** is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.  
+[**LambdaGEO**](http://dgp.cnpq.br/dgp/espelhogrupo/771872) is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.  
 
 We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — with a 20+ year research trajectory focused on one question:
 
