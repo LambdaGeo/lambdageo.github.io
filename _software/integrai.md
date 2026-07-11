@@ -14,10 +14,10 @@ category: Team
 
 The platform is built on a **microservices architecture**, fully containerized with **Docker**, ensuring modular maintenance and simplified deployment.
 
-* **Django & FastAPI:** Powering the core logic and AI services.
-* **Asynchronous Processing:** Utilizing **Redis and RQ Worker** to handle long-running AI tasks without blocking the UI.
-* **RAG (Retrieval-Augmented Generation):** Powered by **Qdrant** vector database to provide contextualized and accurate clinical explanations.
-* **Scalability:** Orquestrated via **Docker Compose** with Nginx as a reverse proxy.
+- **Django & FastAPI:** Powering the core logic and AI services.
+- **Asynchronous Processing:** Utilizing **Redis and RQ Worker** to handle long-running AI tasks without blocking the UI.
+- **RAG (Retrieval-Augmented Generation):** Powered by **Qdrant** vector database to provide contextualized and accurate clinical explanations.
+- **Scalability:** Orquestrated via **Docker Compose** with Nginx as a reverse proxy.
 
 ---
 
@@ -32,13 +32,13 @@ The platform is built on a **microservices architecture**, fully containerized w
 
 ## Tech Stack
 
-| Category | Technologies |
-|:--- |:--- |
-| **Backend** | Django, FastAPI |
-| **AI & NLP** | External LLMs (Gemini/OpenAI) + RAG |
+| Category      | Technologies                             |
+| :------------ | :--------------------------------------- |
+| **Backend**   | Django, FastAPI                          |
+| **AI & NLP**  | External LLMs (Gemini/OpenAI) + RAG      |
 | **Databases** | PostgreSQL (Relational), Qdrant (Vector) |
-| **Messaging** | Redis + RQ |
-| **DevOps** | Docker, Nginx |
+| **Messaging** | Redis + RQ                               |
+| **DevOps**    | Docker, Nginx                            |
 
 ---
 
@@ -46,11 +46,11 @@ The platform is built on a **microservices architecture**, fully containerized w
 
 This project is developed by the **LambdaGEO** team at **Universidade Federal do Maranhão (UFMA)**, in collaboration with the Postgraduate Program in Collective Health.
 
-| Role | Name |
-|:--- |:--- |
-| **Project Coordination** | Prof. Cecília C. C. Ribeiro |
-| **Backend Development, Microservices & Deployment** | Sergio S. Costa |
-| **Prompt Engineering** | Pedro A. F. França, João D. S. de Almeida, João O. B. Diniz |
-| **Research & Health Domain** | Rafaela V. P. Sá, Silas Alves-Costa, Poliana C. de A. F. Viola, Bruno F. de Souza |
+| Role                                                | Name                                                                              |
+| :-------------------------------------------------- | :-------------------------------------------------------------------------------- |
+| **Project Coordination**                            | Prof. Cecília C. C. Ribeiro                                                       |
+| **Backend Development, Microservices & Deployment** | Sergio S. Costa                                                                   |
+| **Prompt Engineering**                              | Pedro A. F. França, João D. S. de Almeida, João O. B. Diniz                       |
+| **Research & Health Domain**                        | Rafaela V. P. Sá, Silas Alves-Costa, Poliana C. de A. F. Viola, Bruno F. de Souza |
 
 For collaborations or inquiries, reach out at [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br).

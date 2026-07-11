@@ -14,10 +14,11 @@ This presentation introduces **DBCells**, an architecture for the publication of
 
 ### Key Concepts
 
-* **Global Cellular Space:** A unified framework for representing the earth's surface as discrete cells.
-* **Linked Data Integration:** Using URIs to identify cells, making them part of the Semantic Web.
-* **Multi-Scale Support:** Architecture designed to handle data at various spatial resolutions.
-* **Reproducibility:** Facilitating the sharing of exact data subsets used in scientific experiments.
+- **Global Cellular Space:** A unified framework for representing the earth's surface as discrete cells.
+- **Linked Data Integration:** Using URIs to identify cells, making them part of the Semantic Web.
+- **Multi-Scale Support:** Architecture designed to handle data at various spatial resolutions.
+- **Reproducibility:** Facilitating the sharing of exact data subsets used in scientific experiments.
 
 ---
-*Presented by **Sérgio Souza Costa**.*
+
+_Presented by **Sérgio Souza Costa**._

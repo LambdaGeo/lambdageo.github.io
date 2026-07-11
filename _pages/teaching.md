@@ -8,16 +8,13 @@ nav_order: 6
 calendar: true
 ---
 
-
-
 ### 🛰️ Google Earth Engine (GEE) Resources
 
-I have developed specialized materials for using cloud computing in Remote Sensing. *Note: These resources are currently available in Portuguese (PT-BR).*
+I have developed specialized materials for using cloud computing in Remote Sensing. _Note: These resources are currently available in Portuguese (PT-BR)._
 
-* **[Introduction to Satellite Image Processing and Analysis with GEE](https://www.notion.so/profsergiocosta/GEE-Introdu-o-ao-processamento-e-an-lise-de-imagens-de-sat-lites-com-Google-Earth-Engine-GEE-199e9c164cce439c8a46e8519303d4d2)** A comprehensive guide and talk covering the fundamentals of the GEE JavaScript API, focusing on image collections, reducers, and environmental analysis workflows.
+- **[Introduction to Satellite Image Processing and Analysis with GEE](https://www.notion.so/profsergiocosta/GEE-Introdu-o-ao-processamento-e-an-lise-de-imagens-de-sat-lites-com-Google-Earth-Engine-GEE-199e9c164cce439c8a46e8519303d4d2)** A comprehensive guide and talk covering the fundamentals of the GEE JavaScript API, focusing on image collections, reducers, and environmental analysis workflows.
 
-* **[GEE in Remote Sensing and Geoprocessing Education](https://www.notion.so/profsergiocosta/Google-Earth-Engine-no-Ensino-de-Introdu-o-ao-Sensoriamento-Remoto-e-ao-Geoprocessamento-5120512373a3485ab1d2d22cb44ea7a7)** Educational material designed to integrate cloud-based workflows into undergraduate introductory courses, replacing traditional local processing with planetary-scale data analysis.
-
+- **[GEE in Remote Sensing and Geoprocessing Education](https://www.notion.so/profsergiocosta/Google-Earth-Engine-no-Ensino-de-Introdu-o-ao-Sensoriamento-Remoto-e-ao-Geoprocessamento-5120512373a3485ab1d2d22cb44ea7a7)** Educational material designed to integrate cloud-based workflows into undergraduate introductory courses, replacing traditional local processing with planetary-scale data analysis.
 
 {: .alert .alert-info}
 💡 For a complete list of my teaching materials, including labs, workshops, and tutorials, please visit my **[Notion](https://profsergiocosta.notion.site/Teaching-311cce97509380eda691e7243b158806?pvs=74)**.
@@ -55,7 +52,7 @@ I have developed specialized materials for using cloud computing in Remote Sensi
 - **Focus**: Pure functions, type systems, monads, and declarative problem-solving for reproducible scientific workflows
 - **Connection to research**: Functional approaches support verifiable, side-effect-free geospatial data transformations
 
-### 🗺️ Introduction to Geoprocessing *(Graduate)*
+### 🗺️ Introduction to Geoprocessing _(Graduate)_
 
 - **Program**: Professional Master's in Environmental Science & Technology (PPGCTAmb)
 - **Tools**: QGIS/PyQGIS, PostGIS, TerraLib, OGC standards
@@ -63,8 +60,7 @@ I have developed specialized materials for using cloud computing in Remote Sensi
 - **INPE Connection**: Builds on methodologies developed during my PhD research in dynamic land-use/land-cover modeling at INPE
 - **Output**: Students produce reproducible geoprocessing pipelines for regional environmental analysis
 
-### 💻 Introduction to Computers *(Graduate)*
+### 💻 Introduction to Computers _(Graduate)_
 
 - **Program**: Professional Master's (PPGCTAmb / PROFCOMP)
 - **Focus**: Information representation, computer architecture fundamentals, operating system concepts for scientific workflows
-

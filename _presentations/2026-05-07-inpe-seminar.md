@@ -16,18 +16,20 @@ For a deeper dive into the technical details and architecture, you can also acce
 
 ### Key Takeaways
 
-* **"Science-to-Production" Philosophy:** The core principle of DisSModel is that scientific code should not require rewriting to run in production environments or high-performance clusters.
-* **Evidence-Based Architecture:** Each simulation run generates an immutable and auditable record (SHA-256), ensuring computational reproducibility aligned with Open Science and FAIR principles.
-* **Spatial Duality:** Native support for both vector (via GeoPandas) and raster (via NumPy) substrates, featuring performance gains of up to 39x in raster optimizations.
-* **Empirical Modeling:** Proven effectiveness in real-world scenarios, including the **br-mangue** study for coastal mangrove migration and **DisSLUCC** for land use and cover change (LUCC) modeling.
+- **"Science-to-Production" Philosophy:** The core principle of DisSModel is that scientific code should not require rewriting to run in production environments or high-performance clusters.
+- **Evidence-Based Architecture:** Each simulation run generates an immutable and auditable record (SHA-256), ensuring computational reproducibility aligned with Open Science and FAIR principles.
+- **Spatial Duality:** Native support for both vector (via GeoPandas) and raster (via NumPy) substrates, featuring performance gains of up to 39x in raster optimizations.
+- **Empirical Modeling:** Proven effectiveness in real-world scenarios, including the **br-mangue** study for coastal mangrove migration and **DisSLUCC** for land use and cover change (LUCC) modeling.
 
 ### Ecosystem Structure
 
 The project is organized into independent modules under the **@dissmodel** organization:
+
 1. **Core Framework (`dissmodel`):** The central simulation engine.
 2. **Laboratory Models:** Implementations of classic models (e.g., Game of Life, SIR, Predator-Prey) for educational purposes and benchmarking.
 3. **Empirical Models:** High-fidelity models tailored for real-world decision-making scenarios.
 4. **Platform & Configs:** Cloud-native infrastructure (FastAPI, Docker, MinIO) and a centralized model catalog using TOML manifests.
 
 ---
-*Presented by **Sérgio Souza Costa** (LambdaGeo / UFMA).*
+
+_Presented by **Sérgio Souza Costa** (LambdaGeo / UFMA)._

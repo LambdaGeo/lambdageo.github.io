@@ -31,11 +31,11 @@ github: https://github.com/lambdageo/rdfmapper
 
 ## Features
 
-* **Declarative Mapping:** Use decorators to map Python classes to RDF types and predicates.
-* **Relationship Support:** Built-in support for `one-to-one` and `one-to-many` relationships.
-* **Automatic Validation:** Generate SHACL shapes automatically from your class metadata.
-* **Dynamic Queries:** Built-in `RDFRepository` for `find_by_*` and `count_by_*` queries without manual SPARQL.
-* **Type Awareness:** Automatic conversion for `int`, `float`, `bool`, `date`, and `datetime`.
+- **Declarative Mapping:** Use decorators to map Python classes to RDF types and predicates.
+- **Relationship Support:** Built-in support for `one-to-one` and `one-to-many` relationships.
+- **Automatic Validation:** Generate SHACL shapes automatically from your class metadata.
+- **Dynamic Queries:** Built-in `RDFRepository` for `find_by_*` and `count_by_*` queries without manual SPARQL.
+- **Type Awareness:** Automatic conversion for `int`, `float`, `bool`, `date`, and `datetime`.
 
 ---
 
@@ -45,3 +45,4 @@ You can install the package directly from PyPI:
 
 ```bash
 pip install rdfmapper-py
+```

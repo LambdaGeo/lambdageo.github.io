@@ -42,5 +42,7 @@ nav_order: 3
       </div>
     </div>
     {% unless forloop.last %}<hr>{% endunless %}
-  {% endfor %}
+
+{% endfor %}
+
 </div>

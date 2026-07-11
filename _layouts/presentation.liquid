@@ -2,9 +2,12 @@
 layout: page
 ---
 <div class="presentation">
-  <div class="talk-metadata" style="margin-bottom: 20px; padding: 15px; background: var(--global-bg-color); border-left: 5px solid var(--global-theme-color); border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+  <div
+    class="talk-metadata"
+    style="margin-bottom: 20px; padding: 15px; background: var(--global-bg-color); border-left: 5px solid var(--global-theme-color); border-radius: 5px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);"
+  >
     <p style="margin-bottom: 5px;"><strong>Event:</strong> {{ page.event }}</p>
-    <p style="margin-bottom: 5px;"><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>
+    <p style="margin-bottom: 5px;"><strong>Date:</strong> {{ page.date | date: '%B %d, %Y' }}</p>
     {% if page.location %}
       <p style="margin-bottom: 5px;"><strong>Location:</strong> {{ page.location }}</p>
     {% endif %}

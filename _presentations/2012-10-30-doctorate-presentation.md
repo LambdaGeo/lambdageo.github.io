@@ -14,10 +14,11 @@ This presentation covers the doctoral research on modeling land-use and land-cov
 
 ### Key Contributions
 
-*   **Agent-Based Architecture:** A framework for multi-agent simulation at regional scales.
-*   **Institutional Modeling:** Integrating rules and arrangements that govern land use.
-*   **Amazon Frontier Analysis:** Empirical application to study deforestation patterns.
-*   **Policy Support:** Tools for evaluating the impact of environmental regulations and land tenure policies.
+- **Agent-Based Architecture:** A framework for multi-agent simulation at regional scales.
+- **Institutional Modeling:** Integrating rules and arrangements that govern land use.
+- **Amazon Frontier Analysis:** Empirical application to study deforestation patterns.
+- **Policy Support:** Tools for evaluating the impact of environmental regulations and land tenure policies.
 
 ---
-*Presented by **Sérgio Souza Costa** as part of his PhD defense at the National Institute for Space Research (INPE).*
+
+_Presented by **Sérgio Souza Costa** as part of his PhD defense at the National Institute for Space Research (INPE)._
