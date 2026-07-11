@@ -62,6 +62,6 @@ env.run(30)
 
 If you use DisSModel in your research, please cite:
 
-> Costa, S. & Santos Junior, N. (2025). *DisSModel: A Discrete Spatial Modeling Framework for Python*. LambdaGeo, Federal University of Maranhão (UFMA).
+> Costa, S. & Santos Junior, N. (2025). _DisSModel: A Discrete Spatial Modeling Framework for Python_. LambdaGeo, Federal University of Maranhão (UFMA).
 
 [View on GitHub](https://github.com/LambdaGeo/dissmodel) · [Full Documentation](https://github.com/LambdaGeo/dissmodel)

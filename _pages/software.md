@@ -26,7 +26,8 @@ horizontal: false
   {% endfor %}
 
 {% else %}
-  {% assign sorted_software = site.software | sort: "importance" %}
+{% assign sorted_software = site.software | sort: "importance" %}
+
   <div class="row row-cols-1 row-cols-md-3">
     {% for item in sorted_software %}
       {% include software.liquid %}

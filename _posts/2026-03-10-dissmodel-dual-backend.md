@@ -8,9 +8,9 @@ permalink: /blog/raster-vs-vector-dissmodel/
 author: Sergio Souza Costa
 ---
 
-I want to share something that has been quietly coming together over the past few weeks in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: *yes, this is working the way I hoped it would.*
+I want to share something that has been quietly coming together over the past few weeks in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: _yes, this is working the way I hoped it would._
 
-We've been developing [DisSModel](https://github.com/lambdageo/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe *what* their model does without fighting the infrastructure of *how* it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
+We've been developing [DisSModel](https://github.com/lambdageo/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe _what_ their model does without fighting the infrastructure of _how_ it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
 
 But what I really want to talk about in this post is something more specific: what happens when you implement the same ecological model twice — once on top of NumPy arrays, once on top of GeoDataFrames — and both versions run correctly, look similar, and each has a clear reason to exist.
 
@@ -110,15 +110,14 @@ For a 20×20 grid this difference barely matters. Both versions run in milliseco
 **Platform:** Python 3.12 · NumPy · salabim · GeoPandas  
 **Steps:** 10 per grid · Vector skipped above 10,000 cells
 
-
-| Grid | Cells | Raster (ms/step) | Vector (ms/step) | Speedup | Identical |
-|-----:|------:|-----------------:|-----------------:|--------:|:---------:|
-| 10×10 | 100 | 0.15 | 30.11 | 206× | ✅ |
-| 50×50 | 2,500 | 0.20 | 647.22 | 3,164× | ✅ |
-| 100×100 | 10,000 | 0.60 | 2,715.16 | 4,491× | ✅ |
-| 200×200 | 40,000 | 1.11 | — | — | — |
-| 500×500 | 250,000 | 15.36 | — | — | — |
-| 1,000×1,000 | 1,000,000 | 25.85 | — | — | — |
+|        Grid |     Cells | Raster (ms/step) | Vector (ms/step) | Speedup | Identical |
+| ----------: | --------: | ---------------: | ---------------: | ------: | :-------: |
+|       10×10 |       100 |             0.15 |            30.11 |    206× |    ✅     |
+|       50×50 |     2,500 |             0.20 |           647.22 |  3,164× |    ✅     |
+|     100×100 |    10,000 |             0.60 |         2,715.16 |  4,491× |    ✅     |
+|     200×200 |    40,000 |             1.11 |                — |       — |     —     |
+|     500×500 |   250,000 |            15.36 |                — |       — |     —     |
+| 1,000×1,000 | 1,000,000 |            25.85 |                — |       — |     —     |
 
 #### Key takeaways
 
@@ -223,7 +222,7 @@ At 94,704 cells: each step takes around 8ms. The same logic, roughly 15,000× fa
 
 ## The Mangrove Model: Three Processes, Two Substrates
 
-The mangrove model has three sub-processes per step: soil migration, use migration, and optional sediment accretion. The use migration step has a subtle but critical dependency: it reads from `solo_past` — the soil state *before* this step — not `solo_novo`, the soil state after migration. This is the TerraME `.past` semantics.
+The mangrove model has three sub-processes per step: soil migration, use migration, and optional sediment accretion. The use migration step has a subtle but critical dependency: it reads from `solo_past` — the soil state _before_ this step — not `solo_novo`, the soil state after migration. This is the TerraME `.past` semantics.
 
 In the vector version:
 
@@ -331,4 +330,4 @@ I'm genuinely happy with where this is going. Not because it's finished — it i
 
 ---
 
-*Sergio Souza Costa is an Associate Professor of Computer Engineering at the Federal University of Maranhão (UFMA) and lead researcher of the [LambdaGEO](https://lambdageo.github.io) group.*
+_Sergio Souza Costa is an Associate Professor of Computer Engineering at the Federal University of Maranhão (UFMA) and lead researcher of the [LambdaGEO](https://lambdageo.github.io) group._

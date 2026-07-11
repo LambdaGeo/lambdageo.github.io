@@ -14,10 +14,11 @@ This presentation details the development of **TerraHS**, a software component t
 
 ### Key Contributions
 
-*   **TerraHS Component:** A bridge between Haskell and the TerraLib C++ library.
-*   **Functional GIS:** Demonstration of how functional programming can simplify complex geospatial algorithms.
-*   **Spatial Database Integration:** Seamless access to spatial data stored in relational databases.
-*   **Case Study:** Implementation of a Map Algebra language within the functional paradigm.
+- **TerraHS Component:** A bridge between Haskell and the TerraLib C++ library.
+- **Functional GIS:** Demonstration of how functional programming can simplify complex geospatial algorithms.
+- **Spatial Database Integration:** Seamless access to spatial data stored in relational databases.
+- **Case Study:** Implementation of a Map Algebra language within the functional paradigm.
 
 ---
-*Presented by **Sérgio Souza Costa** as part of his M.Sc. defense at INPE.*
+
+_Presented by **Sérgio Souza Costa** as part of his M.Sc. defense at INPE._
