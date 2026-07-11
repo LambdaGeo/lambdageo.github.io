@@ -52,7 +52,7 @@ Durante quase todo o tutorial, você trabalhará com **dois terminais abertos ao
 
 O navegador acessa sempre o **frontend** (`http://localhost:8000`), e o frontend conversa com o **backend** (`http://localhost:3000/api/...`) via `fetch`.
 
-<aside>
+<aside markdown="1">
 💡 Guarde esta tabela. A confusão mais comum do tutorial é acessar a porta errada ou esquecer que um dos dois servidores precisa estar rodando (ou precisa ser **reiniciado** após mudar o `deps.edn`).
 </aside>
 
@@ -149,7 +149,7 @@ git --version         # Qualquer versão recente
 - **Node.js:** instale a versão LTS em [nodejs.org](https://nodejs.org/).
 - **Git:** [git-scm.com](https://git-scm.com/).
 
-<aside>
+<aside markdown="1">
 💡 O `npm` (gerenciador de pacotes do Node) vem junto com o Node.js. Você pode confirmar com `npm -v`.
 </aside>
 
@@ -166,7 +166,7 @@ cd todo-app
 
 Agora, você deve estar dentro da pasta `todo-app/`. Esta será a "raiz" (root) de todo o nosso projeto, onde colocaremos o `deps.edn`, o `.gitignore` e tudo mais.
 
-<aside>
+<aside markdown="1">
 ⚠️ **Todos os comandos deste tutorial são executados a partir desta pasta raiz** (`todo-app/`), a menos que digamos o contrário. Se um comando falhar com "arquivo não encontrado", a primeira coisa a verificar é: *estou na pasta certa?* (use `pwd` para conferir).
 </aside>
 
@@ -280,7 +280,7 @@ git commit -m "feat: setup inicial do projeto com .gitignore"
  create mode 100644 .gitignore
 ```
 
-<aside>
+<aside markdown="1">
 💡 **Se o Git reclamar de identidade** (`Please tell me who you are`), configure uma vez:
 
 ```bash
@@ -376,7 +376,7 @@ mkdir -p src/todo/backend
 
 - `mkdir` cria diretórios; a flag `-p` cria todos os "diretórios pais" necessários no caminho, sem dar erro.
 
-<aside>
+<aside markdown="1">
 💡 **O que é um Namespace (`ns`)?**
 
 Em Clojure, não "importamos arquivos", nós "requeremos namespaces". Um namespace é um nome para um grupo de códigos, diretamente ligado à estrutura de pastas e ao nome do arquivo:
@@ -744,7 +744,7 @@ Validamos **100%** da lógica de banco sem tocar em servidor, navegador ou rota.
 
 **Para sair do REPL:** pressione `Ctrl+D` (ou digite `(System/exit 0)`).
 
-<aside>
+<aside markdown="1">
 ⚠️ Não existe um comando `(exit)` no REPL do `clj` — se você tentar, verá um erro `Unable to resolve symbol: exit`. Use `Ctrl+D`.
 </aside>
 
@@ -827,7 +827,7 @@ Nosso `create-todo-handler` precisa receber JSON, e o `list-todos-handler` quer 
   metosin/reitit-ring     {:mvn/version "0.7.0"}}
 ```
 
-<aside>
+<aside markdown="1">
 💡 **Regra de ouro:** sempre que o `deps.edn` mudar, o servidor precisa ser **parado e reiniciado** para baixar/carregar a nova dependência. Mudanças no `deps.edn` nunca são aplicadas "a quente".
 </aside>
 
@@ -999,11 +999,11 @@ curl -X POST http://localhost:3000/api/todos \
 { "error": "O 'título' (title) é obrigatório" }
 ```
 
-<aside>
+<aside markdown="1">
 💡 **Prefere uma interface gráfica?** Ferramentas como **Insomnia** ou **Postman** fazem o mesmo que o `curl`: crie uma requisição, escolha o método (GET/POST), digite a URL e, no caso do POST, selecione *Body → JSON* e cole o corpo. O resultado deve ser idêntico.
 </aside>
 
-<aside>
+<aside markdown="1">
 ⚠️ **Erro comum no Windows:** o `curl` do PowerShell trata aspas de forma diferente. Se o POST falhar com erro de JSON, use o *Prompt de Comando* (cmd), o Git Bash, ou o Insomnia/Postman.
 </aside>
 
@@ -1033,7 +1033,7 @@ git add .
 git commit -m "feat: implementa API REST de 'todos' com banco em memória"
 ```
 
-<aside>
+<aside markdown="1">
 💡 Se você usa o **VS Code**, essa operação também pode ser feita pela aba *Source Control* da interface — inclusive a publicação no GitHub ("Publish to GitHub"), que criará o repositório remoto para você. Lembre-se: o repositório da entrega deve ser **público**.
 </aside>
 
@@ -1049,7 +1049,7 @@ Nosso backend tem um histórico limpo: setup → Hello World → API REST funcio
 
 **Objetivo:** Aprender os fundamentos do ClojureScript e do Reagent. Vamos construir uma UI interativa que gerencia seu _próprio_ estado (na memória do navegador), **sem** se comunicar com a API ainda.
 
-<aside>
+<aside markdown="1">
 💡 **Nesta fase, o servidor de backend (porta 3000) não é necessário.** Pode deixá-lo desligado. Vamos trabalhar apenas com o frontend (porta 8000).
 </aside>
 
@@ -1072,7 +1072,7 @@ npm install shadow-cljs@2.28.23 react@19.2.0 react-dom@19.2.0
 1. **`npm init -y`** cria o arquivo `package.json`, que rastreia as dependências de JavaScript do projeto (o `-y` aceita todas as respostas padrão).
 2. **`npm install ...`** baixa as ferramentas para a pasta `node_modules/` (que nosso `.gitignore` da Fase 0 já está, corretamente, ignorando) e as registra no `package.json`.
 
-<aside>
+<aside markdown="1">
 ⚠️ **Por que fixamos as versões?** O `shadow-cljs` existe em **dois lugares**: como pacote `npm` (a linha de comando) e como biblioteca Maven no `deps.edn` (o compilador em si). **As duas versões precisam ser idênticas.** Se você rodar apenas `npm install shadow-cljs` (sem versão), o npm instalará a versão mais recente (3.x), que não vai bater com a que colocaremos no `deps.edn` — e você verá avisos de *"version mismatch"* e erros estranhos de compilação. Fixar `2.28.23` nos dois lugares elimina esse problema pela raiz.
 </aside>
 
@@ -1365,7 +1365,7 @@ Vamos provar isso com um contador.
     (.render root (r/as-element [app]))))
 ```
 
-<aside>
+<aside markdown="1">
 💡 **O que é o `^{:key ...}`?** Quando renderizamos uma lista com `for`, o React precisa de uma "identidade" para cada item, para saber o que mudou entre uma renderização e outra. O metadado `^{:key (:id todo)}` fornece essa identidade. Sem ele, o console mostra o aviso *"Every element in a seq should have a unique :key"*. **Guarde esse detalhe: ele vai reaparecer na Fase 5.**
 </aside>
 
@@ -1566,7 +1566,7 @@ Para conversar com a API, o frontend fará requisições **assíncronas** (`fetc
   org.clojure/core.async  {:mvn/version "1.6.681"} ;; <- ADICIONE ESTA LINHA
 ```
 
-<aside>
+<aside markdown="1">
 ⚠️ **Lembre-se da regra de ouro:** mudou o `deps.edn`, **reinicie** o que estiver rodando. Se o `npx shadow-cljs watch app` estiver ativo, pare-o (`Ctrl+C`) e suba de novo — só assim ele enxerga a nova dependência.
 </aside>
 
@@ -1618,7 +1618,7 @@ Abaixo do `defonce app-state`, adicione o `api-url` e as funções `fetch-json` 
         (swap! app-state assoc :error (.-message e) :loading false)))))
 ```
 
-<aside>
+<aside markdown="1">
 💡 **Como ler o `go` + `<p!`:** o bloco `(go ...)` cria um "processo" assíncrono. Dentro dele, `(<p! promise)` significa "pause aqui até a Promise resolver e me dê o valor". É o equivalente do `async/await` do JavaScript, em ClojureScript.
 </aside>
 
@@ -1692,7 +1692,7 @@ Abra o `deps.edn` e adicione o `ring-cors` ao bloco `:deps` (junto às dependên
   ring-cors/ring-cors     {:mvn/version "0.1.13"} ;; <- ADICIONE ESTA LINHA
 ```
 
-<aside>
+<aside markdown="1">
 ⚠️ Atenção ao nome: é `ring-cors/ring-cors` (grupo e artefato iguais). Escrever `ring/ring-cors` fará o download falhar.
 </aside>
 
@@ -1739,7 +1739,7 @@ Abra `src/todo/backend/core.clj`:
                     wrap-keyword-params]}))
    ```
 
-<aside>
+<aside markdown="1">
 💡 **Por que o `wrap-cors` precisa ser o primeiro?** Além das requisições normais, o navegador envia uma requisição extra de "sondagem" chamada **preflight**: um `OPTIONS` perguntando *"posso fazer um POST com o header Content-Type para você?"*. Nós não temos nenhuma rota `OPTIONS` — quem responde a essa pergunta é o próprio `wrap-cors`. Sendo o primeiro (o mais "externo") da linha de montagem, ele intercepta o preflight **antes** de o roteador procurar (e não achar) uma rota.
 
 E é por isso que declaramos `:access-control-allow-headers ["Content-Type"]`: um `GET` simples não dispara preflight, mas o nosso `POST` com JSON dispara — e o navegador só o libera se o servidor disser explicitamente que aceita esse header. Sem essa linha, você cairia na situação mais confusa possível: _o GET funciona, mas o POST continua bloqueado por CORS_.
@@ -1839,7 +1839,7 @@ _Para:_
    [:p "Conectado à API. Os dados sobrevivem ao F5!"]
 ```
 
-<aside>
+<aside markdown="1">
 💡 Depois de deletar o `defonce` antigo com `:next-id`, o *hot-reload* pode manter o valor antigo na memória (é justamente o que o `defonce` faz!). Se algo parecer estranho, um simples **F5** recarrega tudo do zero.
 </aside>
 
@@ -2123,7 +2123,7 @@ Agora vamos usar o que aprendemos para **substituir permanentemente** o `db.clj`
 4. **`get-all-todos`**: substituímos `(vals @todos-db)` por um `SELECT`.
 5. **`create-todo`**: substituímos o `swap!` por um `INSERT ... RETURNING *`.
 
-<aside>
+<aside markdown="1">
 💡 **O que é o `RETURNING *`?** É uma cláusula SQL (suportada pelo SQLite desde a versão 3.35) que faz o comando `INSERT`/`UPDATE`/`DELETE` **devolver as linhas afetadas**, como se fosse um `SELECT`. Sem ela, um `INSERT` retornaria apenas `{:next.jdbc/update-count 1}` ("1 linha afetada") — e nosso handler responderia o objeto errado ao cliente. Com ela, `execute-one!` nos entrega o todo completo, com o `id` que o banco acabou de gerar. Usaremos o mesmo truque no `UPDATE` e no `DELETE` da Fase 6.
 </aside>
 
@@ -2191,7 +2191,7 @@ Se não corrigirmos, o frontend tentará ler `(:id todo)` de um mapa `{:todos/id
 
 **Ação:** Abra `src/todo/frontend/core.cljs` e encontre o componente `todo-list`.
 
-<aside>
+<aside markdown="1">
 ⚠️ **Atenção: são DOIS lugares para corrigir, não um!** O erro mais comum deste passo é corrigir o `(:title ...)` (porque o texto sumido é visível) e **esquecer o `^{:key ...}`** (porque o aviso fica escondido no console). Se a key ficar errada, o app até "funciona", mas o React perde a identidade dos itens da lista — e isso causará bugs visuais reais na Fase 6 (checkboxes marcando o item errado!). Corrija os dois.
 </aside>
 
@@ -2324,7 +2324,7 @@ Precisamos de uma função que receba um `id` e "vire" o valor de `completed` no
     id]))
 ```
 
-<aside>
+<aside markdown="1">
 💡 O `!` no final de `toggle-todo!` é uma convenção Clojure: sinaliza que a função tem *efeitos colaterais* (ela muda o mundo — neste caso, o banco). Já vínhamos usando isso no `initialize-database!` e no `swap!`.
 </aside>
 
@@ -2515,7 +2515,7 @@ O padrão se repete pela última vez. Você já sabe a receita: `db` → `handle
      {:delete {:handler handler/delete-todo-handler}}]]))
 ```
 
-<aside>
+<aside markdown="1">
 💡 Repare que usamos o **método HTTP** `DELETE` na URL "canônica" do recurso (`/todos/:id`), em vez de inventar uma URL como `/todos/:id/delete`. Essa é a convenção REST: a URL identifica *o recurso*, e o método diz *o que fazer* com ele. (E lembre-se: lá na Fase 4, nosso `wrap-cors` já incluiu `:delete` nos métodos permitidos — por isso o navegador vai deixar essa chamada passar.)
 </aside>
 
@@ -2573,7 +2573,7 @@ curl -X DELETE http://localhost:3000/api/todos/1
 
 **Teste intermediário:** adicione alguns todos e clique no "X" de um deles. Ele some da lista. Recarregue (F5): continua fora — o `DELETE` persistiu.
 
-<aside>
+<aside markdown="1">
 💡 **Extensão opcional:** quer pedir confirmação antes de apagar? Troque o `:on-click` por:
 
 ```clojure
@@ -2691,7 +2691,7 @@ Nossa aplicação funciona, mas está com cara de 1996. Vamos dar um banho de lo
 </html>
 ```
 
-<aside>
+<aside markdown="1">
 💡 Mudou o `index.html` e não viu diferença? O servidor de desenvolvimento às vezes mantém o HTML em cache — um **F5** (ou Ctrl+F5) resolve.
 </aside>
 
@@ -2815,7 +2815,7 @@ incremental para estudar a arquitetura de aplicações funcionais modernas:
 | `DELETE` | `/api/todos/:id`        | Remove uma tarefa                    |
 ````
 
-<aside>
+<aside markdown="1">
 💡 O modelo acima usa blocos de código aninhados dentro de uma lista — se o seu editor "quebrar" a renderização, simplifique: o importante é que as informações (nome, link, descrição, pré-requisitos e os comandos dos dois terminais) estejam lá e corretas.
 </aside>
 

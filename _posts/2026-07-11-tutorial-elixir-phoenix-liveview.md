@@ -50,7 +50,7 @@ Para que o tutorial seja reprodutível, estas são as versões de referência:
 | `ecto_sql`              | ~> 3.10   |
 | `ecto_sqlite3`          | ~> 0.12   |
 
-<aside>
+<aside markdown="1">
 ⚠️ **Atenção especial ao Phoenix 1.8.** Muitos tutoriais e respostas antigas na internet (e em IAs!) referem-se ao Phoenix **1.7**, que usava Tailwind v3 com `tailwind.config.js` e componentes ligeiramente diferentes. O Phoenix **1.8** mudou várias dessas coisas. Este tutorial está inteiramente alinhado ao 1.8 — se algo que você encontrar por aí divergir daqui, desconfie da versão.
 </aside>
 
@@ -234,7 +234,7 @@ mkdir elixir_todo_list
 cd elixir_todo_list
 ```
 
-<aside>
+<aside markdown="1">
 ⚠️ **O nome da pasta importa!** O Phoenix vai derivar o nome da aplicação (`:elixir_todo_list`) e o prefixo de **todos os módulos** (`ElixirTodoList...`) do nome desta pasta. Se você usar outro nome, terá que adaptar todos os nomes de módulo do tutorial. Recomendamos usar exatamente `elixir_todo_list`.
 </aside>
 
@@ -275,7 +275,7 @@ git add .
 git commit -m "Fase 0: Inicializa o repositório e .gitignore"
 ```
 
-<aside>
+<aside markdown="1">
 💡 **Se o Git reclamar de identidade** (`Please tell me who you are`), configure uma vez:
 
 ```bash
@@ -300,7 +300,7 @@ mix phx.new . --no-ecto
 - `.` → o projeto será criado **no diretório atual**. (Se quiséssemos uma pasta nova, seria `mix phx.new minha_app`.)
 - `--no-ecto` → evita instalar o **Ecto** (a camada de banco de dados) por enquanto. Vamos **adiar essa parte** para a Fase 3, pois queremos primeiro entender o funcionamento **"em memória"** do LiveView.
 
-<aside>
+<aside markdown="1">
 💡 E o LiveView? Desde o Phoenix 1.7, o **LiveView já vem incluído por padrão** — não é preciso nenhuma flag para ativá-lo (existe apenas `--no-live` para quem quiser removê-lo, o que não é o nosso caso).
 </aside>
 
@@ -331,7 +331,7 @@ Como aceitamos o `.gitignore` do Phoenix (que não conhece nosso futuro banco SQ
 *.db-wal
 ```
 
-<aside>
+<aside markdown="1">
 ⚠️ **Por que os três padrões?** O SQLite, no modo padrão do Ecto, cria três arquivos: o banco em si (`.db`) e dois auxiliares de escrita (`.db-shm` e `.db-wal` — este último pode crescer para centenas de KB!). Nenhum deles deve ir para o GitHub. Esquecer isso é um dos erros mais comuns — e mais feios — em repositórios de alunos.
 </aside>
 
@@ -368,7 +368,7 @@ Abra o navegador e visite: 👉 **http://localhost:4000**
 
 Se tudo deu certo, você verá a **página de boas-vindas do Phoenix** (com o logo e links para a documentação).
 
-<aside>
+<aside markdown="1">
 ⚠️ **Aviso comum no Linux:** se aparecer uma mensagem mencionando **inotify-tools**, o *live reload* (atualização automática do navegador quando os arquivos mudam) não está funcionando. Pare o servidor (`Ctrl+C` duas vezes) e instale:
 
 ```bash
@@ -379,7 +379,7 @@ Depois rode `mix phx.server` novamente.
 
 </aside>
 
-<aside>
+<aside markdown="1">
 💡 **Deixe este terminal rodando.** Diferente do tutorial de Clojure (que precisava de dois servidores), aqui **um único processo** cuida de tudo: backend, frontend e a compilação dos assets. Abra um **segundo terminal** para os comandos de Git e Mix daqui em diante.
 </aside>
 
@@ -433,7 +433,7 @@ Excelente! 🎉 Isso significa que o Phoenix **entendeu a nova rota**, mas não 
 
 ### 🧱 Passo 1.4: Criar o LiveView
 
-<aside>
+<aside markdown="1">
 ⚠️ **Atenção — nomes de módulos no Elixir**
 
 O Elixir segue uma convenção rígida: o **nome dos módulos** deve corresponder à **estrutura de diretórios** do projeto. Como nosso projeto foi criado na pasta `elixir_todo_list`, o prefixo dos módulos é `ElixirTodoList` (e, para a camada web, `ElixirTodoListWeb`).
@@ -934,7 +934,7 @@ Nesta fase, montamos **apenas a camada de dados** (dependências, Repo, migratio
 
 Pare o servidor (`Ctrl+C` duas vezes) e abra o arquivo `mix.exs`, o equivalente ao `package.json` (JavaScript) ou `requirements.txt` (Python). É nele que declaramos as **dependências do projeto**, dentro da função `defp deps do`.
 
-<aside>
+<aside markdown="1">
 ⚠️ **NÃO substitua a lista de dependências!** O `phx.new` já gerou uma lista grande (phoenix, phoenix_html, live_view, tailwind, esbuild, bandit e mais uma dúzia) — **todas são necessárias**. Nossa tarefa é apenas **acrescentar quatro linhas** a essa lista. Substituir a lista inteira por uma menor quebraria o projeto por completo.
 </aside>
 
@@ -1000,7 +1000,7 @@ end
     ]
 ```
 
-<aside>
+<aside markdown="1">
 💡 Essa lista `children` é a **árvore de supervisão** — um dos superpoderes do Elixir. Cada item é um processo que a aplicação inicia e vigia. Se o Repo travar, o supervisor o reinicia automaticamente. É o mesmo mecanismo que "ressuscitou" nosso LiveView na Fase 2!
 </aside>
 
@@ -1020,7 +1020,7 @@ Entendendo as opções:
 - `priv:` → onde ficam os arquivos de apoio do Repo — em especial, as **migrations** (`priv/repo/migrations/`). _Atenção: isso não muda o local do banco!_
 - `ecto_repos:` → informa às tarefas do Mix (`mix ecto.create`, `mix ecto.migrate`) quais Repos existem.
 
-<aside>
+<aside markdown="1">
 💡 Lembra do `.gitignore` da Fase 0? As regras `*.db`, `*.db-shm` e `*.db-wal` foram escritas exatamente para este momento: o banco (e seus arquivos auxiliares de escrita) vão aparecer na raiz do projeto e **não devem** ser versionados.
 </aside>
 
@@ -1213,7 +1213,7 @@ defmodule ElixirTodoListWeb.TodoLive do
 
 - `alias` permite escrever `Repo.all(...)` em vez de `ElixirTodoList.Repo.all(...)`.
 
-<aside>
+<aside markdown="1">
 💡 **E os componentes de UI (`<.form>`, `<.input>`, `<.button>`)?** Você **não** precisa importar nada: o `use ElixirTodoListWeb, :live_view` (lá do topo) já importa o `CoreComponents` e disponibiliza o alias `Layouts` para todos os LiveViews. É uma das "injeções" que a Pausa Didática da Fase 1 explicou.
 </aside>
 
@@ -1288,7 +1288,7 @@ Agora, **remova as duas funções `handle_event`** da Fase 2 (`"update_form"` e 
 
 > 💡 Repare que **não existe mais** o `handle_event("update_form", ...)`. Por quê? Ao trocar o `<form>` cru pelo componente `<.form>` com `to_form` (próximo passo), quem passa a controlar o valor do campo é o próprio mecanismo de formulários do Phoenix — não precisamos mais rastrear cada tecla.
 
-<aside>
+<aside markdown="1">
 ⚠️ **Por que o `case` precisa "devolver" o socket?** Note que atribuímos o resultado do `case` a `socket_atualizado` e retornamos **ele**. Um erro clássico é chamar `Repo.insert` e esquecer de usar o socket que saiu do `case` — aí a UI nunca reflete a mudança. Em Elixir, dados são imutáveis: o socket "novo" é um **valor retornado**, nunca um efeito colateral.
 </aside>
 
@@ -1502,7 +1502,7 @@ Adicione esta função **logo abaixo** do `handle_event("save_task", ...)`:
 | `assign(socket, :tasks, Repo.all(Task))`            | Recarrega a lista — a UI re-renderiza sem a tarefa excluída.                                           |
 | `put_flash(:info, ...)`                             | A mensagem de confirmação — exibida pelo `Layouts.app` que adicionamos na Fase 4.                      |
 
-<aside>
+<aside markdown="1">
 💡 **Alternativa mais "estrita":** `Repo.get!(Task, id)` (com `!`) **lança uma exceção** se o ID não existir, em vez de retornar `nil`. É uma convenção do Ecto: funções com `!` falham "alto". Aqui preferimos a versão defensiva, mas você encontrará o `get!` com frequência por aí.
 </aside>
 
@@ -1638,7 +1638,7 @@ Graças ao campo oculto, o servidor **sempre** recebe a chave `"completed"`:
 - Checkbox **marcado** → `%{"task" => %{"completed" => "true"}}`
 - Checkbox **desmarcado** → `%{"task" => %{"completed" => "false"}}`
 
-<aside>
+<aside markdown="1">
 ⚠️ **A consequência prática:** como a chave `"completed"` **sempre existe**, testar sua *presença* (por exemplo, com `Map.has_key?`) **não funciona** — daria `true` nos dois casos, e a tarefa, uma vez marcada, **nunca mais desmarcaria**! O teste correto é sobre o **valor**: `task_params["completed"] == "true"`. Guarde essa: é um dos bugs mais sorrateiros do LiveView.
 </aside>
 
@@ -1862,7 +1862,7 @@ Até aqui, construímos uma aplicação funcional e interativa. Agora vamos ente
 
 O Phoenix 1.8 vem configurado com o **Tailwind CSS v4**, um framework CSS baseado em **classes utilitárias**, e com o **daisyUI**, um plugin que fornece componentes prontos (botões, alertas, inputs) e **temas** pré-configurados.
 
-<aside>
+<aside markdown="1">
 ⚠️ **Atenção à versão!** Se você pesquisar por "configurar tema daisyUI Phoenix", encontrará muitos guias mandando editar o arquivo `assets/tailwind.config.js`. **Esse arquivo não existe mais**: o Tailwind **v4** (usado pelo Phoenix 1.8) abandonou a configuração em JavaScript — agora tudo é configurado **dentro do próprio CSS**, no arquivo `assets/css/app.css`. Guias baseados no Phoenix ≤ 1.7 não se aplicam aqui.
 </aside>
 
@@ -1957,7 +1957,7 @@ _Para:_
 
 Pronto: a aplicação fica no tema claro para todos, independentemente da preferência do sistema.
 
-<aside>
+<aside markdown="1">
 💡 **Alternativa avançada:** em vez de forçar o claro, você pode abraçar o modo escuro trocando as classes "fixas" do nosso card (`bg-white`, `text-gray-800`) por classes **semânticas** do daisyUI, que mudam com o tema: `bg-base-100`, `text-base-content`, etc. Fica como exercício!
 </aside>
 
