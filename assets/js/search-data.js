@@ -58,7 +58,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-two-ways-to-simulate-the-same-world-raster-and-vector-backends-in-dissmodel",
+        },{id: "post-elixir-e-phoenix-liveview-construindo-uma-aplicação-todo-list-do-zero",
+        
+          title: "Elixir e Phoenix LiveView: Construindo uma Aplicação Todo List do Zero",
+        
+        description: "Um guia prático e completo do ecossistema Phoenix, explorando schemas, migrations, changesets e a reatividade em tempo real com LiveView.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/tutorial-elixir-phoenix-liveview-todo-list/";
+          
+        },
+      },{id: "post-clojure-e-clojurescript-construindo-uma-aplicação-todo-list-do-zero",
+        
+          title: "Clojure e ClojureScript: Construindo uma Aplicação Todo List do Zero",
+        
+        description: "Um guia prático e completo de arquitetura funcional e reativa, cobrindo desde o backend Ring/Reitit até o frontend Reagent com SQLite.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/tutorial-clojure-clojurescript-todo-list/";
+          
+        },
+      },{id: "post-two-ways-to-simulate-the-same-world-raster-and-vector-backends-in-dissmodel",
         
           title: "Two Ways to Simulate the Same World: Raster and Vector Backends in DisSModel...",
         
