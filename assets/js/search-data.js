@@ -58,7 +58,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-elixir-e-phoenix-liveview-construindo-uma-aplicação-todo-list-do-zero",
+        },{id: "post-construindo-e-testando-uma-biblioteca-haskell-json-pretty-printing-e-quickcheck",
+        
+          title: "Construindo e Testando uma Biblioteca Haskell: JSON, Pretty Printing e QuickCheck",
+        
+        description: "Um guia prático e completo adaptado de Real World Haskell sobre módulos, tipos algébricos, design de bibliotecas e testes com QuickCheck e HPC.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/tutorial-haskell-json-quickcheck/";
+          
+        },
+      },{id: "post-elixir-e-phoenix-liveview-construindo-uma-aplicação-todo-list-do-zero",
         
           title: "Elixir e Phoenix LiveView: Construindo uma Aplicação Todo List do Zero",
         
