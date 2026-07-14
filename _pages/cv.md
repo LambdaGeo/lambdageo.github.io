@@ -14,13 +14,13 @@ Lead Researcher at **LambdaGEO** | [lambdageo.github.io](https://lambdageo.githu
 
 ---
 
-## 🔬 Research Interests
+## Research Interests
 
 Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environmental Modeling (LUCC).
 
 ---
 
-## 🎓 Education
+## Education
 
 - **PhD in Applied Computing** (2009)
   - National Institute for Space Research (INPE), Brazil.
@@ -29,7 +29,7 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
 
 ---
 
-## 👨‍🏫 Professional Experience
+## Professional Experience
 
 - **Associate Professor** | Federal University of Maranhão (UFMA)
   - _2013 – Present_
@@ -41,7 +41,7 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
 
 ---
 
-## 💻 Scientific Software & Open Source
+## Scientific Software & Open Source
 
 - **dissmodel** (Python) | [Under Review at JOSS]
   - Library for spatial modeling and land-use transition analysis.
@@ -52,14 +52,14 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
 
 ---
 
-## 📄 Selected Publications
+## Selected Publications
 
 - _Rocha, T. V. S. M., Costa, S. S., et al._ (2025). **Accuracy Assessment of LUCC: A Case Study in São Luís with MapBiomas.** _GeoNordeste_.
 - _Correia, L. F. C. S., Costa, S. S., et al._ (2025). **Expansion of Deforestation in the Maranhão Cerrado (2001-2023).**
 
 ---
 
-## 🛠 Technical Skills
+## Technical Skills
 
 - **Programming:** Python (Advanced), Haskell, Clojure, C.
 - **Tools:** QGIS API, Docker, SPARQL, GDAL/OGR, LaTeX.
@@ -67,7 +67,7 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
 
 ---
 
-## 🔗 External Links
+## External Links
 
 - [Lattes Curriculum](http://lattes.cnpq.br/2073311645132958)
 - [Google Scholar](https://scholar.google.com/citations?user=YOUR_ID)
