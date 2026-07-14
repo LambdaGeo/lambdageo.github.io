@@ -5,6 +5,15 @@
 @use "variables" as v;
 
 body {
+  font-family:
+    "Inter",
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
