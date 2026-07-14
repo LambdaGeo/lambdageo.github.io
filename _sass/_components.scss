@@ -38,6 +38,20 @@ ul.task-list input[type="checkbox"] {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(38, 50, 56, 0.04);
+  transition:
+    transform 0.2s ease-in-out,
+    box-shadow 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+  overflow: hidden;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 24px rgba(21, 101, 192, 0.08);
+    border-color: rgba(21, 101, 192, 0.3) !important;
+  }
 
   .card-img {
     width: 100%;
@@ -46,10 +60,19 @@ ul.task-list input[type="checkbox"] {
 
   .card-title {
     color: var(--global-text-color);
+    font-weight: 600;
   }
 
   .card-body {
-    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
+    padding: 1.5rem;
+  }
+}
+
+html[data-theme="dark"] .card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  &:hover {
+    box-shadow: 0 12px 24px rgba(0, 172, 193, 0.15);
+    border-color: rgba(0, 172, 193, 0.4) !important;
   }
 }
 
@@ -57,36 +80,55 @@ ul.task-list input[type="checkbox"] {
 
 .profile {
   width: 100%;
+  padding: 1.5rem;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(38, 50, 56, 0.03);
+  text-align: center;
+  margin-bottom: 1.5rem;
+
+  img {
+    max-width: 150px;
+    margin: 0 auto 1.25rem auto;
+    border: 3px solid var(--lg-primary);
+    box-shadow: 0 4px 10px rgba(21, 101, 192, 0.15);
+  }
 
   .more-info {
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: monospace;
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    line-height: 1.6;
 
     p {
-      display: inline-block;
-      margin: 0;
+      display: block;
+      margin: 0.4rem 0;
+    }
+
+    a {
+      color: var(--global-theme-color);
+      font-weight: 500;
+      &:hover {
+        color: var(--global-hover-color);
+      }
     }
   }
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile.float-left {
-  margin-right: 1rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .profile {
-    width: 30%;
-
-    .address {
-      p {
-        display: block;
-      }
-    }
+    width: 280px;
   }
 }
 

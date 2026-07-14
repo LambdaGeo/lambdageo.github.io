@@ -82,19 +82,29 @@
   .page-item {
     .page-link {
       color: var(--global-text-color);
+      background-color: transparent;
+      border: 1px solid var(--global-divider-color);
       padding: 0.75rem 1.15rem;
+      transition:
+        color 0.15s ease-in-out,
+        background-color 0.15s ease-in-out,
+        border-color 0.15s ease-in-out;
 
       &:hover {
-        color: #000;
+        color: var(--global-hover-color);
+        background-color: var(--global-code-bg-color);
+        border-color: var(--global-hover-color);
       }
     }
 
     &.active .page-link {
-      color: #fff;
+      color: var(--global-hover-text-color) !important;
       background-color: var(--global-theme-color);
+      border-color: var(--global-theme-color);
 
       &:hover {
-        background-color: var(--global-theme-color);
+        background-color: var(--global-hover-color);
+        border-color: var(--global-hover-color);
       }
     }
   }
