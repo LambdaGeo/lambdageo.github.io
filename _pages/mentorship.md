@@ -7,11 +7,11 @@ nav: true
 nav_order: 3
 ---
 
-### 📊 Impact at a Glance
+### Impact at a Glance
 
 Since 2013, I have mentored **around 40 students** in Computer Engineering. My leadership style focuses on "hands-on" software engineering, bridging the gap between academic theory and industry-ready implementations in **AI, Data Engineering, and GIS**.
 
-### 🎓 Graduate Supervision (Master's)
+### Graduate Supervision (Master's)
 
 #### Completed Dissertations
 
@@ -31,7 +31,7 @@ Since 2013, I have mentored **around 40 students** in Computer Engineering. My l
 
 ---
 
-### 🧪 Research & Innovation Fellowships (PIBIC/PIBITI)
+### Research & Innovation Fellowships (PIBIC/PIBITI)
 
 I lead students through Undergraduate Research (PIBIC) and Technological Innovation (PIBITI) fellowships. These projects focus on building software tools and semantic models for real-world applications.
 
@@ -44,7 +44,7 @@ I lead students through Undergraduate Research (PIBIC) and Technological Innovat
 
 ---
 
-#### 📈 Undergraduate Supervision (Annual Breakdown)
+#### Undergraduate Supervision (Annual Breakdown)
 
 | Year      | Completed Theses | Main Research Focus                   |
 | :-------- | :--------------: | :------------------------------------ |
@@ -63,7 +63,7 @@ I lead students through Undergraduate Research (PIBIC) and Technological Innovat
 
 ---
 
-### 🎓 Undergraduate Alumni (Selected Senior Theses)
+### Undergraduate Alumni (Selected Senior Theses)
 
 #### 2025: AI & Digital Health Era
 
