@@ -2,6 +2,13 @@
  * Reusable component styles: Cards, captions, profiles, etc.
  ******************************************************************************/
 
+// Hero banner
+
+.hero-banner {
+  width: 100%;
+  border: 1px solid var(--global-divider-color);
+}
+
 // Checklist
 
 ul.task-list {

@@ -3,14 +3,7 @@
   <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
     <div class="container">
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
-        {% if site.icon %}
-          <img
-            src="{{ '/assets/img/logo.png' | relative_url }}"
-            alt="LambdaGEO Logo"
-            class="navbar-logo"
-            style="height: 32px; width: auto; margin-right: 10px; vertical-align: middle;"
-          >
-        {% endif %}
+        <img src="{{ '/assets/img/fav_icon.png' | relative_url }}" alt="LambdaGEO" class="navbar-logo">
         <span class="font-weight-bold">Lambda</span>GEO
       </a>
       <!-- Navbar Toggle -->
