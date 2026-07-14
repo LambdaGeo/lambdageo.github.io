@@ -51,7 +51,35 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "nav-teaching",
+        },{id: "dropdown-estrutura-de-dados",
+              title: "estrutura de dados",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/estrutura-dados/";
+              },
+            },{id: "dropdown-introdução-à-programação-funcional-ipf",
+              title: "introdução à programação funcional (IPF)",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/ipf/";
+              },
+            },{id: "dropdown-compiladores-usando-nand2tetris",
+              title: "compiladores usando nand2tetris",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/nand2tetris-compilador/";
+              },
+            },{id: "dropdown-geospatial-modeling-in-python",
+              title: "geospatial modeling in python",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
+              },
+            },{id: "nav-teaching",
           title: "teaching",
           description: "Core Courses (English Summaries).",
           section: "Navigation",
