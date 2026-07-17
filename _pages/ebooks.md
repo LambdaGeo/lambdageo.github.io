@@ -5,6 +5,8 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
+  - title: C para Programadores Python e VisuAlg
+    permalink: https://lambdageo.github.io/introducao-c/
   - title: estrutura de dados
     permalink: https://lambdageo.github.io/estrutura-dados/
   - title: introdução à programação funcional (IPF)
