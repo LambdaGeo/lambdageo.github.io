@@ -51,7 +51,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "dropdown-estrutura-de-dados",
+        },{id: "dropdown-c-para-programadores-python-e-visualg",
+              title: "C para Programadores Python e VisuAlg",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/introducao-c/";
+              },
+            },{id: "dropdown-estrutura-de-dados",
               title: "estrutura de dados",
               description: "",
               section: "Dropdown",
