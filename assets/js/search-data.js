@@ -86,6 +86,34 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
               },
+            },{id: "dropdown-paradigmas-de-programação",
+              title: "paradigmas de programação",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/paradigmas-programacao/";
+              },
+            },{id: "dropdown-introdução-ao-computador",
+              title: "introdução ao computador",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/introducao-computador/";
+              },
+            },{id: "dropdown-tutorial-docker",
+              title: "tutorial docker",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/tutorial-docker/";
+              },
+            },{id: "dropdown-engenharia-de-software",
+              title: "engenharia de software",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/engenharia-software/";
+              },
             },{id: "nav-teaching",
           title: "teaching",
           description: "Core Courses (English Summaries).",
