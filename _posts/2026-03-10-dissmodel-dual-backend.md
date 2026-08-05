@@ -10,7 +10,7 @@ author: Sergio Souza Costa
 
 I want to share something that has been quietly coming together over the past few weeks in our research group. It's not a breakthrough, nothing dramatic — just one of those moments where you look at the code you've been building and think: _yes, this is working the way I hoped it would._
 
-We've been developing [DisSModel](https://github.com/lambdageo/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe _what_ their model does without fighting the infrastructure of _how_ it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
+We've been developing [DisSModel](https://github.com/DisSModel/dissmodel), a Python framework for spatial discrete simulation models. The core idea is simple: researchers should be able to describe _what_ their model does without fighting the infrastructure of _how_ it runs. We chose [salabim](https://www.salabim.org/) as the discrete event simulation engine underneath. That decision is looking better and better as the framework grows.
 
 But what I really want to talk about in this post is something more specific: what happens when you implement the same ecological model twice — once on top of NumPy arrays, once on top of GeoDataFrames — and both versions run correctly, look similar, and each has a clear reason to exist.
 
