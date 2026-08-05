@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   <a href="https://www.ufma.br">UFMA</a> · Computer Engineering · 
   Geotechnology & Applied Computing · 
-  <a href="https://github.com/dissmodel">DisSModel Ecosystem</a>
+  <a href="https://dissmodel.github.io/">DisSModel Ecosystem</a>
 
 profile:
   align: right
@@ -45,29 +45,11 @@ We develop reproducible, open-source tools for spatial simulation, semantic data
 
 ## 🌍 The DisSModel Ecosystem
 
-Our flagship initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation. To foster community-driven development, the ecosystem is hosted under its own organization:  
-[**github.com/dissmodel**](https://github.com/dissmodel)
+Our flagship initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change). To foster community-driven development, the ecosystem has its own organization, site, documentation, and open-access book:
 
-### Core Framework & Infrastructure
+**[🔗 dissmodel.github.io](https://dissmodel.github.io/)** · [GitHub Organization](https://github.com/DisSModel) · `pip install dissmodel`
 
-| Repository                                                        | Description                                                             | Status      |
-| ----------------------------------------------------------------- | ----------------------------------------------------------------------- | ----------- |
-| **[dissmodel](https://github.com/dissmodel/dissmodel)**           | Modular engine for CA & System Dynamics; dual-substrate (Vector/Raster) | PyPI · v0.4 |
-| **[dissmodel-platform](https://github.com/dissmodel/dissmodel-platform)**   | Scalable execution via FastAPI, Redis, MinIO; cloud-ready               | Beta        |
-| **[dissmodel-docs](https://github.com/dissmodel/dissmodel-docs)** | Documentation, tutorials, and API reference (MkDocs)                    | Live        |
-
-### 🧩 Domain Libraries
-
-Specialized extensions for scientific applications:
-
-| Repository                                                            | Domain            | Key Models                                |
-| --------------------------------------------------------------------- | ----------------- | ----------------------------------------- |
-| **[dissmodel-ca](https://github.com/dissmodel/dissmodel-ca)**         | Cellular Automata | Game of Life, Forest Fire, Growth         |
-| **[dissmodel-sysdyn](https://github.com/dissmodel/dissmodel-sysdyn)** | System Dynamics   | SIR, Predator-Prey, Lorenz                |
-| **[coastal-dynamics](https://github.com/dissmodel/coastal-dynamics)** | Coastal Systems   | Flood propagation, mangrove migration     |
-| **[DisSLUCC](https://github.com/dissmodel/DisSLUCC)**                 | Land Use Change   | CLUE-inspired allocation, demand modeling |
-
-_All libraries follow the Executor Pattern: same model code runs locally or on cloud clusters without modification._
+_Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
 ---
 
@@ -150,8 +132,8 @@ _Contact: sergio.costa@ufma.br with a brief note about your background and inter
 
 ## Stay Connected
 
-- **Code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/dissmodel](https://github.com/dissmodel)
-- **Docs**: [lambdageo.github.io/dissmodel](https://lambdageo.github.io/dissmodel)
+- **Code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/DisSModel](https://github.com/DisSModel)
+- **Docs**: [dissmodel.github.io/dissmodel](https://dissmodel.github.io/dissmodel/)
 - **PyPI**: `pip install dissmodel`
 - **Email**: sergio.costa@ufma.br
 
