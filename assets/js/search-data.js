@@ -192,18 +192,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "presentations-integration-of-functional-programming-and-spatial-databases-for-gis-application-development",
+            },},{id: "presentations-integration-of-functional-programming-and-spatial-databases-for-gis-application-development",
           title: 'Integration of Functional Programming and Spatial Databases for GIS Application Development',
           description: "Master thesis presentation introducing TerraHS, an integration of Haskell with spatial databases.",
           section: "Presentations",handler: () => {
