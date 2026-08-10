@@ -5,6 +5,8 @@ nav: true
 nav_order: 5
 dropdown: true
 children:
+  - title: geospatial modeling in python
+    permalink: https://lambdageo.github.io/geospatial-modeling-python/
   - title: C para Programadores Python e VisuAlg
     permalink: https://lambdageo.github.io/introducao-c/
   - title: estrutura de dados
@@ -13,14 +15,12 @@ children:
     permalink: https://lambdageo.github.io/ipf/
   - title: compiladores usando nand2tetris
     permalink: https://lambdageo.github.io/nand2tetris-compilador/
-  - title: geospatial modeling in python
-    permalink: https://lambdageo.github.io/geospatial-modeling-python/
   - title: paradigmas de programação
     permalink: https://lambdageo.github.io/paradigmas-programacao/
   - title: introdução ao computador
     permalink: https://lambdageo.github.io/introducao-computador/
-  - title: tutorial docker
-    permalink: https://lambdageo.github.io/tutorial-docker/
+  - title: tutoriais
+    permalink: https://lambdageo.github.io/tutoriais
   - title: engenharia de software
     permalink: https://lambdageo.github.io/engenharia-software/
 ---
