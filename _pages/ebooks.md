@@ -7,6 +7,8 @@ dropdown: true
 children:
   - title: geospatial modeling in python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
+  - title: tutoriais
+    permalink: https://lambdageo.github.io/tutoriais
   - title: C para Programadores Python e VisuAlg
     permalink: https://lambdageo.github.io/introducao-c/
   - title: estrutura de dados
@@ -19,8 +21,6 @@ children:
     permalink: https://lambdageo.github.io/paradigmas-programacao/
   - title: introdução ao computador
     permalink: https://lambdageo.github.io/introducao-computador/
-  - title: tutoriais
-    permalink: https://lambdageo.github.io/tutoriais
   - title: engenharia de software
     permalink: https://lambdageo.github.io/engenharia-software/
 ---
