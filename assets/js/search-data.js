@@ -58,6 +58,13 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
               },
+            },{id: "dropdown-tutoriais",
+              title: "tutoriais",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/tutoriais";
+              },
             },{id: "dropdown-c-para-programadores-python-e-visualg",
               title: "C para Programadores Python e VisuAlg",
               description: "",
@@ -99,13 +106,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/introducao-computador/";
-              },
-            },{id: "dropdown-tutoriais",
-              title: "tutoriais",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/tutoriais";
               },
             },{id: "dropdown-engenharia-de-software",
               title: "engenharia de software",
