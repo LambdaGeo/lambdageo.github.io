@@ -51,7 +51,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "dropdown-c-para-programadores-python-e-visualg",
+        },{id: "dropdown-geospatial-modeling-in-python",
+              title: "geospatial modeling in python",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
+              },
+            },{id: "dropdown-c-para-programadores-python-e-visualg",
               title: "C para Programadores Python e VisuAlg",
               description: "",
               section: "Dropdown",
@@ -79,13 +86,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/nand2tetris-compilador/";
               },
-            },{id: "dropdown-geospatial-modeling-in-python",
-              title: "geospatial modeling in python",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
-              },
             },{id: "dropdown-paradigmas-de-programação",
               title: "paradigmas de programação",
               description: "",
@@ -100,12 +100,12 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/introducao-computador/";
               },
-            },{id: "dropdown-tutorial-docker",
-              title: "tutorial docker",
+            },{id: "dropdown-tutoriais",
+              title: "tutoriais",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/tutorial-docker/";
+                window.location.href = "https://lambdageo.github.io/tutoriais";
               },
             },{id: "dropdown-engenharia-de-software",
               title: "engenharia de software",
