@@ -49,5 +49,6 @@ Livros-disciplina de graduação em Computação/Engenharia da Computação e ma
 - **[Engenharia de Software](https://lambdageo.github.io/engenharia-software/)** — processos, requisitos, arquitetura, testes e CI/CD.
 - **[Tutoriais](https://lambdageo.github.io/tutoriais)** — prática guiada em Docker, Clojure, Elixir e Haskell; complementa os projetos avaliativos do livro de IPF.
 
-### Outros materiais
-- **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** — fora do escopo das disciplinas acima.
+- **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** —  — ciência de dados geoespaciais e simulação espacial discreta em Python; os Caps. 1–17 são independentes do framework DisSModel, que entra a partir do Cap. 18.
+
+- **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/** — referência técnica do ecossistema DisSModel: instalação, paradigmas de simulação, API e guia de migração de TerraME/LUCCME. Par de referência do livro anterior — comece por ele se já sabe o que quer construir; comece pelo *Geospatial Modeling* se está aprendendo do zero.
