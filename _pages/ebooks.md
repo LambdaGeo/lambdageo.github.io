@@ -9,6 +9,8 @@ dropdown: true
 children:
   - title: geospatial modeling in python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
+  - title:  DisSModel Book
+    permalink: https://dissmodel.github.io/dissmodel-book/
   - title: tutoriais
     permalink: https://lambdageo.github.io/tutoriais
   - title: C para Programadores Python e VisuAlg
@@ -51,4 +53,4 @@ Livros-disciplina de graduação em Computação/Engenharia da Computação e ma
 
 - **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** —  — ciência de dados geoespaciais e simulação espacial discreta em Python; os Caps. 1–17 são independentes do framework DisSModel, que entra a partir do Cap. 18.
 
-- **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/** — referência técnica do ecossistema DisSModel: instalação, paradigmas de simulação, API e guia de migração de TerraME/LUCCME. Par de referência do livro anterior — comece por ele se já sabe o que quer construir; comece pelo *Geospatial Modeling* se está aprendendo do zero.
+- **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/)** — referência técnica do ecossistema DisSModel: instalação, paradigmas de simulação, API e guia de migração de TerraME/LUCCME. Par de referência do livro anterior — comece por ele se já sabe o que quer construir; comece pelo *Geospatial Modeling* se está aprendendo do zero.
