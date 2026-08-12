@@ -9,8 +9,8 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.webp
-  image_circular: true
+  #image: prof_pic.webp
+  #image_circular: true
   more_info: >
     <p>sergio.costa@ufma.br</p>
     <p>UFMA — São Luís, MA, Brazil</p>
@@ -125,7 +125,6 @@ _Contact: sergio.costa@ufma.br with a brief note about your background and inter
 
 - **UFMA** — Federal University of Maranhão
 - **INPE** — National Institute for Space Research (Brazil)
-- **Brazil Data Cube** — Open Earth Observation platform
 - **PPGC&TAmb** — Graduate Program in Environmental Science & Technology
 
 ---
