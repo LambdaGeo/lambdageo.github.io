@@ -9,13 +9,14 @@ subtitle: >
 
 profile:
   align: right
-  #image: prof_pic.webp
-  #image_circular: true
+  image: prof_pic.webp
+  image_circular: true
   more_info: >
     <p>sergio.costa@ufma.br</p>
     <p>UFMA — São Luís, MA, Brazil</p>
     <p><a href="http://lattes.cnpq.br/2073311645132958">Lattes</a> · 
-       <a href="https://scholar.google.com/citations?user=ggu2II0AAAAJ">Google Scholar</a></p>
+       <a href="https://scholar.google.com/citations?user=ggu2II0AAAAJ">Google Scholar</a> ·
+       <a href="https://orcid.org/SEU-ORCID">ORCID</a></p>
 
 selected_papers: true
 social: true
@@ -35,25 +36,21 @@ latest_posts:
 
 **LambdaGEO** is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.
 
-We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — with a 20+ year research trajectory focused on one question:
+We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — and we publish all our teaching materials as free, open books.
 
 > _How can geospatial models be built so that others can understand, reuse, and trust them?_
-
-[Learn about our research trajectory](#research-trajectory)
 
 ---
 
 ## 🌍 The DisSModel Ecosystem
 
-Our flagship initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change). To foster community-driven development, the ecosystem has its own organization, site, documentation, and open-access book:
+Our flagship research initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change), designed as a modern alternative to TerraME/LUCCME (INPE).
 
 **[🔗 dissmodel.github.io](https://dissmodel.github.io/)** · [GitHub Organization](https://github.com/DisSModel) · `pip install dissmodel`
 
 _Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
----
-
-## Semantic Web & Geoinformatics
+### Semantic Web & Geoinformatics
 
 We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)** to enable interoperable, FAIR-compliant spatial research:
 
@@ -63,11 +60,40 @@ We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)
 | **QGISSPARQL** | Bridge Triple Stores ↔ QGIS for semantic mapping   | [GitHub](https://github.com/LambdaGeo/qgissparql) |
 | **DBCells**    | Publish spatial modeling data as Linked Data cubes | [GitHub](https://github.com/LambdaGeo/dbcells)    |
 
-> _These projects feed into DisSModel's provenance layer: every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
+> _These projects feed into DisSModel's provenance layer._
 
 ---
 
-## Research Trajectory
+## 📚 Open Books & Education
+
+We maintain **10 open-access textbooks** published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted free on GitHub Pages. They form a complete undergraduate Computer Science curriculum plus a specialized geospatial track.
+
+### 🧭 Computing Track (8 books, organized by prerequisites)
+
+| Series | Books | Audience |
+| --- | --- | --- |
+| 📘 **Fundamentos** | C para Programadores Python e VisuAlg · Introdução ao Computador | No CS prerequisites — entry point |
+| 📙 **Núcleo** | Estrutura de Dados · Paradigmas de Programação (Java) · Programação Funcional (Haskell/Clojure/Elixir) | After an intro programming course |
+| 📗 **Avançado** | Compiladores (estilo Nand2Tetris) · Engenharia de Software · Tutoriais (Docker, Clojure, Elixir, Haskell) | After Data Structures |
+
+👉 **[Explore all books](/ebooks/)**
+
+### 🌍 Geospatial Track (2 companion books)
+
+A didactic textbook and a technical reference, designed to be read together:
+
+| Book | Type | When to use |
+| --- | --- | --- |
+| **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
+| **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/)** | Technical reference | Already know DisSModel or migrating from TerraME. API, architecture, migration guide. |
+
+💡 **Recommended flow:** Read the textbook up to Chapter 14, then consult the DisSModel Book for framework details.
+
+_Contributions welcome on both books — see each repository's guidelines._
+
+---
+
+## 🗺️ Research Trajectory
 
 DisSModel did not emerge from a blank slate. It synthesizes two decades of inquiry:
 
@@ -82,17 +108,6 @@ DisSModel did not emerge from a blank slate. It synthesizes two decades of inqui
 Three principles unite this trajectory:  
 **Openness as method** · **Interoperability as architecture** · **Reproducibility as requirement**
 
-[→ Read the full research statement](#) _(link para PDF ou página dedicada)_
-
----
-
-## Geospatial Modeling with Python _(The Book)_
-
-We are writing an open-access book to empower researchers with modern Python tools for geographic data science and simulation.
-
-**[Read the book (Work in Progress)](https://lambdageo.github.io/geospatial-modeling-python/)**  
-_Contributions welcome! See the [repository](https://github.com/LambdaGeo/geospatial-modeling-python) for guidelines._
-
 ---
 
 ## 👨‍🏫 Leadership & Mentorship
@@ -104,35 +119,37 @@ _Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
 **Background**: MSc & PhD in Remote Sensing (INPE); Data Processing Technology (UFMA)  
 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
 
-### For Students & Collaborators
+### Mentorship Workflow
 
 > We use **Notion** for mentorship, lecture materials, and project tracking:  
 > [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
 
-**Interested in joining LambdaGEO?**  
-We welcome motivated **PIBIC**, and **master's** students with interest in:
+### Join LambdaGEO
+
+We welcome motivated **PIBIC** and **master's** students interested in:
 
 - Python for scientific computing
 - GIS, remote sensing, and spatial analysis
 - Reproducibility, FAIR principles, and open science
 - Software engineering for research software
 
-_Contact: sergio.costa@ufma.br with a brief note about your background and interests._
+📧 _Contact: sergio.costa@ufma.br with a brief note about your background and interests._
 
 ---
 
-## Partners & Affiliations
+## 🤝 Partners & Affiliations
 
-- **UFMA** — Federal University of Maranhão
-- **INPE** — National Institute for Space Research (Brazil)
+- **[UFMA](https://www.ufma.br)** — Federal University of Maranhão
+- **[INPE](http://www.inpe.br/)** — National Institute for Space Research (Brazil)
 - **PPGC&TAmb** — Graduate Program in Environmental Science & Technology
 
 ---
 
-## Stay Connected
+## 📡 Stay Connected
 
-- **Code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/DisSModel](https://github.com/DisSModel)
-- **Docs**: [dissmodel.github.io/dissmodel](https://dissmodel.github.io/dissmodel/)
+- **Research code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/DisSModel](https://github.com/DisSModel)
+- **Documentation**: [dissmodel.github.io](https://dissmodel.github.io/)
+- **Teaching materials**: [lambdageo.github.io/ebooks](/ebooks/)
 - **PyPI**: `pip install dissmodel`
 - **Email**: sergio.costa@ufma.br
 
