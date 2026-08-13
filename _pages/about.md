@@ -66,7 +66,7 @@ We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)
 
 ## 📚 Open Books & Education
 
-We maintain **10 open-access textbooks** published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted free on GitHub Pages. They form a complete undergraduate Computer Science curriculum plus a specialized geospatial track.
+We maintain **10 open-access textbooks** published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted free on GitHub Pages. They cover **core topics** of an undergraduate Computer Science curriculum plus a specialized geospatial track.
 
 ### 🧭 Computing Track (8 books, organized by prerequisites)
 
