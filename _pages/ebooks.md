@@ -1,56 +1,115 @@
+
 ---
 layout: page
 permalink: /ebooks/
 title: ebooks
-description: Coleção de livros-disciplina em português, publicados como sites com MkDocs e Material.
+description: Collection of open-access textbooks covering core Computer Science topics and geospatial modeling, published with MkDocs + Material.
 nav: true
 nav_order: 5
 dropdown: true
 children:
-  - title: geospatial modeling in python
+  - title: Geospatial Modeling in Python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
-  - title:  DisSModel Book
+  - title: DisSModel Book
     permalink: https://dissmodel.github.io/dissmodel-book/
-  - title: tutoriais
+  - title: Tutoriais
     permalink: https://lambdageo.github.io/tutoriais
   - title: C para Programadores Python e VisuAlg
     permalink: https://lambdageo.github.io/introducao-c/
-  - title: estrutura de dados
+  - title: Estrutura de Dados
     permalink: https://lambdageo.github.io/estrutura-dados/
-  - title: introdução à programação funcional (IPF)
+  - title: Introdução à Programação Funcional (IPF)
     permalink: https://lambdageo.github.io/ipf/
-  - title: compiladores usando nand2tetris
+  - title: Compiladores usando Nand2Tetris
     permalink: https://lambdageo.github.io/nand2tetris-compilador/
-  - title: paradigmas de programação
+  - title: Paradigmas de Programação
     permalink: https://lambdageo.github.io/paradigmas-programacao/
-  - title: introdução ao computador
+  - title: Introdução ao Computador
     permalink: https://lambdageo.github.io/introducao-computador/
-  - title: engenharia de software
+  - title: Engenharia de Software
     permalink: https://lambdageo.github.io/engenharia-software/
 ---
 
-Livros-disciplina de graduação em Computação/Engenharia da Computação e materiais de formação continuada, organizados em três séries por pré-requisito. Todos são publicados com MkDocs + Material e ficam de graça no GitHub Pages.
+Open-access textbooks covering **core topics** of an undergraduate Computer Science curriculum plus a specialized geospatial track. All books are published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted free on GitHub Pages.
 
-### 📘 Série Fundamentos
-*Sem pré-requisito de Computação — ponto de partida.*
+> 🌐 **Language note:** The books themselves are in Portuguese, as they were developed for Brazilian undergraduate courses. This index page is in English to align with the rest of the site.
 
-- **[C para Programadores Python e VisuAlg](https://lambdageo.github.io/introducao-c/)** — nivelamento em C via mapeamento comparativo com Python e VisuAlg. Pré-requisito: já programar em Python e/ou VisuAlg.
-- **[Introdução ao Computador](https://lambdageo.github.io/introducao-computador/)** — representação de dados, arquitetura e sistemas operacionais, sem programação. Voltado à formação continuada de professores (PROFCOMP), não a alunos de graduação em Computação.
+---
 
-### 📙 Série Núcleo de Computação
-*Pressupõe uma disciplina introdutória de programação.*
+## 🧭 Computing Track (8 books)
 
-- **[Estrutura de Dados](https://lambdageo.github.io/estrutura-dados/)** — pilhas, filas, listas, árvores (BST/AVL) e ordenação, em C. Pré-requisito: C para Programadores Python e VisuAlg.
-- **[Paradigmas de Programação](https://lambdageo.github.io/paradigmas-programacao/)** — paradigmas de linguagens e orientação a objetos em Java.
-- **[Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/ipf/)** — Haskell, Clojure e Elixir.
+Textbooks for undergraduate Computer Science and Computer Engineering students, organized by prerequisites.
 
-### 📗 Série Avançada / Aplicada
-*Pressupõe Estrutura de Dados e/ou uma linguagem consolidada.*
+### 📘 Series: Foundations
+*No CS prerequisites — entry point.*
 
-- **[Compiladores — do zero ao Hack](https://lambdageo.github.io/nand2tetris-compilador/)** — construção completa de um compilador (Jack → VM → Assembly), no espírito do Nand2Tetris. Pré-requisito: Estrutura de Dados.
-- **[Engenharia de Software](https://lambdageo.github.io/engenharia-software/)** — processos, requisitos, arquitetura, testes e CI/CD.
-- **[Tutoriais](https://lambdageo.github.io/tutoriais)** — prática guiada em Docker, Clojure, Elixir e Haskell; complementa os projetos avaliativos do livro de IPF.
+- **[C para Programadores Python e VisuAlg](https://lambdageo.github.io/introducao-c/)** — C language leveling through comparative mapping with Python and VisuAlg. Prerequisite: already programming in Python and/or VisuAlg.
 
-- **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** —  — ciência de dados geoespaciais e simulação espacial discreta em Python; os Caps. 1–17 são independentes do framework DisSModel, que entra a partir do Cap. 18.
+- **[Introdução ao Computador](https://lambdageo.github.io/introducao-computador/)** — Data representation, architecture, and operating systems, without programming. Designed for continuing education of teachers (PROFCOMP), not CS undergraduates.
 
-- **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/)** — referência técnica do ecossistema DisSModel: instalação, paradigmas de simulação, API e guia de migração de TerraME/LUCCME. Par de referência do livro anterior — comece por ele se já sabe o que quer construir; comece pelo *Geospatial Modeling* se está aprendendo do zero.
+### 📙 Series: Computing Core
+*Requires an introductory programming course.*
+
+- **[Estrutura de Dados](https://lambdageo.github.io/estrutura-dados/)** — Stacks, queues, lists, trees (BST/AVL), and sorting, in C. Prerequisite: C para Programadores Python e VisuAlg.
+
+- **[Paradigmas de Programação](https://lambdageo.github.io/paradigmas-programacao/)** — Language paradigms and object-oriented programming in Java.
+
+- **[Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/ipf/)** — Haskell, Clojure, and Elixir.
+
+### 📗 Series: Advanced / Applied
+*Requires Data Structures and/or a consolidated language.*
+
+- **[Compiladores — do zero ao Hack](https://lambdageo.github.io/nand2tetris-compilador/)** — Complete compiler construction (Jack → VM → Assembly), in the spirit of Nand2Tetris. Prerequisite: Estrutura de Dados.
+
+- **[Engenharia de Software](https://lambdageo.github.io/engenharia-software/)** — Processes, requirements, architecture, testing, and CI/CD.
+
+- **[Tutoriais](https://lambdageo.github.io/tutoriais)** — Guided practice in Docker, Clojure, Elixir, and Haskell; complements the assessment projects from the IPF book.
+
+---
+
+## 🌍 Geospatial Track (2 companion books)
+
+A didactic textbook and a technical reference for geographic data science and discrete spatial simulation, designed to be read together.
+
+| Book | Type | When to use |
+| --- | --- | --- |
+| **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
+| **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/)** | Technical reference | Already know DisSModel or migrating from TerraME. API, architecture, migration guide. |
+
+💡 **Recommended flow:** Read the textbook up to Chapter 14, then consult the DisSModel Book for framework details.
+
+---
+
+## 🤝 How to Use These Books
+
+### For Students
+- Follow the prerequisite chain within each series
+- Use the books as primary material alongside your courses
+- Check the "Tutoriais" book for hands-on practice with tools like Docker
+
+### For Instructors
+- All books are open-source and can be adapted for your courses
+- Each book has its own GitHub repository — contributions welcome
+- Feel free to use, modify, and redistribute (check individual licenses)
+
+### For Self-Learners
+- Start with **Introdução ao Computador** (no prerequisites)
+- Or jump to **C para Programadores Python** if you already know Python
+- For geospatial topics, begin with **Geospatial Modeling in Python**
+
+---
+
+## 📊 Overview
+
+| Category | Books | Language | Format |
+| --- | --- | --- | --- |
+| Foundations | 2 | Portuguese | Web + Jupyter |
+| Computing Core | 3 | Portuguese | Web + Jupyter |
+| Advanced | 3 | Portuguese | Web + Jupyter |
+| Geospatial | 2 | English/Portuguese | Web + Jupyter |
+
+**Total: 10 open books** · All free · All on GitHub Pages · All with source code available
+
+---
+
+_Contributions welcome! See each book's repository for guidelines._
