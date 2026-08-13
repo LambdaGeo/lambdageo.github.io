@@ -51,77 +51,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "dropdown-geospatial-modeling-in-python",
-              title: "geospatial modeling in python",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
-              },
-            },{id: "dropdown-dissmodel-book",
-              title: "DisSModel Book",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://dissmodel.github.io/dissmodel-book/";
-              },
-            },{id: "dropdown-tutoriais",
-              title: "tutoriais",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/tutoriais";
-              },
-            },{id: "dropdown-c-para-programadores-python-e-visualg",
-              title: "C para Programadores Python e VisuAlg",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/introducao-c/";
-              },
-            },{id: "dropdown-estrutura-de-dados",
-              title: "estrutura de dados",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/estrutura-dados/";
-              },
-            },{id: "dropdown-introdução-à-programação-funcional-ipf",
-              title: "introdução à programação funcional (IPF)",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/ipf/";
-              },
-            },{id: "dropdown-compiladores-usando-nand2tetris",
-              title: "compiladores usando nand2tetris",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/nand2tetris-compilador/";
-              },
-            },{id: "dropdown-paradigmas-de-programação",
-              title: "paradigmas de programação",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/paradigmas-programacao/";
-              },
-            },{id: "dropdown-introdução-ao-computador",
-              title: "introdução ao computador",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/introducao-computador/";
-              },
-            },{id: "dropdown-engenharia-de-software",
-              title: "engenharia de software",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://lambdageo.github.io/engenharia-software/";
-              },
-            },{id: "nav-teaching",
+        },{id: "nav-teaching",
           title: "teaching",
           description: "Core Courses (English Summaries).",
           section: "Navigation",
