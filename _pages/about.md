@@ -116,7 +116,7 @@ Three principles unite this trajectory:
 _Associate Professor of Computer Engineering, UFMA_  
 _Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
 
-**Background**: MSc & PhD in Remote Sensing (INPE); Data Processing Technology (UFMA)  
+**Background**: **Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling 
 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
 
 ### Mentorship Workflow
