@@ -1,13 +1,13 @@
 metadata:
-  last_updated: '2026-07-15'
+  last_updated: '2026-08-31'
 papers:
   ggu2II0AAAAJ:-_dYPAW6P2MC:
-    citations: 55
+    citations: 54
     title: "Population-based seroprevalence of SARS-CoV-2 and the herd immunity threshold in Maranh\xE3o"
     year: '2020'
   ggu2II0AAAAJ:1qzjygNMrQYC:
     citations: 1
-    title: Integration of functional programming and spatial databases for gis application development
+    title: Integration of functional programming and spatial databases for GIS application development
     year: '2006'
   ggu2II0AAAAJ:2VqYfGB8ITEC:
     citations: 0
@@ -25,22 +25,30 @@ papers:
     citations: 0
     title: Pulse pressure can predict mortality in advanced heart failure?
     year: '2015'
+  ggu2II0AAAAJ:4vMrXwiscB8C:
+    citations: 0
+    title: "Influ\xEAncia do uso de eletrodos transvenosos tempor\xE1rios na forma\xE7\xE3o de estenoses venosas profundas p\xF3s-implante de marcapasso definitivo endoc\xE1rdico"
+    year: '1999'
   ggu2II0AAAAJ:6ZxmRoH8BuwC:
     citations: 0
     title: 'Cardiogenic shock: what to expect?: P1875'
     year: '2016'
   ggu2II0AAAAJ:8d8msizDQcsC:
-    citations: 1
-    title: "MarIA-DeepSeek: Uma Proposta de Assistente por Modelo Amplo de Linguagem para Agentes Comunit\xE1rios de Sa\xFAde"
+    citations: 2
+    title: "Maria-deepseek: Uma proposta de assistente por modelo amplo de linguagem para agentes comunit\xE1rios de sa\xFAde"
     year: '2025'
   ggu2II0AAAAJ:9pM33mqn1YgC:
-    citations: 9
+    citations: 8
     title: "Perfil de adolescentes e jovens adultos portadores de HIV/AIDS na regi\xE3o nordeste brasileira entre os anos de 2004 e 2016"
     year: '2019'
   ggu2II0AAAAJ:9yKSN-GCB0IC:
-    citations: 10
+    citations: 11
     title: Spatial Relations Across Scales in Land Change Models.
     year: '2008'
+  ggu2II0AAAAJ:DJbcl8HfkQkC:
+    citations: 0
+    title: "Workplace Challenges and Support Needs Experienced by Nurse Leaders in Home and Community Care During the COVID-19 Pandemic: A Qualitative Study (vol 62, 10.1177 \u2026"
+    year: '2026'
   ggu2II0AAAAJ:DUooU5lO8OsC:
     citations: 0
     title: Defining prognosis in patients with advanced heart failure
@@ -57,6 +65,10 @@ papers:
     citations: 0
     title: "Um estudo explorat\xF3rio sobre dados abertos em Universidades"
     year: Unknown Year
+  ggu2II0AAAAJ:HIFyuExEbWQC:
+    citations: 0
+    title: "Incid\xEAncia de altera\xE7\xF5es venosas esten\xF3ticas p\xF3s-implante de marcapasso endoc\xE1rdico definitivo"
+    year: '1999'
   ggu2II0AAAAJ:HtEfBTGE9r8C:
     citations: 0
     title: 'Lowering pulmonary wedge pressure after heart transplantation: the effect on pulmonary arterial compliance and resistance'
@@ -133,10 +145,6 @@ papers:
     citations: 0
     title: "QGISSPARQL-Integrando Dados Conectados e Sistemas de Informa\xE7\xE3o Geogr\xE1fica"
     year: '2023'
-  ggu2II0AAAAJ:ZfRJV9d4-WMC:
-    citations: 0
-    title: "PUBLICA\xC7\xC3O DE DADOS CONECTADOS PARA MODELOS DE USO E COBERTURA DA TERRA/Linked data publication for land change models"
-    year: '2019'
   ggu2II0AAAAJ:ZuybSZzF8UAC:
     citations: 0
     title: 'Migrando dos dados abertos para dados conectados: uma proposta para a Universidade Federal do Maranhao'
@@ -155,7 +163,11 @@ papers:
     year: Unknown Year
   ggu2II0AAAAJ:anf4URPfarAC:
     citations: 0
-    title: Prophylaxis of venous thromboembolism after total knee arthroplasty
+    title: PROPHYLAXIS OF VENOUS THROMBOEMBOLISM AFTER TOTAL KNEE ARTHROPLASTY
+    year: '2024'
+  ggu2II0AAAAJ:cWzG1nlazyYC:
+    citations: 0
+    title: "QUALIDADE DE VIDA DOS INDIV\xCDDUOS COM DIAGN\xD3STICO DE ANSIEDADE E SUA RELA\xC7\xC3O COM AROMATERAPIA"
     year: '2024'
   ggu2II0AAAAJ:d1gkVwhDpl0C:
     citations: 9
@@ -166,7 +178,7 @@ papers:
     title: "Jogo como estrat\xE9gia pedag\xF3gica no aprendizado da tabela peri\xF3dica na disciplina de Qu\xEDmica atrav\xE9s da Intermedia\xE7\xE3o Tecnol\xF3gica."
     year: '2018'
   ggu2II0AAAAJ:dQ2og3OwTAUC:
-    citations: 4
+    citations: 5
     title: "Hiperm\xEDdia e interdisciplinaridade na gera\xE7\xE3o de conhecimento"
     year: '2015'
   ggu2II0AAAAJ:eJXPG6dFmWUC:
@@ -178,15 +190,15 @@ papers:
     title: Agent placement for land change modelsin frontier regions
     year: '2013'
   ggu2II0AAAAJ:evX43VCCuoAC:
-    citations: 25
+    citations: 24
     title: Population-based seroprevalence of SARS-CoV-2 is more than halfway through the herd immunity threshold in the State of Maranhao, Brazil
     year: '2020'
   ggu2II0AAAAJ:fEOibwPWpKIC:
-    citations: 11
+    citations: 8
     title: "Um relato de experiencia da adaptacao de um evento acad\xE9mico presencial para o contexto virtual em tempos de pandemia"
     year: '2020'
   ggu2II0AAAAJ:ipzZ9siozwsC:
-    citations: 4
+    citations: 2
     title: "DBacademic: Conectando os dados abertos das institui\xE7\xF5es de ensino do Brasil"
     year: '2020'
   ggu2II0AAAAJ:kRWSkSYxWN8C:
@@ -197,6 +209,10 @@ papers:
     citations: 0
     title: Prototyping GIS Application in Functional Programming
     year: Unknown Year
+  ggu2II0AAAAJ:mNrWkgRL2YcC:
+    citations: 0
+    title: "Extra\xE7\xE3o de eletrodo de marcapasso endoc\xE1rdico permanente pela aplica\xE7\xE3o de radiofreq\xFC\xEAncia"
+    year: '1998'
   ggu2II0AAAAJ:mlAyqtXpCwEC:
     citations: 11
     title: "Sociedad civil, estado y derecho en Am\xE9rica Latina: tres modelos interpretativos"
@@ -222,11 +238,11 @@ papers:
     title: "Ensino de inform\xE1tica: a realidade de estudantes do ensino fundamental da rede p\xFAblica da cidade de S\xE3o Lu\xEDs-MA"
     year: Unknown Year
   ggu2II0AAAAJ:tkaPQYYpVKoC:
-    citations: 6
+    citations: 7
     title: "Um estudo explorat\xF3rio dos games para introdu\xE7\xE3o ao pensamento computacional"
     year: '2015'
   ggu2II0AAAAJ:u-x6o8ySG0sC:
-    citations: 64
+    citations: 65
     title: Dynamical coupling of multiscale land change models
     year: '2009'
   ggu2II0AAAAJ:u5HHmVD_uO8C:
