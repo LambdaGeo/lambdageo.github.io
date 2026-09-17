@@ -58,13 +58,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
               },
-            },{id: "dropdown-dissmodel-book",
-              title: "DisSModel Book",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "https://dissmodel.github.io/dissmodel-book/";
-              },
             },{id: "dropdown-tutoriais",
               title: "Tutoriais",
               description: "",
