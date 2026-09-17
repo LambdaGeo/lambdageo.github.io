@@ -85,7 +85,6 @@ A didactic textbook and a technical reference, designed to be read together:
 | Book | Type | When to use |
 | --- | --- | --- |
 | **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
-| **[DisSModel Book](https://dissmodel.github.io/dissmodel-book/)** | Technical reference | Already know DisSModel or migrating from TerraME. API, architecture, migration guide. |
 
 💡 **Recommended flow:** Read the textbook up to Chapter 14, then consult the DisSModel Book for framework details.
 
