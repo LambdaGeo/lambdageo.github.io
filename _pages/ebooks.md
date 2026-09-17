@@ -9,8 +9,6 @@ dropdown: true
 children:
   - title: Geospatial Modeling in Python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
-  - title: DisSModel Book
-    permalink: https://dissmodel.github.io/dissmodel-book/
   - title: Tutoriais
     permalink: https://lambdageo.github.io/tutoriais
   - title: C para Programadores Python e VisuAlg
