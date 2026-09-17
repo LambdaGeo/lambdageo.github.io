@@ -9,7 +9,7 @@ nav_order: 3
 
 ### Impact at a Glance
 
-Since 2013, I have mentored **around 40 students** in Computer Engineering. My leadership style focuses on "hands-on" software engineering, bridging the gap between academic theory and industry-ready implementations in **AI, Data Engineering, and GIS**.
+Since 2013, I have mentored **more than 40 students** in Computer Engineering. My leadership style focuses on "hands-on" software engineering, bridging the gap between academic theory and industry-ready implementations in **AI, Data Engineering, and GIS**.
 
 ### Graduate Supervision (Master's)
 
@@ -34,6 +34,18 @@ Since 2013, I have mentored **around 40 students** in Computer Engineering. My l
 ### Research & Innovation Fellowships (PIBIC/PIBITI)
 
 I lead students through Undergraduate Research (PIBIC) and Technological Innovation (PIBITI) fellowships. These projects focus on building software tools and semantic models for real-world applications.
+
+#### Current (2026 – 2027)
+
+Advisees on the DisSModel spatial modeling framework, under project PVCET5136-2026.
+
+| Project Title                                                                          | Student                  | Category             | Period      | Status         |
+| :-------------------------------------------------------------------------------------- | :------------------------ | :-------------------- | :---------- | :------------- |
+| Prototipagem de Plataforma Cloud-Native para Simulação Espacial Distribuída com DisSModel | Hissa Barbara Oliveira    | **PIBITI** (UFMA/IT)  | 2026 – 2027 | Em andamento   |
+| Implementação e Validação de Modelos Discretos de LUCC Baseados na Abordagem CLUE-S no Arcabouço DisSModel | Mateus Dutra Vale         | Volunteer (IC)         | 2026 – 2027 | Em andamento   |
+| Implementação e Validação de Modelos Contínuos de LUCC Baseados na Abordagem CLUE no Arcabouço DisSModel   | Samylli Kalei Silva Zhao  | **PIBIC** (UFMA/IC)   | 2026 – 2027 | Em andamento   |
+
+#### Completed (2022 – 2023)
 
 | Project Title                                                               | Student                | Category            | Period      |
 | :-------------------------------------------------------------------------- | :--------------------- | :------------------ | :---------- |
