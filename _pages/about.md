@@ -42,66 +42,49 @@ We develop reproducible, open-source tools for spatial simulation, semantic data
 
 ---
 
-## 🌍 The DisSModel Ecosystem
+## 🔬 Research Areas
 
-Our flagship research initiative is **DisSModel** — a modern, Python-native framework for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change), designed as a modern alternative to TerraME/LUCCME (INPE).
+### 🌍 Dynamic Spatial Modelling
+
+Our flagship research area — modern, Python-native tools for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change).
+
+**Main project: [DisSModel](https://dissmodel.github.io/)** — a modern alternative to TerraME/LuccME (INPE).
 
 **[🔗 dissmodel.github.io](https://dissmodel.github.io/)** · [GitHub Organization](https://github.com/DisSModel) · `pip install dissmodel`
 
 _Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
-### Semantic Web & Geoinformatics
+**Companion textbook**: **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** — a didactic textbook covering geospatial Python from scratch; chapters 1–13 are independent of DisSModel.
+
+> DisSModel builds on two decades of prior work: **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara) → **TerraHS** (2005, models as verifiable artifacts) → **TerraME / LuccME** (2007–10, INPE, spatially explicit dynamic models) → **DisSModel** (2024–26, Python, FAIR, cloud-native).
+
+---
+
+## 🌱 Other Areas of Interest
+
+Ongoing interests with less active focus today, but part of the group's intellectual lineage.
+
+### 🔗 Semantic Web & Geoinformatics
 
 We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)** to enable interoperable, FAIR-compliant spatial research:
 
 | Project        | Description                                        | Link                                              |
-| -------------- | -------------------------------------------------- | ------------------------------------------------- |
+| -------------- | -------------------------------------------------- | -------------------------------------------------- |
 | **rdfmapper**  | Declarative Object-RDF Mapper for Python           | [GitHub](https://github.com/LambdaGeo/rdfmapper)  |
 | **QGISSPARQL** | Bridge Triple Stores ↔ QGIS for semantic mapping   | [GitHub](https://github.com/LambdaGeo/qgissparql) |
 | **DBCells**    | Publish spatial modeling data as Linked Data cubes | [GitHub](https://github.com/LambdaGeo/dbcells)    |
 
 > _These projects feed into DisSModel's provenance layer._
 
----
+_Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara), a tool for converting geographic data formats. Rovedy A. B. Silva's 2003 master's dissertation (INPE, advised by Antônio Miguel Monteiro) extended it to export to **GeoBR** and **GML 3.0** — early work on ontologies and interoperable semantics for geographic data in Brazil, predating today's widespread use of GML._
 
-## 📚 Open Books & Education
+### λ Functional Programming
 
-We maintain **10 open-access textbooks** published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted free on GitHub Pages. They cover **core topics** of an undergraduate Computer Science curriculum plus a specialized geospatial track.
+**TerraHS** (2005) — an early vision of scientific models as verifiable, executable artifacts in Haskell, now being **[rewritten as a pure-Haskell version](https://github.com/LambdaGeo/terrahs)**.
 
-### 🧭 Computing Track (8 books, organized by prerequisites)
+**[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the *"A Play on Regular Expressions"* functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
 
-| Series | Books | Audience |
-| --- | --- | --- |
-| 📘 **Fundamentos** | C para Programadores Python e VisuAlg · Introdução ao Computador | No CS prerequisites — entry point |
-| 📙 **Núcleo** | Estrutura de Dados · Paradigmas de Programação (Java) · Programação Funcional (Haskell/Clojure/Elixir) | After an intro programming course |
-| 📗 **Avançado** | Compiladores (estilo Nand2Tetris) · Engenharia de Software · Tutoriais (Docker, Clojure, Elixir, Haskell) | After Data Structures |
-
-👉 **[Explore all books](/ebooks/)**
-
-### 🌍 Geospatial Track 
-
-A didactic textbook and a technical reference, designed to be read together:
-
-| Book | Type | When to use |
-| --- | --- | --- |
-| **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
-
----
-
-## 🗺️ Research Trajectory
-
-DisSModel did not emerge from a blank slate. It synthesizes two decades of inquiry:
-
-| Period        | Project                                    | Contribution                                                      |
-| ------------- | ------------------------------------------ | ----------------------------------------------------------------- |
-| **2001–2002** | Terra Translator (XML, ontologies)         | Foundation: semantics + open standards for geographic data        |
-| **2005**      | TerraHS (Haskell + GIS)                    | Vision: scientific models as verifiable, executable artifacts     |
-| **2007–2010** | TerraME / LuccME (INPE)                    | Maturity: spatially explicit dynamic models as scientific objects |
-| **2015–2024** | DbCells, Linked Data, QGIS plugins         | Infrastructure: reproducibility via rich metadata                 |
-| **2024–2026** | **DisSModel** (Python, FAIR, cloud-native) | Synthesis: same code from CLI to distributed cluster              |
-
-Three principles unite this trajectory:  
-**Openness as method** · **Interoperability as architecture** · **Reproducibility as requirement**
+**Textbook**: **[Programação Funcional](https://lambdageo.github.io/ipf/)** (Haskell/Clojure/Elixir) — part of the Núcleo series in our open-access Computing Track.
 
 ---
 
