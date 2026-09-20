@@ -78,17 +78,13 @@ We maintain **10 open-access textbooks** published with [MkDocs + Material](http
 
 👉 **[Explore all books](/ebooks/)**
 
-### 🌍 Geospatial Track (2 companion books)
+### 🌍 Geospatial Track 
 
 A didactic textbook and a technical reference, designed to be read together:
 
 | Book | Type | When to use |
 | --- | --- | --- |
 | **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
-
-💡 **Recommended flow:** Read the textbook up to Chapter 14, then consult the DisSModel Book for framework details.
-
-_Contributions welcome on both books — see each repository's guidelines._
 
 ---
 
