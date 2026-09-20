@@ -80,7 +80,9 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 ### λ Functional Programming
 
-**TerraHS** (2005) — an early vision of scientific models as verifiable, executable artifacts in Haskell, now being **[rewritten as a pure-Haskell version](https://github.com/LambdaGeo/terrahs)**.
+**[TerraHS](https://github.com/LambdaGeo/terrahs)** (2005–2009) — an early vision of scientific models as verifiable, executable artifacts in Haskell. Now fully **rewritten in pure Haskell**, dropping the original FFI dependency on TerraLib: same geometry, spatial predicates, and generalized map algebra, built from scratch with no system dependencies. Used as teaching material for both **functional programming** and **GIS** courses.
+
+
 
 **[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the *"A Play on Regular Expressions"* functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
 
@@ -119,7 +121,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 
 - **[UFMA](https://www.ufma.br)** — Federal University of Maranhão
 - **[INPE](http://www.inpe.br/)** — National Institute for Space Research (Brazil)
-- **PPGC&TAmb** — Graduate Program in Environmental Science & Technology
+- **PPGC&TAmb** — [Graduate Program in Environmental Science & Technology](https://ppgctamb.ufma.br/)
 
 ---
 
