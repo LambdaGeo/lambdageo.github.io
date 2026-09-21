@@ -14,11 +14,11 @@ children:
   - title: C para Programadores Python e VisuAlg
     permalink: https://lambdageo.github.io/book-introducao-a-programacao-c/
   - title: Estrutura de Dados
-    permalink: https://lambdageo.github.io/estrutura-dados/
+    permalink: https://lambdageo.github.io/book-estrutura-de-dados/
   - title: Introdução à Programação Funcional (IPF)
-    permalink: https://lambdageo.github.io/ipf/
-  - title: Compiladores usando Nand2Tetris
-    permalink: https://lambdageo.github.io/nand2tetris-compilador/
+    permalink: https://lambdageo.github.io/book-introducao-a-programacao-funcional/
+  - title: Compiladores com Nand2Tetris
+    permalink: https://lambdageo.github.io/book-compiladores-com-nand2tetris/
   - title: Paradigmas de Programação
     permalink: https://lambdageo.github.io/book-paradigmas-de-programacao/
   - title: Introdução ao Computador
@@ -47,16 +47,16 @@ Textbooks for undergraduate Computer Science and Computer Engineering students, 
 ### 📙 Series: Computing Core
 *Requires an introductory programming course.*
 
-- **[Estrutura de Dados](https://lambdageo.github.io/estrutura-dados/)** — Stacks, queues, linked lists, trees (BST/AVL), and sorting algorithms, implemented in C. Prerequisite: *C para Programadores Python e VisuAlg*.
+- **[Estrutura de Dados](https://lambdageo.github.io/book-estrutura-de-dados/)** — Stacks, queues, linked lists, trees (BST/AVL), and sorting algorithms, implemented in C. Prerequisite: *C para Programadores Python e VisuAlg*.
 
 - **[Paradigmas de Programação](https://lambdageo.github.io/book-paradigmas-de-programacao/)** — Programming paradigms and object-oriented programming using Java.
 
-- **[Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/ipf/)** — Concepts and practical applications in Haskell, Clojure, and Elixir.
+- **[Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/book-introducao-a-programacao-funcional/)** — Concepts and practical applications in Haskell, Clojure, and Elixir.
 
 ### 📗 Series: Advanced / Applied
 *Requires Data Structures and/or proficiency in a consolidated language.*
 
-- **[Compiladores — do zero ao Hack](https://lambdageo.github.io/nand2tetris-compilador/)** — Complete compiler construction (Jack → VM → Assembly), in the spirit of Nand2Tetris. Prerequisite: *Estrutura de Dados*.
+- **[Compiladores com Nand2Tetris: do zero ao Hack](https://lambdageo.github.io/book-compiladores-com-nand2tetris/)** — Complete compiler construction (Jack → VM → Assembly), inspired by the Nand2Tetris curriculum. Prerequisite: *Estrutura de Dados*.
 
 - **[Engenharia de Software](https://lambdageo.github.io/book-engenharia-de-software/)** — Software processes, requirements engineering, architecture, testing, and CI/CD pipelines.
 
