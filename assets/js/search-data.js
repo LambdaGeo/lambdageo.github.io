@@ -242,21 +242,21 @@ ninja.data = [{
           description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
           section: "Software",handler: () => {
               window.location.href = "/software/integrai/";
-            },},{id: "software-qgissparql-layer2triple",
-          title: 'QGISSPARQL - Layer2Triple',
-          description: "A QGIS plugin to export geographic layers as Linked Data (RDF/Turtle).",
+            },},{id: "software-qgissparql",
+          title: 'QGISSPARQL',
+          description: "A QGIS plugin for bidirectional integration between Linked Data (RDF/SPARQL) and GIS.",
           section: "Software",handler: () => {
-              window.location.href = "/software/layer2triple/";
+              window.location.href = "/software/qgissparql/";
             },},{id: "software-rdfmapper",
           title: 'rdfmapper',
           description: "A declarative Object-RDF Mapper for Python to map classes to RDF graphs.",
           section: "Software",handler: () => {
               window.location.href = "/software/rdfmapper/";
-            },},{id: "software-qgissparql-triple2layer",
-          title: 'QGISSPARQL - Triple2Layer',
-          description: "A QGIS plugin to import Linked Data into geographic layers.",
+            },},{id: "software-terrahs",
+          title: 'TerraHS',
+          description: "A purely functional Haskell library for geospatial programming and map algebra, with no foreign dependencies.",
           section: "Software",handler: () => {
-              window.location.href = "/software/triple2layer/";
+              window.location.href = "/software/terrahs/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
