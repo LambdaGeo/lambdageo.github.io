@@ -2,7 +2,7 @@
 layout: page
 title: rdfmapper
 description: A declarative Object-RDF Mapper for Python to map classes to RDF graphs.
-img: https://img.shields.io/pypi/v/rdfmapper-py?style=for-the-badge
+img: https://img.shields.io/pypi/v/rdfmapper?style=for-the-badge
 importance: 2
 category: Libraries
 github: https://github.com/lambdageo/rdfmapper
@@ -20,9 +20,9 @@ github: https://github.com/lambdageo/rdfmapper
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-12 mt-3 mt-md-0">
-    <img src="https://img.shields.io/pypi/v/rdfmapper-py" alt="PyPI">
+    <img src="https://img.shields.io/pypi/v/rdfmapper" alt="PyPI">
     <img src="https://img.shields.io/github/license/lambdageo/rdfmapper" alt="License">
-    <img src="https://img.shields.io/pypi/pyversions/rdfmapper-py" alt="Python Versions">
+    <img src="https://img.shields.io/pypi/pyversions/rdfmapper" alt="Python Versions">
     <img src="https://github.com/lambdageo/rdfmapper/actions/workflows/ci.yml/badge.svg" alt="Tests">
   </div>
 </div>
@@ -44,5 +44,5 @@ github: https://github.com/lambdageo/rdfmapper
 You can install the package directly from PyPI:
 
 ```bash
-pip install rdfmapper-py
+pip install rdfmapper
 ```
