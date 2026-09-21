@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /ebooks/
-title: E-books
+title: e-books
 description: Collection of open-access textbooks covering core Computer Science topics and geospatial modeling, published with MkDocs + Material.
 nav: true
 nav_order: 5
