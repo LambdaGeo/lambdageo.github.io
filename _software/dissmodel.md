@@ -35,6 +35,22 @@ While traditional tools often rely on specialized stacks, DisSModel is built dir
 
 ---
 
+## 🧩 Ecosystem
+
+**DisSModel** is the core framework — a clean, specialized package for the simulation engine itself. Models, domain applications, and companion tools live in their own repositories, each installable independently:
+
+| Package | Description | Install |
+|---|---|---|
+| [`dissmodel-ca`](https://github.com/DisSModel/dissmodel-ca) | Classic Cellular Automata (Game of Life, Forest Fire, Growth) | `pip install "git+https://github.com/DisSModel/dissmodel-ca.git"` |
+| [`dissmodel-sysdyn`](https://github.com/DisSModel/dissmodel-sysdyn) | System Dynamics (SIR, Predator-Prey, Lorenz) | `pip install "git+https://github.com/DisSModel/dissmodel-sysdyn.git"` |
+| [`brmangue-dissmodel`](https://github.com/DisSModel/brmangue-dissmodel) | BR-MANGUE coastal flooding and mangrove succession model, validated against TerraME | `pip install "git+https://github.com/DisSModel/brmangue-dissmodel.git"` |
+| [`disslucc-continuous`](https://github.com/DisSModel/disslucc-continuous) | Land Use and Cover Change models, continuous allocation (CLUE-inspired) | `pip install "git+https://github.com/DisSModel/disslucc-continuous.git"` |
+| [`disslucc-discrete`](https://github.com/DisSModel/disslucc-discrete) | Land Use and Cover Change models, discrete allocation (CLUE-inspired) | `pip install "git+https://github.com/DisSModel/disslucc-discrete.git"` |
+
+DisSModel is also the current chapter of a longer LambdaGeo research trajectory on reproducible, interoperable spatial modeling — alongside tools such as [QGISSPARQL](/software/qgissparql/) (Linked Data ↔ GIS integration) and [TerraHS](/software/terrahs/) (a from-scratch, pure-Haskell rewrite of the original TerraHS map-algebra library).
+
+---
+
 ## Key Features
 
 - **Flexible Execution:** Run models via CLI scripts, Jupyter notebooks, or as interactive **Streamlit** web apps.

@@ -6,7 +6,6 @@ repo_description_lines_max: 2
 
 github_repos:
   - LambdaGeo/qgissparql
-  - LambdaGeo/qgisparql-layer2triple
-  - LambdaGeo/linkedopendata-ufma
-  - LambdaGeo/simpot
-  - LambdaGeo/teaching-bdgeo
+  - LambdaGeo/terrahs
+  - LambdaGeo/rdfmapper
+  
