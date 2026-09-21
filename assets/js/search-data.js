@@ -58,19 +58,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://lambdageo.github.io/geospatial-modeling-python/";
               },
-            },{id: "dropdown-tutoriais",
-              title: "Tutoriais",
+            },{id: "dropdown-tutoriais-lambdageo",
+              title: "Tutoriais LambdaGeo",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/tutoriais";
+                window.location.href = "https://lambdageo.github.io/lambdageo-tutorials/";
               },
             },{id: "dropdown-c-para-programadores-python-e-visualg",
               title: "C para Programadores Python e VisuAlg",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/introducao-c/";
+                window.location.href = "https://lambdageo.github.io/book-introducao-a-programacao-c/";
               },
             },{id: "dropdown-estrutura-de-dados",
               title: "Estrutura de Dados",
@@ -98,21 +98,21 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/paradigmas-programacao/";
+                window.location.href = "https://lambdageo.github.io/book-paradigmas-de-programacao/";
               },
             },{id: "dropdown-introdução-ao-computador",
               title: "Introdução ao Computador",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/introducao-computador/";
+                window.location.href = "https://lambdageo.github.io/book-introducao-ao-computador/";
               },
             },{id: "dropdown-engenharia-de-software",
               title: "Engenharia de Software",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/engenharia-software/";
+                window.location.href = "https://lambdageo.github.io/book-engenharia-de-software/";
               },
             },{id: "nav-teaching",
           title: "teaching",
