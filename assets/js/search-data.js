@@ -77,21 +77,21 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/estrutura-dados/";
+                window.location.href = "https://lambdageo.github.io/book-estrutura-de-dados/";
               },
             },{id: "dropdown-introdução-à-programação-funcional-ipf",
               title: "Introdução à Programação Funcional (IPF)",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/ipf/";
+                window.location.href = "https://lambdageo.github.io/book-introducao-a-programacao-funcional/";
               },
-            },{id: "dropdown-compiladores-usando-nand2tetris",
-              title: "Compiladores usando Nand2Tetris",
+            },{id: "dropdown-compiladores-com-nand2tetris",
+              title: "Compiladores com Nand2Tetris",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/nand2tetris-compilador/";
+                window.location.href = "https://lambdageo.github.io/book-compiladores-com-nand2tetris/";
               },
             },{id: "dropdown-paradigmas-de-programação",
               title: "Paradigmas de Programação",
