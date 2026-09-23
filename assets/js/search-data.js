@@ -51,7 +51,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/software/";
           },
-        },{id: "dropdown-geospatial-modeling-in-python",
+        },{id: "dropdown-geoprocessamento-e-sensoriamento-remoto",
+              title: "Geoprocessamento e Sensoriamento Remoto",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/";
+              },
+            },{id: "dropdown-geospatial-modeling-in-python",
               title: "Geospatial Modeling in Python",
               description: "",
               section: "Dropdown",
