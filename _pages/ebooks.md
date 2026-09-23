@@ -2,11 +2,13 @@
 layout: page
 permalink: /ebooks/
 title: e-books
-description: Collection of open-access textbooks covering core Computer Science topics and geospatial modeling, published with MkDocs + Material.
+description: Collection of open-access textbooks covering core Computer Science topics, geoprocessing and remote sensing, and geospatial modeling, published with MkDocs + Material.
 nav: true
 nav_order: 5
 dropdown: true
 children:
+  - title: Geoprocessamento e Sensoriamento Remoto
+    permalink: https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/
   - title: Geospatial Modeling in Python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
   - title: Tutoriais LambdaGeo
@@ -64,15 +66,16 @@ Textbooks for undergraduate Computer Science and Computer Engineering students, 
 
 ---
 
-## 🌍 Geospatial Track (2 companion books)
+## 🌍 Geospatial Track (2 books)
 
-A didactic textbook and a technical reference for geographic data science and discrete spatial simulation, designed to be read together.
+An introductory course textbook and a hands-on book on geographic data science and discrete spatial simulation, meant to be read in sequence.
 
 | Book | Type | When to use |
 | --- | --- | --- |
-| **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–13 are independent of DisSModel. |
+| **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** | Course textbook (30 h, no prerequisites) | First contact with geoinformation: cartography basics, remote sensing with Google Earth Engine, and spatial databases with PostGIS and QGIS. |
+| **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–16 are independent of DisSModel. |
 
-💡 **Recommended flow:** Read the textbook up to Chapter 14, then consult the DisSModel documentation for specific framework details.
+💡 **Recommended flow:** Start with *Introdução ao Geoprocessamento e Sensoriamento Remoto* for the concepts (objects × fields, vector × raster, CRS, spatial operations). Then move on to *Geospatial Modeling in Python* and read it through Chapter 16; after that, consult the DisSModel documentation for specific framework details.
 
 ---
 
@@ -91,7 +94,7 @@ A didactic textbook and a technical reference for geographic data science and di
 ### For Self-Learners
 - Start with **Introdução ao Computador** (no prerequisites).
 - Or jump to **C para Programadores Python** if you already have basic programming knowledge.
-- For geospatial topics, begin with **Geospatial Modeling in Python**.
+- For geospatial topics, begin with **Introdução ao Geoprocessamento e Sensoriamento Remoto** (no programming required), then **Geospatial Modeling in Python**.
 
 ---
 

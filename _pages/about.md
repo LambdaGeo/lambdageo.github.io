@@ -16,7 +16,7 @@ profile:
     <p>UFMA — São Luís, MA, Brazil</p>
     <p><a href="http://lattes.cnpq.br/2073311645132958">Lattes</a> · 
        <a href="https://scholar.google.com/citations?user=ggu2II0AAAAJ">Google Scholar</a> ·
-       <a href="https://orcid.org/SEU-ORCID">ORCID</a></p>
+       <a href="https://orcid.org/0000-0002-0232-4549">ORCID</a></p>
 
 selected_papers: true
 social: true
@@ -54,7 +54,10 @@ Our flagship research area — modern, Python-native tools for discrete spatial 
 
 _Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
-**Companion textbook**: **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** — a didactic textbook covering geospatial Python from scratch; chapters 1–16 are independent of DisSModel.
+**Textbooks** (open-access, in Portuguese — see the [Geospatial Track](/ebooks/)):
+
+- **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** — the entry point: remote sensing with Google Earth Engine and spatial databases with PostGIS and QGIS.
+- **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** — a didactic textbook covering geospatial Python from scratch; chapters 1–16 are independent of DisSModel.
 
 > DisSModel builds on two decades of prior work: **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara) → **TerraHS** (2005, models as verifiable artifacts) → **TerraME / LuccME** (2007–10, INPE, spatially explicit dynamic models) → **DisSModel** (2024–26, Python, FAIR, cloud-native).
 
@@ -86,7 +89,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 **[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the *"A Play on Regular Expressions"* functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
 
-**Textbook**: **[Programação Funcional](https://lambdageo.github.io/ipf/)** (Haskell/Clojure/Elixir) — part of the Núcleo series in our open-access Computing Track.
+**Textbook**: **[Introdução à Programação Funcional](https://lambdageo.github.io/book-introducao-a-programacao-funcional/)** (Haskell/Clojure/Elixir) — part of the Computing Core series in our open-access [Computing Track](/ebooks/).
 
 ---
 
@@ -96,7 +99,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 _Associate Professor of Computer Engineering, UFMA_  
 _Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
 
-**Background**: **Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling 
+**Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling 
 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
 
 ### Mentorship Workflow
