@@ -56,7 +56,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/";
+                window.location.href = "https://lambdageo-edu.github.io/book-geoprocessamento-e-sensoriamento-remoto/";
               },
             },{id: "dropdown-geospatial-modeling-in-python",
               title: "Geospatial Modeling in Python",
@@ -70,56 +70,56 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/lambdageo-tutorials/";
+                window.location.href = "https://lambdageo-edu.github.io/lambdageo-tutorials/";
               },
             },{id: "dropdown-c-para-programadores-python-e-visualg",
               title: "C para Programadores Python e VisuAlg",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-introducao-a-programacao-c/";
+                window.location.href = "https://lambdageo-edu.github.io/book-introducao-a-programacao-c/";
               },
             },{id: "dropdown-estrutura-de-dados",
               title: "Estrutura de Dados",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-estrutura-de-dados/";
+                window.location.href = "https://lambdageo-edu.github.io/book-estrutura-de-dados/";
               },
             },{id: "dropdown-introdução-à-programação-funcional-ipf",
               title: "Introdução à Programação Funcional (IPF)",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-introducao-a-programacao-funcional/";
+                window.location.href = "https://lambdageo-edu.github.io/book-introducao-a-programacao-funcional/";
               },
             },{id: "dropdown-compiladores-com-nand2tetris",
               title: "Compiladores com Nand2Tetris",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-compiladores-com-nand2tetris/";
+                window.location.href = "https://lambdageo-edu.github.io/book-compiladores-com-nand2tetris/";
               },
             },{id: "dropdown-paradigmas-de-programação",
               title: "Paradigmas de Programação",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-paradigmas-de-programacao/";
+                window.location.href = "https://lambdageo-edu.github.io/book-paradigmas-de-programacao/";
               },
             },{id: "dropdown-introdução-ao-computador",
               title: "Introdução ao Computador",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-introducao-ao-computador/";
+                window.location.href = "https://lambdageo-edu.github.io/book-introducao-ao-computador/";
               },
             },{id: "dropdown-engenharia-de-software",
               title: "Engenharia de Software",
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://lambdageo.github.io/book-engenharia-de-software/";
+                window.location.href = "https://lambdageo-edu.github.io/book-engenharia-de-software/";
               },
             },{id: "nav-teaching",
           title: "teaching",
