@@ -8,25 +8,25 @@ nav_order: 5
 dropdown: true
 children:
   - title: Geoprocessamento e Sensoriamento Remoto
-    permalink: https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/
+    permalink: https://lambdageo-edu.github.io/book-geoprocessamento-e-sensoriamento-remoto/
   - title: Geospatial Modeling in Python
     permalink: https://lambdageo.github.io/geospatial-modeling-python/
   - title: Tutoriais LambdaGeo
-    permalink: https://lambdageo.github.io/lambdageo-tutorials/
+    permalink: https://lambdageo-edu.github.io/lambdageo-tutorials/
   - title: C para Programadores Python e VisuAlg
-    permalink: https://lambdageo.github.io/book-introducao-a-programacao-c/
+    permalink: https://lambdageo-edu.github.io/book-introducao-a-programacao-c/
   - title: Estrutura de Dados
-    permalink: https://lambdageo.github.io/book-estrutura-de-dados/
+    permalink: https://lambdageo-edu.github.io/book-estrutura-de-dados/
   - title: Introdução à Programação Funcional (IPF)
-    permalink: https://lambdageo.github.io/book-introducao-a-programacao-funcional/
+    permalink: https://lambdageo-edu.github.io/book-introducao-a-programacao-funcional/
   - title: Compiladores com Nand2Tetris
-    permalink: https://lambdageo.github.io/book-compiladores-com-nand2tetris/
+    permalink: https://lambdageo-edu.github.io/book-compiladores-com-nand2tetris/
   - title: Paradigmas de Programação
-    permalink: https://lambdageo.github.io/book-paradigmas-de-programacao/
+    permalink: https://lambdageo-edu.github.io/book-paradigmas-de-programacao/
   - title: Introdução ao Computador
-    permalink: https://lambdageo.github.io/book-introducao-ao-computador/
+    permalink: https://lambdageo-edu.github.io/book-introducao-ao-computador/
   - title: Engenharia de Software
-    permalink: https://lambdageo.github.io/book-engenharia-de-software/
+    permalink: https://lambdageo-edu.github.io/book-engenharia-de-software/
 ---
 
 Open-access textbooks covering **core topics** of an undergraduate Computer Science curriculum, plus a specialized geospatial track. All books are published with [MkDocs + Material](https://squidfunk.github.io/mkdocs-material/) and hosted for free on GitHub Pages.
@@ -42,27 +42,27 @@ Textbooks for undergraduate Computer Science and Computer Engineering students, 
 ### 📘 Series: Foundations
 *No CS prerequisites — entry point.*
 
-- **[C para Programadores Python e VisuAlg](https://lambdageo.github.io/book-introducao-a-programacao-c/)** — A C language primer through comparative mapping with Python and VisuAlg. Prerequisite: basic proficiency in Python and/or VisuAlg.
+- **[C para Programadores Python e VisuAlg](https://lambdageo-edu.github.io/book-introducao-a-programacao-c/)** — A C language primer through comparative mapping with Python and VisuAlg. Prerequisite: basic proficiency in Python and/or VisuAlg.
 
-- **[Introdução ao Computador](https://lambdageo.github.io/book-introducao-ao-computador/)** — Data representation, computer architecture, and operating systems fundamentals, without programming. Designed primarily for the continuing education of in-service teachers (PROFCOMP).
+- **[Introdução ao Computador](https://lambdageo-edu.github.io/book-introducao-ao-computador/)** — Data representation, computer architecture, and operating systems fundamentals, without programming. Designed primarily for the continuing education of in-service teachers (PROFCOMP).
 
 ### 📙 Series: Computing Core
 *Requires an introductory programming course.*
 
-- **[Estrutura de Dados](https://lambdageo.github.io/book-estrutura-de-dados/)** — Stacks, queues, linked lists, trees (BST/AVL), and sorting algorithms, implemented in C. Prerequisite: *C para Programadores Python e VisuAlg*.
+- **[Estrutura de Dados](https://lambdageo-edu.github.io/book-estrutura-de-dados/)** — Stacks, queues, linked lists, trees (BST/AVL), and sorting algorithms, implemented in C. Prerequisite: *C para Programadores Python e VisuAlg*.
 
-- **[Paradigmas de Programação](https://lambdageo.github.io/book-paradigmas-de-programacao/)** — Programming paradigms and object-oriented programming using Java.
+- **[Paradigmas de Programação](https://lambdageo-edu.github.io/book-paradigmas-de-programacao/)** — Programming paradigms and object-oriented programming using Java.
 
-- **[Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/book-introducao-a-programacao-funcional/)** — Concepts and practical applications in Haskell, Clojure, and Elixir.
+- **[Introdução à Programação Funcional (IPF)](https://lambdageo-edu.github.io/book-introducao-a-programacao-funcional/)** — Concepts and practical applications in Haskell, Clojure, and Elixir.
 
 ### 📗 Series: Advanced / Applied
 *Requires Data Structures and/or proficiency in a consolidated language.*
 
-- **[Compiladores com Nand2Tetris: do zero ao Hack](https://lambdageo.github.io/book-compiladores-com-nand2tetris/)** — Complete compiler construction (Jack → VM → Assembly), inspired by the Nand2Tetris curriculum. Prerequisite: *Estrutura de Dados*.
+- **[Compiladores com Nand2Tetris: do zero ao Hack](https://lambdageo-edu.github.io/book-compiladores-com-nand2tetris/)** — Complete compiler construction (Jack → VM → Assembly), inspired by the Nand2Tetris curriculum. Prerequisite: *Estrutura de Dados*.
 
-- **[Engenharia de Software](https://lambdageo.github.io/book-engenharia-de-software/)** — Software processes, requirements engineering, architecture, testing, and CI/CD pipelines.
+- **[Engenharia de Software](https://lambdageo-edu.github.io/book-engenharia-de-software/)** — Software processes, requirements engineering, architecture, testing, and CI/CD pipelines.
 
-- **[Tutoriais LambdaGeo](https://lambdageo.github.io/lambdageo-tutorials/)** — Guided hands-on practice with Docker, Clojure, Elixir, and Haskell; complements the assessment projects from the IPF book.
+- **[Tutoriais LambdaGeo](https://lambdageo-edu.github.io/lambdageo-tutorials/)** — Guided hands-on practice with Docker, Clojure, Elixir, and Haskell; complements the assessment projects from the IPF book.
 
 ---
 
@@ -72,7 +72,7 @@ An introductory course textbook and a hands-on book on geographic data science a
 
 | Book | Type | When to use |
 | --- | --- | --- |
-| **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** | Course textbook (30 h, no prerequisites) | First contact with geoinformation: cartography basics, remote sensing with Google Earth Engine, and spatial databases with PostGIS and QGIS. |
+| **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo-edu.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** | Course textbook (30 h, no prerequisites) | First contact with geoinformation: cartography basics, remote sensing with Google Earth Engine, and spatial databases with PostGIS and QGIS. |
 | **[Geospatial Modeling in Python](https://lambdageo.github.io/geospatial-modeling-python/)** | Didactic textbook (from scratch) | Learning geospatial Python. Chapters 1–16 are independent of DisSModel. |
 
 💡 **Recommended flow:** Start with *Introdução ao Geoprocessamento e Sensoriamento Remoto* for the concepts (objects × fields, vector × raster, CRS, spatial operations). Then move on to *Geospatial Modeling in Python* and read it through Chapter 16; after that, consult the DisSModel documentation for specific framework details.
