@@ -22,4 +22,4 @@ Usaremos o clássico aplicativo **Todo List** como exemplo, pois sua simplicidad
 
 O guia completo — com todas as fases, do setup do ambiente ao CRUD completo com Reagent e SQLite — está no site de Tutoriais, dividido em páginas por fase para facilitar a navegação e a consulta:
 
-## [👉 Acessar o tutorial completo](https://lambdageo.github.io/tutoriais/clojure/)
+## [👉 Acessar o tutorial completo](https://lambdageo-edu.github.io/tutoriais/clojure/)

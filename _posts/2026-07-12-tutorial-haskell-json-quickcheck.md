@@ -16,4 +16,4 @@ Este guia reúne, em duas partes, os capítulos 5 e 11 de _Real World Haskell_ (
 
 O guia completo — as duas partes, do tour pelo JSON à cobertura de testes com HPC — está no site de Tutoriais, dividido em páginas por seção para facilitar a navegação e a consulta:
 
-## [👉 Acessar o tutorial completo](https://lambdageo.github.io/tutoriais/haskell/)
+## [👉 Acessar o tutorial completo](https://lambdageo-edu.github.io/tutoriais/haskell/)

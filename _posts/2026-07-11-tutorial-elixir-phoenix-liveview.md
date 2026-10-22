@@ -20,4 +20,4 @@ Aqui, faremos o mesmo **conceitualmente**, mas com **Elixir e LiveView**, onde *
 
 O guia completo — com todas as fases, do setup do ambiente ao refinamento do design com Tailwind e daisyUI — está no site de Tutoriais, dividido em páginas por fase para facilitar a navegação e a consulta:
 
-## [👉 Acessar o tutorial completo](https://lambdageo.github.io/tutoriais/elixir/)
+## [👉 Acessar o tutorial completo](https://lambdageo-edu.github.io/tutoriais/elixir/)
