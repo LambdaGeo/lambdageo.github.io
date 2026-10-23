@@ -52,6 +52,11 @@ Our flagship research area — modern, Python-native tools for discrete spatial 
 
 **[🔗 dissmodel.github.io](https://dissmodel.github.io/)** · [GitHub Organization](https://github.com/DisSModel) · `pip install dissmodel`
 
+> ##### 🗺️ Repository map
+>
+> DisSModel spans two GitHub organizations: the packages live in [DisSModel](https://github.com/DisSModel), and the reference outputs, benchmarks, study cases, workflow and book live here in [LambdaGeo](https://github.com/LambdaGeo). The **[repository map](https://dissmodel.github.io/repository-map.html)** shows how they all connect, from the TerraME/LuccME reference to the open-data workflow.
+{: .block-tip }
+
 _Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
 **Textbooks** (open-access, in Portuguese — see the [Geospatial Track](/ebooks/)):

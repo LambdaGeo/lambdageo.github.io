@@ -37,6 +37,11 @@ While traditional tools often rely on specialized stacks, DisSModel is built dir
 
 ## 🧩 Ecosystem
 
+> ##### 🗺️ Repository map
+>
+> See the **[repository map](https://dissmodel.github.io/repository-map.html)** for how every DisSModel and LambdaGeo repository connects: reference outputs, benchmarks, packages, study cases, workflow and book.
+{: .block-tip }
+
 **DisSModel** is the core framework — a clean, specialized package for the simulation engine itself. Models, domain applications, and companion tools live in their own repositories, each installable independently:
 
 | Package | Description | Install |
