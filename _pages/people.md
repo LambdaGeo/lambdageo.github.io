@@ -14,7 +14,7 @@ nav_order: 3
     <div>
       <strong>Prof. Dr. Sérgio Souza Costa</strong>
       <span>Associate Professor, Federal University of Maranhão (UFMA)</span>
-      <span>Group leader · Permanent faculty, PPGC&amp;TAmb</span>
+      <span>Group leader · Faculty, PPGC&amp;TAmb and PROFCOMP</span>
       <em>View full profile →</em>
     </div>
   </a>
@@ -24,7 +24,7 @@ nav_order: 3
   <h2 class="people-heading">Graduate students</h2>
   <ul class="people-list">
     <li><strong>José Magno Pinheiro Alves</strong> <span>Professional M.Sc., Environmental Science and Technology · since 2025</span></li>
-    <li><strong>Felipe Martins Sousa</strong> <span>Professional M.Sc., Environmental Science and Technology (co-supervised) · since 2025</span></li>
+    <li><strong>Ramiro de Castro Cavalcanti</strong> <span>Professional M.Sc., Computing Education (PROFCOMP)</span></li>
   </ul>
 </div>
 

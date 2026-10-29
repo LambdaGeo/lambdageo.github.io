@@ -26,8 +26,8 @@ Since 2013, I have mentored **more than 40 students** in Computer Engineering. M
 - **José Magno Pinheiro Alves** (Started 2025) — _Development of a Cost-Benefit Climate Monitoring System for In Situ Data Collection._ **Program:** Professional M.Sc. in Environmental Science and Technology.  
   **Role:** Principal Supervisor.
 
-- **Felipe Martins Sousa** (Started 2025) — _Predicting Sea-Level Rise Impacts on the World's Largest Continuous Mangrove Belt._ **Program:** Professional M.Sc. in Environmental Science and Technology.  
-  **Role:** Co-supervisor.
+- **Ramiro de Castro Cavalcanti** — **Program:** Professional Master's in Computing Education ([PROFCOMP/UFMA](https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&idPrograma=1997)).  
+  **Role:** Principal Supervisor.
 
 ---
 

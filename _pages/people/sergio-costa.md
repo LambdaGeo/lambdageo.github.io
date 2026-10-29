@@ -11,7 +11,7 @@ nav: false
   <div>
     <p class="pi-kicker">Principal Investigator · Group Leader</p>
     <p class="pi-title"><strong>Associate Professor</strong>, Federal University of Maranhão (UFMA)</p>
-    <p class="pi-dept">Computer Engineering · Permanent faculty, Graduate Program in Environmental Science and Technology (<a href="https://ppgctamb.ufma.br/">PPGC&amp;TAmb</a>)</p>
+    <p class="pi-dept">Computer Engineering · Permanent faculty, Graduate Program in Environmental Science and Technology (<a href="https://ppgctamb.ufma.br/">PPGC&amp;TAmb</a>) · Faculty, Professional Master's in Computing Education (<a href="https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&amp;idPrograma=1997">PROFCOMP</a>)</p>
     <div class="software-meta">
       <a class="software-chip" href="mailto:sergio.costa@ufma.br"><i class="fa-solid fa-envelope"></i> sergio.costa@ufma.br</a>
       <a class="software-chip" href="http://lattes.cnpq.br/2073311645132958"><i class="ai ai-lattes"></i> Lattes</a>
@@ -26,7 +26,7 @@ nav: false
   <tbody>
     <tr><td>Position</td><td>Associate Professor, Federal University of Maranhão (UFMA)</td></tr>
     <tr><td>Research group</td><td><a href="{{ '/' | relative_url }}">LambdaGeo</a> — Principal Investigator (<a href="http://dgp.cnpq.br/dgp/espelhogrupo/771872">CNPq record</a>)</td></tr>
-    <tr><td>Graduate program</td><td><a href="https://ppgctamb.ufma.br/">PPGC&amp;TAmb/UFMA</a> — permanent faculty member</td></tr>
+    <tr><td>Graduate programs</td><td><a href="https://ppgctamb.ufma.br/">PPGC&amp;TAmb/UFMA</a> — permanent faculty member<br><a href="https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&amp;idPrograma=1997">PROFCOMP/UFMA</a> — Professional Master's in Computing Education (national network coordinated by SBC)</td></tr>
     <tr><td>Education</td><td>MSc and PhD in Applied Computing, National Institute for Space Research (INPE), PhD 2012</td></tr>
     <tr><td>Location</td><td>São Luís, Maranhão, Brazil</td></tr>
     <tr><td>Contact</td><td><a href="mailto:sergio.costa@ufma.br">sergio.costa@ufma.br</a> · group: <a href="mailto:lambdageo@ufma.br">lambdageo@ufma.br</a></td></tr>
@@ -35,7 +35,7 @@ nav: false
 
 ## About
 
-Sérgio Souza Costa is an Associate Professor at the Federal University of Maranhão (UFMA), where he leads the LambdaGeo research group and is a permanent faculty member of the Graduate Program in Environmental Science and Technology (PPGC&TAmb). His research develops computational methods for understanding environmental change: spatially explicit models of land use and land cover change, deforestation and coastal impacts in the Brazilian Amazon and Cerrado, and the open, reproducible software and data infrastructure these models depend on.
+Sérgio Souza Costa is an Associate Professor at the Federal University of Maranhão (UFMA), where he leads the LambdaGeo research group and is a permanent faculty member of the Graduate Program in Environmental Science and Technology (PPGC&TAmb). He also teaches and supervises in PROFCOMP, the national Professional Master's in Computing Education coordinated by the Brazilian Computer Society (SBC), which trains basic-education teachers to work with computational thinking and digital culture in schools. His research develops computational methods for understanding environmental change: spatially explicit models of land use and land cover change, deforestation and coastal impacts in the Brazilian Amazon and Cerrado, and the open, reproducible software and data infrastructure these models depend on.
 
 He holds MSc and PhD degrees in Applied Computing from the National Institute for Space Research (INPE), where his doctoral work addressed regional-scale agent-based modelling of land change in Amazonian frontier areas and he contributed to the TerraME/LuccME modelling platforms.
 
@@ -67,7 +67,7 @@ He holds MSc and PhD degrees in Applied Computing from the National Institute fo
 
 ## Supervision
 
-Supervises undergraduate research (PIBIC/PIBITI) and master's students in the Graduate Program in Environmental Science and Technology — see [people](/people/) and [mentorship](/mentorship/). Prospective students interested in environmental modelling, GIS and reproducible research software can write to [lambdageo@ufma.br](mailto:lambdageo@ufma.br).
+Supervises undergraduate research (PIBIC/PIBITI) and master's students in the Graduate Program in Environmental Science and Technology and in the Professional Master's in Computing Education (PROFCOMP) — see [people](/people/) and [mentorship](/mentorship/). Prospective students interested in environmental modelling, GIS and reproducible research software can write to [lambdageo@ufma.br](mailto:lambdageo@ufma.br).
 
 <script type="application/ld+json">
 {
@@ -79,7 +79,11 @@ Supervises undergraduate research (PIBIC/PIBITI) and master's students in the Gr
     "jobTitle": ["Associate Professor", "Principal Investigator, LambdaGeo Research Group"],
     "email": "mailto:sergio.costa@ufma.br",
     "worksFor": { "@type": "CollegeOrUniversity", "name": "Universidade Federal do Maranhão (UFMA)", "url": "https://www.ufma.br" },
-    "memberOf": { "@type": "ResearchOrganization", "name": "LambdaGeo Research Group", "sameAs": "http://dgp.cnpq.br/dgp/espelhogrupo/771872" },
+    "memberOf": [
+      { "@type": "ResearchOrganization", "name": "LambdaGeo Research Group", "sameAs": "http://dgp.cnpq.br/dgp/espelhogrupo/771872" },
+      { "@type": "EducationalOccupationalProgram", "name": "Graduate Program in Environmental Science and Technology (PPGC&TAmb/UFMA)", "url": "https://ppgctamb.ufma.br/" },
+      { "@type": "EducationalOccupationalProgram", "name": "Professional Master's in Computing Education (PROFCOMP/UFMA)", "url": "https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&idPrograma=1997" }
+    ],
     "alumniOf": { "@type": "ResearchOrganization", "name": "Instituto Nacional de Pesquisas Espaciais (INPE)" },
     "sameAs": [
       "https://lambdageo.ufma.br/people/sergio-costa/",
