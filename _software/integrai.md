@@ -44,7 +44,7 @@ The platform is built on a **microservices architecture**, fully containerized w
 
 ## Team & Contact
 
-This project is developed by the **LambdaGEO** team at **Universidade Federal do Maranhão (UFMA)**, in collaboration with the Postgraduate Program in Collective Health.
+This project is developed by the **LambdaGeo** team at **Universidade Federal do Maranhão (UFMA)**, in collaboration with the Postgraduate Program in Collective Health.
 
 | Role                                                | Name                                                                              |
 | :-------------------------------------------------- | :-------------------------------------------------------------------------------- |

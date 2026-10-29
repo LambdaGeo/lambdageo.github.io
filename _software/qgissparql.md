@@ -1,16 +1,18 @@
 ---
-layout: page
+layout: software
 title: QGISSPARQL
 description: A QGIS plugin for bidirectional integration between Linked Data (RDF/SPARQL) and GIS.
-img: https://github.com/LambdaGeo/qgissparql/raw/main/docs/images/dock_triple2layer.png
 importance: 1
 category: Tools
 github: https://github.com/LambdaGeo/qgissparql
+kind: "QGIS plugin"
+img: "assets/img/software/qgissparql-cover.png"
+doi: "10.5281/zenodo.23102044"
+joss: "https://joss.theoj.org/papers/6a9a1eff32b69c18a8a6d42e76bd60c8"
+citation: "Costa, S. S., Bezerra, D. S., Santos Junior, N. de J., Sousa, F. M., & Alves, J. M. P. (2026). <em>QGISSPARQL</em> [Computer software]. Federal University of Maranhão (UFMA). INPI Registration BR512026003805-7."
 ---
 
 ## Overview
-
-**Repository**: [https://github.com/LambdaGeo/qgissparql](https://github.com/LambdaGeo/qgissparql)
 
 **Creators**: [Sérgio Souza Costa](https://github.com/profsergiocosta), [Nerval de Jesus Santos Junior](https://github.com/nervaljunior), Felipe Martins Sousa, José Magno Pinheiro Alves, and Denilson da Silva Bezerra
 
@@ -119,12 +121,14 @@ pip install pandas setuptools datadotworld SPARQLWrapper rdflib
 Both directions are reached from **Vector → QGISSPARQL → Open Dock**.
 
 **Import (Triple → Layer):**
+
 1. Select the source type (SPARQL endpoint or data.world).
 2. Write or load a SPARQL query.
 3. Define the geometry column (WKT).
 4. Execute the import — the layer appears in your QGIS workspace.
 
 **Export (Layer → Triple):**
+
 1. Select a vector layer and load a vocabulary (e.g. GeoSPARQL).
 2. Map each attribute to a constant, a layer attribute, or a vocabulary concept.
 3. Configure the Base URL, Prefix, and RDF Type.

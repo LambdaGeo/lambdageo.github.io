@@ -1,11 +1,17 @@
 ---
-layout: page
+layout: software
 title: DisSModel
 description: A Discrete Spatial Modeling framework for Python.
-img: https://github.com/LambdaGeo/dissmodel/raw/main/docs/images/streamlit_ca_all.png
 importance: 1
 category: Libraries
 github: https://github.com/LambdaGeo/dissmodel
+kind: "Python library"
+img: "assets/img/software/dissmodel-cover.png"
+doi: "10.5281/zenodo.23246106"
+pypi: "https://pypi.org/project/dissmodel/"
+docs: "https://dissmodel.github.io/"
+joss: "https://joss.theoj.org/papers/46522bc30d2dbec6b509d2dc487170ec"
+citation: "Costa, S. S., & Santos Junior, N. de J. (2025). <em>DisSModel: A Discrete Spatial Modeling Framework for Python</em> [Computer software]. LambdaGeo, Federal University of Maranhão (UFMA)."
 ---
 
 ## DisSModel: Discrete Spatial Modeling in Python
@@ -44,13 +50,13 @@ While traditional tools often rely on specialized stacks, DisSModel is built dir
 
 **DisSModel** is the core framework — a clean, specialized package for the simulation engine itself. Models, domain applications, and companion tools live in their own repositories, each installable independently:
 
-| Package | Description | Install |
-|---|---|---|
-| [`dissmodel-ca`](https://github.com/DisSModel/dissmodel-ca) | Classic Cellular Automata (Game of Life, Forest Fire, Growth) | `pip install "git+https://github.com/DisSModel/dissmodel-ca.git"` |
-| [`dissmodel-sysdyn`](https://github.com/DisSModel/dissmodel-sysdyn) | System Dynamics (SIR, Predator-Prey, Lorenz) | `pip install "git+https://github.com/DisSModel/dissmodel-sysdyn.git"` |
-| [`brmangue-dissmodel`](https://github.com/DisSModel/brmangue-dissmodel) | BR-MANGUE coastal flooding and mangrove succession model, validated against TerraME | `pip install "git+https://github.com/DisSModel/brmangue-dissmodel.git"` |
-| [`disslucc-continuous`](https://github.com/DisSModel/disslucc-continuous) | Land Use and Cover Change models, continuous allocation (CLUE-inspired) | `pip install "git+https://github.com/DisSModel/disslucc-continuous.git"` |
-| [`disslucc-discrete`](https://github.com/DisSModel/disslucc-discrete) | Land Use and Cover Change models, discrete allocation (CLUE-inspired) | `pip install "git+https://github.com/DisSModel/disslucc-discrete.git"` |
+| Package                                                                   | Description                                                                         | Install                                                                  |
+| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [`dissmodel-ca`](https://github.com/DisSModel/dissmodel-ca)               | Classic Cellular Automata (Game of Life, Forest Fire, Growth)                       | `pip install "git+https://github.com/DisSModel/dissmodel-ca.git"`        |
+| [`dissmodel-sysdyn`](https://github.com/DisSModel/dissmodel-sysdyn)       | System Dynamics (SIR, Predator-Prey, Lorenz)                                        | `pip install "git+https://github.com/DisSModel/dissmodel-sysdyn.git"`    |
+| [`brmangue-dissmodel`](https://github.com/DisSModel/brmangue-dissmodel)   | BR-MANGUE coastal flooding and mangrove succession model, validated against TerraME | `pip install "git+https://github.com/DisSModel/brmangue-dissmodel.git"`  |
+| [`disslucc-continuous`](https://github.com/DisSModel/disslucc-continuous) | Land Use and Cover Change models, continuous allocation (CLUE-inspired)             | `pip install "git+https://github.com/DisSModel/disslucc-continuous.git"` |
+| [`disslucc-discrete`](https://github.com/DisSModel/disslucc-discrete)     | Land Use and Cover Change models, discrete allocation (CLUE-inspired)               | `pip install "git+https://github.com/DisSModel/disslucc-discrete.git"`   |
 
 DisSModel is also the current chapter of a longer LambdaGeo research trajectory on reproducible, interoperable spatial modeling — alongside tools such as [QGISSPARQL](/software/qgissparql/) (Linked Data ↔ GIS integration) and [TerraHS](/software/terrahs/) (a from-scratch, pure-Haskell rewrite of the original TerraHS map-algebra library).
 
@@ -79,10 +85,4 @@ env.run(30)
 
 ---
 
-## Research & Citation
-
-If you use DisSModel in your research, please cite:
-
-> Costa, S. & Santos Junior, N. (2025). _DisSModel: A Discrete Spatial Modeling Framework for Python_. LambdaGeo, Federal University of Maranhão (UFMA).
-
-[View on GitHub](https://github.com/LambdaGeo/dissmodel) · [Full Documentation](https://github.com/LambdaGeo/dissmodel)
+[View on GitHub](https://github.com/LambdaGeo/dissmodel) · [Documentation](https://dissmodel.github.io/)

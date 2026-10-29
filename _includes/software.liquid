@@ -1,29 +1,38 @@
 <div class="col">
-  <a href="{% if item.redirect %}{{ item.redirect }}{% else %}{{ item.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
-      {% if item.img %}
+  <div class="card h-100 hoverable software-card">
+    {% if item.img %}
+      <div class="software-cover">
         {%
           include figure.liquid
-          loading="eager"
+          loading="lazy"
           path=item.img
-          sizes="250px"
-          alt="software thumbnail"
+          sizes="(min-width: 768px) 350px, 95vw"
+          alt=item.title
           class="card-img-top"
         %}
+      </div>
+    {% endif %}
+    <div class="card-body d-flex flex-column">
+      {% if item.kind %}
+        <span class="software-kind">{{ item.kind }}</span>
       {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ item.title }}</h2>
-        <p class="card-text">{{ item.description }}</p>
-        <div class="row ml-1 mr-1 p-0">
-          {% if item.github %}
-            <div class="github-icon">
-              <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ item.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
-              </div>
-            </div>
-          {% endif %}
-        </div>
+      <h2 class="card-title">
+        <a class="stretched-link" href="{% if item.redirect %}{{ item.redirect }}{% else %}{{ item.url | relative_url }}{% endif %}">
+          {{- item.title -}}
+        </a>
+      </h2>
+      <p class="card-text">{{ item.description }}</p>
+      <div class="software-links mt-auto">
+        {% if item.doi %}
+          <a class="software-doi" href="https://doi.org/{{ item.doi }}" title="Cite this software (DOI)"><span>DOI</span>{{ item.doi }}</a>
+        {% endif %}
+        {% if item.github %}
+          <a class="software-icon" href="{{ item.github }}" title="Source code on GitHub" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        {% endif %}
+        {% if item.pypi %}
+          <a class="software-icon" href="{{ item.pypi }}" title="Package on PyPI" aria-label="PyPI"><i class="fa-brands fa-python"></i></a>
+        {% endif %}
       </div>
     </div>
-  </a>
+  </div>
 </div>

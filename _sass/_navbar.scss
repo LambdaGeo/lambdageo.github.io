@@ -206,3 +206,27 @@ html[data-theme="dark"] .navbar {
     color: var(--global-hover-color);
   }
 }
+
+// LambdaGeo wordmark: "Lambda" in ocean blue, "Geo" in forest green
+.brand-lambda,
+.brand-geo {
+  font-weight: 700;
+}
+
+.brand-lambda {
+  color: var(--lg-primary);
+}
+
+.brand-geo {
+  color: var(--lg-secondary);
+}
+
+html[data-theme="dark"] {
+  .brand-lambda {
+    color: var(--lg-light);
+  }
+
+  .brand-geo {
+    color: #4caf50;
+  }
+}
