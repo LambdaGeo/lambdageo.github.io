@@ -35,6 +35,7 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
   - _2013 – Present_
   - Lead of the LambdaGeo Research Group.
   - Permanent Professor at the Graduate Program in Environmental Science & Technology (PPGC&TAmb).
+  - Professor at the Professional Master's Program in Computing Education ([PROFCOMP](https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&idPrograma=1997)), a national network coordinated by the Brazilian Computer Society (SBC).
 - **Assistant Professor** | Federal University of Itajubá (UNIFEI)
   - _2010 – 2012_
   - Lectured on Computer Science and Engineering fundamentals.
