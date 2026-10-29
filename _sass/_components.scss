@@ -308,3 +308,324 @@ html[data-theme="dark"] .card {
 .d2h-diff-table {
   position: relative;
 }
+
+// Software cards and pages
+
+.software-card {
+  .software-cover {
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #0b1a2e;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    figure,
+    picture {
+      margin: 0;
+      height: 100%;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      transition: transform 0.3s ease-in-out;
+    }
+  }
+
+  &:hover .software-cover img {
+    transform: scale(1.03);
+  }
+
+  .card-body {
+    padding: 1.25rem 1.25rem 1rem;
+  }
+
+  .software-kind {
+    display: block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+    margin-bottom: 0.35rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+    margin: 0 0 0.5rem !important;
+    padding: 0 !important;
+    border: 0 !important;
+
+    a {
+      color: var(--global-text-color);
+    }
+  }
+
+  .card-text {
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+  }
+
+  // Links sit above the stretched card link so they stay clickable
+  .software-links {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+
+  .software-icon {
+    color: var(--global-text-color-light);
+    font-size: 1.15rem;
+    line-height: 1;
+
+    &:hover {
+      color: var(--global-theme-color);
+    }
+  }
+}
+
+.software-doi {
+  display: inline-flex;
+  align-items: stretch;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 0.75rem;
+  font-family: "JetBrains Mono", Menlo, Consolas, monospace;
+  line-height: 1.6;
+  color: #fff !important;
+  background: var(--lg-primary);
+  text-decoration: none !important;
+  padding-right: 0.5rem;
+  white-space: nowrap;
+
+  span {
+    background: var(--lg-dark);
+    color: #fff !important;
+    font-weight: 700;
+    padding: 0 0.45rem;
+    margin-right: 0.45rem;
+  }
+
+  &:hover {
+    background: var(--lg-accent);
+  }
+}
+
+.software-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.5rem 0 1.75rem;
+
+  .software-doi {
+    font-size: 0.85rem;
+  }
+}
+
+.software-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.15rem 0.65rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-size: 0.85rem;
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  background: var(--global-card-bg-color);
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color) !important;
+  }
+}
+
+.software-cite {
+  margin-top: 2.5rem;
+  padding: 1.25rem 1.5rem;
+  border-left: 4px solid var(--lg-secondary);
+  border-radius: 8px;
+  background: var(--global-card-bg-color);
+  box-shadow: 0 4px 12px rgba(38, 50, 56, 0.04);
+
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0.5rem;
+  }
+
+  .software-cite-note {
+    font-size: 0.85rem;
+    color: var(--global-text-color-light);
+    margin-bottom: 0;
+  }
+}
+
+// People pages
+
+.people-section {
+  margin-bottom: 2.25rem;
+}
+
+.people-heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--global-text-color);
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid transparent;
+  border-image: linear-gradient(90deg, var(--lg-accent), var(--lg-secondary)) 1;
+}
+
+.people-pi {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.25rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 12px;
+  background: var(--global-card-bg-color);
+  color: var(--global-text-color) !important;
+  text-decoration: none !important;
+  transition:
+    border-color 0.2s,
+    transform 0.2s;
+
+  &:hover {
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
+
+  img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 3px solid var(--lg-primary);
+  }
+
+  strong,
+  span,
+  em {
+    display: block;
+  }
+
+  strong {
+    font-size: 1.15rem;
+  }
+
+  span {
+    color: var(--global-text-color-light);
+    font-size: 0.92rem;
+  }
+
+  em {
+    margin-top: 0.4rem;
+    font-style: normal;
+    font-size: 0.9rem;
+    color: var(--global-theme-color);
+  }
+}
+
+.people-list {
+  list-style: none;
+  padding: 0;
+
+  li {
+    padding: 0.6rem 0;
+    border-bottom: 1px dashed var(--global-divider-color);
+
+    span {
+      display: block;
+      font-size: 0.9rem;
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+.people-footnote {
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+}
+
+.pi-profile {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.75rem;
+
+  .pi-photo {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border: 3px solid var(--lg-primary);
+    box-shadow: 0 4px 10px rgba(21, 101, 192, 0.15);
+  }
+
+  p {
+    margin-bottom: 0.25rem;
+  }
+
+  .pi-kicker {
+    font-size: 0.78rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+  }
+
+  .pi-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .pi-dept {
+    color: var(--global-text-color-light);
+    margin-bottom: 1rem;
+  }
+
+  .software-meta {
+    margin: 0;
+  }
+}
+
+.pi-table {
+  color: var(--global-text-color);
+
+  td:first-child {
+    font-weight: 600;
+    white-space: nowrap;
+    width: 1%;
+    padding-right: 1.5rem;
+  }
+
+  td {
+    border-color: var(--global-divider-color) !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .pi-profile,
+  .people-pi {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .pi-profile .pi-photo {
+    width: 130px;
+    height: 130px;
+  }
+}

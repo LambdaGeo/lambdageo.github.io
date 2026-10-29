@@ -2,7 +2,7 @@
 layout: page
 title: software
 permalink: /software/
-description: Open-source tools and libraries developed by LambdaGEO.
+description: Open-source tools and libraries developed by LambdaGeo.
 nav: true
 nav_order: 4
 display_categories: [Libraries, Tools]

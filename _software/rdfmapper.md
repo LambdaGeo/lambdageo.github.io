@@ -1,16 +1,17 @@
 ---
-layout: page
+layout: software
 title: rdfmapper
 description: A declarative Object-RDF Mapper for Python to map classes to RDF graphs.
-img: https://img.shields.io/pypi/v/rdfmapper?style=for-the-badge
 importance: 2
 category: Libraries
 github: https://github.com/lambdageo/rdfmapper
+kind: "Python library"
+img: "assets/img/software/rdfmapper-cover.png"
+pypi: "https://pypi.org/project/rdfmapper/"
+citation: 'Goiabeira, F. dos S., & Costa, S. S. (2026). <em>rdfmapper: A Declarative Object-RDF Mapper for Python</em> (Version 0.2.0) [Computer software]. <a href="https://github.com/lambdageo/rdfmapper">https://github.com/lambdageo/rdfmapper</a>'
 ---
 
 ## Overview
-
-**Repository**: [https://github.com/lambdageo/rdfmapper](https://github.com/lambdageo/rdfmapper)
 
 **Creators**: [Felipe Goiabeira](https://github.com/felipeguii) and [Sérgio Souza Costa](https://github.com/profsergiocosta)
 

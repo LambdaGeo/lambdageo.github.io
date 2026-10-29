@@ -1,0 +1,42 @@
+---
+layout: page
+---
+{% if page.doi or page.github or page.pypi or page.joss or page.docs %}
+  <div class="software-meta">
+    {% if page.doi %}
+      <a class="software-doi" href="https://doi.org/{{ page.doi }}" title="Cite this software (DOI)"><span>DOI</span>{{ page.doi }}</a>
+    {% endif %}
+    {% if page.github %}
+      <a class="software-chip" href="{{ page.github }}"><i class="fa-brands fa-github"></i> Source code</a>
+    {% endif %}
+    {% if page.pypi %}
+      <a class="software-chip" href="{{ page.pypi }}"><i class="fa-brands fa-python"></i> PyPI</a>
+    {% endif %}
+    {% if page.docs %}
+      <a class="software-chip" href="{{ page.docs }}"><i class="fa-solid fa-book"></i> Documentation</a>
+    {% endif %}
+    {% if page.joss %}
+      <a class="software-chip" href="{{ page.joss }}"><i class="fa-solid fa-file-lines"></i> JOSS</a>
+    {% endif %}
+  </div>
+{% endif %}
+
+{{ content }}
+
+{% if page.citation %}
+  <div class="software-cite">
+    <h2 id="how-to-cite">How to cite</h2>
+    {% assign cite_doi = page.citation_doi | default: page.doi %}
+    <p>
+      {{ page.citation -}}
+      {%- if cite_doi %}
+        <a href="https://doi.org/{{ cite_doi }}">https://doi.org/{{ cite_doi }}</a>
+      {%- endif %}
+    </p>
+    {% if page.doi %}
+      <p class="software-cite-note">
+        The DOI resolves to the software archive on Zenodo, which also provides the citation in BibTeX and other formats.
+      </p>
+    {% endif %}
+  </div>
+{% endif %}

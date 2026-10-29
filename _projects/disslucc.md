@@ -8,7 +8,7 @@ category: Leadership
 
 ## 🛰️ Overview
 
-The **DisSLUCC** (Discrete Spatial Simulation for Land Use and Cover Change) project aims to develop an extensible Python framework for simulating environmental changes. It is built upon the **DisSModel** engine, currently under development by the **LambdaGEO** group at UFMA.
+The **DisSLUCC** (Discrete Spatial Simulation for Land Use and Cover Change) project aims to develop an extensible Python framework for simulating environmental changes. It is built upon the **DisSModel** engine, currently under development by the **LambdaGeo** group at UFMA.
 
 The project addresses a critical gap: providing a modern, Python-based alternative to established but aging modeling infrastructures.
 

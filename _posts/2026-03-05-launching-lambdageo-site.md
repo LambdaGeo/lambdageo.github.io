@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Revitalizing LambdaGEO: From Student Projects to Production-Ready Software"
+title: "Revitalizing LambdaGeo: From Student Projects to Production-Ready Software"
 date: 2026-03-05 10:00:00
 description: "How AI assisted in finishing, publishing, and documenting years of research group projects in record time."
 tags: open-source research-management AI
@@ -9,7 +9,7 @@ categories: news
 
 I am thrilled to announce the launch of the new official page for our research group: [lambdageo.github.io](https://lambdageo.github.io/).
 
-More than just a website, this launch represents a major milestone in our group's workflow. For years, the **LambdaGEO** group (UFMA) has fostered high-potential projects developed by brilliant undergraduate students. However, we often faced a common academic challenge: once students graduate, great projects can lose momentum, lacking that final "polish" required for public distribution.
+More than just a website, this launch represents a major milestone in our group's workflow. For years, the **LambdaGeo** group (UFMA) has fostered high-potential projects developed by brilliant undergraduate students. However, we often faced a common academic challenge: once students graduate, great projects can lose momentum, lacking that final "polish" required for public distribution.
 
 ### The "Last Mile" Challenge
 

@@ -330,4 +330,4 @@ I'm genuinely happy with where this is going. Not because it's finished — it i
 
 ---
 
-_Sergio Souza Costa is an Associate Professor of Computer Engineering at the Federal University of Maranhão (UFMA) and lead researcher of the [LambdaGEO](https://lambdageo.github.io) group._
+_Sergio Souza Costa is an Associate Professor of Computer Engineering at the Federal University of Maranhão (UFMA) and lead researcher of the [LambdaGeo](https://lambdageo.github.io) group._

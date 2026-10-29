@@ -3,7 +3,7 @@ layout: page
 permalink: /mentorship/
 title: mentorship
 description: Over 13 years of fostering technical excellence and supervising undergraduate and graduate research.
-nav: true
+nav: false
 nav_order: 3
 ---
 
@@ -39,11 +39,11 @@ I lead students through Undergraduate Research (PIBIC) and Technological Innovat
 
 Advisees on the DisSModel spatial modeling framework, under project PVCET5136-2026.
 
-| Project Title                                                                          | Student                  | Category             | Period      | Status         |
-| :-------------------------------------------------------------------------------------- | :------------------------ | :-------------------- | :---------- | :------------- |
-| Prototipagem de Plataforma Cloud-Native para Simulação Espacial Distribuída com DisSModel | Hissa Barbara Oliveira    | **PIBITI** (UFMA/IT)  | 2026 – 2027 | Em andamento   |
-| Implementação e Validação de Modelos Discretos de LUCC Baseados na Abordagem CLUE-S no Arcabouço DisSModel | Mateus Dutra Vale         | Volunteer (IC)         | 2026 – 2027 | Em andamento   |
-| Implementação e Validação de Modelos Contínuos de LUCC Baseados na Abordagem CLUE no Arcabouço DisSModel   | Samylli Kalei Silva Zhao  | **PIBIC** (UFMA/IC)   | 2026 – 2027 | Em andamento   |
+| Project Title                                                                                              | Student                  | Category             | Period      | Status       |
+| :--------------------------------------------------------------------------------------------------------- | :----------------------- | :------------------- | :---------- | :----------- |
+| Prototipagem de Plataforma Cloud-Native para Simulação Espacial Distribuída com DisSModel                  | Hissa Barbara Oliveira   | **PIBITI** (UFMA/IT) | 2026 – 2027 | Em andamento |
+| Implementação e Validação de Modelos Discretos de LUCC Baseados na Abordagem CLUE-S no Arcabouço DisSModel | Mateus Dutra Vale        | Volunteer (IC)       | 2026 – 2027 | Em andamento |
+| Implementação e Validação de Modelos Contínuos de LUCC Baseados na Abordagem CLUE no Arcabouço DisSModel   | Samylli Kalei Silva Zhao | **PIBIC** (UFMA/IC)  | 2026 – 2027 | Em andamento |
 
 #### Completed (2022 – 2023)
 

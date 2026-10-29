@@ -10,7 +10,7 @@ nav_order: 5
 # Sergio Souza Costa, PhD
 
 **Associate Professor of Computer Engineering** Federal University of Maranhão (UFMA), Brazil  
-Lead Researcher at **LambdaGEO** | [lambdageo.github.io](https://lambdageo.github.io/)
+Lead Researcher at **LambdaGeo** | [lambdageo.github.io](https://lambdageo.github.io/)
 
 ---
 
@@ -33,7 +33,7 @@ Spatial Data Science, GeoAI, Software Engineering, Linked Open Data, and Environ
 
 - **Associate Professor** | Federal University of Maranhão (UFMA)
   - _2013 – Present_
-  - Lead of the LambdaGEO Research Group.
+  - Lead of the LambdaGeo Research Group.
   - Permanent Professor at the Graduate Program in Environmental Science & Technology (PPGC&TAmb).
 - **Assistant Professor** | Federal University of Itajubá (UNIFEI)
   - _2010 – 2012_

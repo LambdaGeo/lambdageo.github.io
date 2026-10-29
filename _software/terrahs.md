@@ -1,16 +1,17 @@
 ---
-layout: page
+layout: software
 title: TerraHS
 description: A purely functional Haskell library for geospatial programming and map algebra, with no foreign dependencies.
-img: https://img.shields.io/badge/Haskell-Map%20Algebra-5e5086?style=for-the-badge
 importance: 3
 category: Libraries
 github: https://github.com/LambdaGeo/terrahs
+kind: "Haskell library"
+img: "assets/img/software/terrahs-cover.png"
+citation_doi: "10.1007/978-3-540-73414-7_8"
+citation: "Costa, S. S., Câmara, G., & Palomo, D. (2007). TerraHS: Integration of Functional Programming and Spatial Databases for GIS Application Development. In C. A. Davis & A. M. V. Monteiro (Eds.), <em>Advances in Geoinformatics</em>. Springer."
 ---
 
 ## Overview
-
-**Repository**: [https://github.com/LambdaGeo/terrahs](https://github.com/LambdaGeo/terrahs)
 
 **TerraHS** is a from-scratch rewrite of the original TerraHS (2006–2009), a Haskell binding to the C++ GIS library TerraLib developed at Brazil's National Institute for Space Research (INPE). This version keeps the ideas — geometry, spatial predicates, and a generalized map algebra — while dropping the FFI dependency entirely: everything is plain Haskell, or built on well-established pure-Haskell libraries for file I/O.
 

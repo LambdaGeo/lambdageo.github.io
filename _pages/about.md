@@ -12,7 +12,8 @@ profile:
   image: prof_pic.webp
   image_circular: true
   more_info: >
-    <p>sergio.costa@ufma.br</p>
+    <p><a href="/people/sergio-costa/">Prof. Sérgio Souza Costa</a> — Principal Investigator</p>
+    <p>sergio.costa@ufma.br · lambdageo@ufma.br</p>
     <p>UFMA — São Luís, MA, Brazil</p>
     <p><a href="http://lattes.cnpq.br/2073311645132958">Lattes</a> · 
        <a href="https://scholar.google.com/citations?user=ggu2II0AAAAJ">Google Scholar</a> ·
@@ -34,7 +35,7 @@ latest_posts:
   heading: "Recent Updates"
 ---
 
-[**LambdaGEO**](http://dgp.cnpq.br/dgp/espelhogrupo/771872) is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.
+[**LambdaGeo**](http://dgp.cnpq.br/dgp/espelhogrupo/771872) is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.
 
 We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — and we publish all our teaching materials as free, open books.
 
@@ -77,7 +78,7 @@ Ongoing interests with less active focus today, but part of the group's intellec
 We bridge **Linked Open Data (LOD)** with **Geographic Information Systems (GIS)** to enable interoperable, FAIR-compliant spatial research:
 
 | Project        | Description                                        | Link                                              |
-| -------------- | -------------------------------------------------- | -------------------------------------------------- |
+| -------------- | -------------------------------------------------- | ------------------------------------------------- |
 | **rdfmapper**  | Declarative Object-RDF Mapper for Python           | [GitHub](https://github.com/LambdaGeo/rdfmapper)  |
 | **QGISSPARQL** | Bridge Triple Stores ↔ QGIS for semantic mapping   | [GitHub](https://github.com/LambdaGeo/qgissparql) |
 | **DBCells**    | Publish spatial modeling data as Linked Data cubes | [GitHub](https://github.com/LambdaGeo/dbcells)    |
@@ -90,9 +91,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 **[TerraHS](https://github.com/LambdaGeo/terrahs)** (2005–2009) — an early vision of scientific models as verifiable, executable artifacts in Haskell. Now fully **rewritten in pure Haskell**, dropping the original FFI dependency on TerraLib: same geometry, spatial predicates, and generalized map algebra, built from scratch with no system dependencies. Used as teaching material for both **functional programming** and **GIS** courses.
 
-
-
-**[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the *"A Play on Regular Expressions"* functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
+**[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the _"A Play on Regular Expressions"_ functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
 
 **Textbook**: **[Introdução à Programação Funcional](https://lambdageo.github.io/book-introducao-a-programacao-funcional/)** (Haskell/Clojure/Elixir) — part of the Computing Core series in our open-access [Computing Track](/ebooks/).
 
@@ -104,7 +103,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 _Associate Professor of Computer Engineering, UFMA_  
 _Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
 
-**Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling 
+**Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling
 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
 
 ### Mentorship Workflow
@@ -112,7 +111,7 @@ _Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
 > We use **Notion** for mentorship, lecture materials, and project tracking:  
 > [profsergiocosta.notion.site](https://profsergiocosta.notion.site)
 
-### Join LambdaGEO
+### Join LambdaGeo
 
 We welcome motivated **PIBIC** and **master's** students interested in:
 
@@ -121,7 +120,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 - Reproducibility, FAIR principles, and open science
 - Software engineering for research software
 
-📧 _Contact: sergio.costa@ufma.br with a brief note about your background and interests._
+📧 _Contact: [lambdageo@ufma.br](mailto:lambdageo@ufma.br) with a brief note about your background and interests._
 
 ---
 
@@ -139,7 +138,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 - **Documentation**: [dissmodel.github.io](https://dissmodel.github.io/)
 - **Teaching materials**: [lambdageo.github.io/ebooks](/ebooks/)
 - **PyPI**: `pip install dissmodel`
-- **Email**: sergio.costa@ufma.br
+- **Email**: [lambdageo@ufma.br](mailto:lambdageo@ufma.br) (group) · [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br) (Principal Investigator)
 
 > _"A ciência não deve ser reescrita para ir para a produção."_  
 > _("Science should not need to be rewritten to go into production.")_  

@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects led by or involving the LambdaGeo group.
 nav: true
 nav_order: 4
 display_categories: [Leadership, Team]

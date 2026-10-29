@@ -2,14 +2,14 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: LambdaGEO — Research Lab in Computing and Geotechnologies # the website title (if blank, full name will be used instead)
+title: LambdaGeo — Research Lab in Computing and Geotechnologies # the website title (if blank, full name will be used instead)
 first_name: Sérgio
 middle_name: S.
 last_name: Costa
 contact_note: >
   Email is the best way to reach me — I usually reply within a few business days.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  LambdaGEO is a research group at the Federal University of Maranhão (UFMA) working at the
+  LambdaGeo is a research group at the Federal University of Maranhão (UFMA) working at the
   intersection of Computer Engineering, Geosciences, and Open Science — reproducible geospatial
   modeling, semantic web, and FAIR data infrastructure.
 footer_text: >
@@ -18,7 +18,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: geospatial modeling, semantic web, linked data, GIS, land use change, FAIR data, open science, UFMA # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: fav_icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: logo-icon.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://lambdageo.github.io/ # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
