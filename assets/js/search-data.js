@@ -23,12 +23,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-mentorship",
-          title: "mentorship",
-          description: "Over 13 years of fostering technical excellence and supervising undergraduate and graduate research.",
+        },{id: "nav-people",
+          title: "people",
+          description: "Faculty, researchers and students of the LambdaGeo research group at UFMA.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/mentorship/";
+            window.location.href = "/people/";
           },
         },{id: "nav-presentations",
           title: "presentations",
@@ -39,14 +39,14 @@ ninja.data = [{
           },
         },{id: "nav-projects",
           title: "projects",
-          description: "A growing collection of your cool projects.",
+          description: "Research projects led by or involving the LambdaGeo group.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
         },{id: "nav-software",
           title: "software",
-          description: "Open-source tools and libraries developed by LambdaGEO.",
+          description: "Open-source tools and libraries developed by LambdaGeo.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/software/";
@@ -174,7 +174,7 @@ ninja.data = [{
         },
       },{id: "post-revitalizing-lambdageo-from-student-projects-to-production-ready-software",
         
-          title: "Revitalizing LambdaGEO: From Student Projects to Production-Ready Software",
+          title: "Revitalizing LambdaGeo: From Student Projects to Production-Ready Software",
         
         description: "How AI assisted in finishing, publishing, and documenting years of research group projects in record time.",
         section: "Posts",
