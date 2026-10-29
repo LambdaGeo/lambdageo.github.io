@@ -101,7 +101,8 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 **Prof. Sérgio Souza Costa**  
 _Associate Professor of Computer Engineering, UFMA_  
-_Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_
+_Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_  
+_Professor, Professional Master's in Computing Education (PROFCOMP)_
 
 **Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling
 **Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
@@ -129,6 +130,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 - **[UFMA](https://www.ufma.br)** — Federal University of Maranhão
 - **[INPE](http://www.inpe.br/)** — National Institute for Space Research (Brazil)
 - **PPGC&TAmb** — [Graduate Program in Environmental Science & Technology](https://ppgctamb.ufma.br/)
+- **PROFCOMP** — [Professional Master's in Computing Education](https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&idPrograma=1997) (national network coordinated by SBC)
 
 ---
 
