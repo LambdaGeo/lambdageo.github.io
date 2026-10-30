@@ -2,7 +2,7 @@
 layout: software
 title: TerraHS
 description: A purely functional Haskell library for geospatial programming and map algebra, with no foreign dependencies.
-importance: 3
+importance: 5
 category: Libraries
 github: https://github.com/LambdaGeo/terrahs
 kind: "Haskell library"

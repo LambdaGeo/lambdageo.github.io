@@ -2,7 +2,7 @@
 layout: software
 title: rdfmapper
 description: A declarative Object-RDF Mapper for Python to map classes to RDF graphs.
-importance: 2
+importance: 4
 category: Libraries
 github: https://github.com/lambdageo/rdfmapper
 kind: "Python library"
