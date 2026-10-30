@@ -34,10 +34,8 @@ Our research identified 45 public educational institutions with open data, avera
 
 ## Technical Resources
 
-- [**Modeling**](modelagem): Access the data modeling for each dataset.
 - [**Ontology**](https://lambdageo.github.io/ccso-dbacademic/): Access the ontology used for data publication.
 - [**Published Data**](https://data.world/dbacademic/dbacademic): Explore the datasets published on Data.world.
-- [**Query Examples**](queryexamples): See examples of SPARQL queries.
 
 ## Software
 
