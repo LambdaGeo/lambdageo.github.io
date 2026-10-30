@@ -239,11 +239,26 @@ ninja.data = [{
           description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/integrai/";
+            },},{id: "software-disscube",
+          title: 'DisSCube',
+          description: "Declarative spatial data cubes — describe sources, grid and derived variables in TOML and get a cataloged, reproducible cube.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/disscube/";
+            },},{id: "software-disslucc",
+          title: 'disslucc',
+          description: "Land use and cover change (LUCC) modeling — continuous and discrete allocation — on top of DisSModel.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/disslucc/";
             },},{id: "software-dissmodel",
           title: 'DisSModel',
           description: "A Discrete Spatial Modeling framework for Python.",
           section: "Software",handler: () => {
               window.location.href = "/software/dissmodel/";
+            },},{id: "software-fielddash",
+          title: 'fielddash',
+          description: "Schema-driven dashboards for field data collection with Epicollect5, configured with a single YAML file.",
+          section: "Software",handler: () => {
+              window.location.href = "/software/fielddash/";
             },},{id: "software-integrai",
           title: 'IntegrAI',
           description: "A microservices architecture for maternal health decision support using LLMs and RAG.",
