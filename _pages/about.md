@@ -49,7 +49,7 @@ We develop reproducible, open-source tools for spatial simulation, semantic data
 
 Our flagship research area — modern, Python-native tools for discrete spatial simulation (Cellular Automata, System Dynamics, and Land Use & Cover Change).
 
-**Main project: [DisSModel](https://dissmodel.github.io/)** — a modern alternative to TerraME/LuccME (INPE).
+**Main project: [DisSModel](https://dissmodel.github.io/) and [DisSLUCC](https://dissmodel.github.io/disslucc/)** — a modern alternative to TerraME/LuccME (INPE).
 
 **[🔗 dissmodel.github.io](https://dissmodel.github.io/)** · [GitHub Organization](https://github.com/DisSModel) · `pip install dissmodel`
 
