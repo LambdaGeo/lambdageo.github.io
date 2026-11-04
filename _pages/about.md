@@ -58,14 +58,14 @@ Our flagship research area — modern, Python-native tools for discrete spatial 
 > DisSModel spans two GitHub organizations: the packages live in [DisSModel](https://github.com/DisSModel), and the reference outputs, benchmarks, study cases, workflow and book live here in [LambdaGeo](https://github.com/LambdaGeo). The **[repository map](https://dissmodel.github.io/repository-map.html)** shows how they all connect, from the TerraME/LuccME reference to the open-data workflow.
 {: .block-tip }
 
-_Built on the Executor Pattern: the same model code runs locally or on cloud clusters without modification. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
+_Declarative TOML pipelines turn open data into model-ready grids, and the model components are checked against TerraME/LuccME reference outputs. Every experiment records SHA-256 checksums, TOML specs, and Git commits for full reproducibility._
 
 **Textbooks** (open-access, in Portuguese — see the [Geospatial Track](/ebooks/)):
 
 - **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** — the entry point: remote sensing with Google Earth Engine and spatial databases with PostGIS and QGIS.
 - **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** — a didactic textbook covering geospatial Python from scratch; chapters 1–16 are independent of DisSModel.
 
-> DisSModel builds on two decades of prior work: **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara) → **TerraHS** (2005, models as verifiable artifacts) → **TerraME / LuccME** (2007–10, INPE, spatially explicit dynamic models) → **DisSModel** (2024–26, Python, FAIR, cloud-native).
+> DisSModel builds on two decades of prior work: **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara) → **TerraHS** (2005, models as verifiable artifacts) → **TerraME / LuccME** (2007–10, INPE, spatially explicit dynamic models) → **DisSModel** (2024–26, Python, FAIR, verified against TerraME/LuccME).
 
 ---
 
@@ -137,11 +137,11 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 ## 📡 Stay Connected
 
 - **Research code**: [github.com/LambdaGeo](https://github.com/LambdaGeo) · [github.com/DisSModel](https://github.com/DisSModel)
-- **Documentation**: [dissmodel.github.io](https://dissmodel.github.io/)
-- **Teaching materials**: [lambdageo.github.io/ebooks](/ebooks/)
-- **PyPI**: `pip install dissmodel`
+- **Software**: [LambdaGeo tools and packages](/software/) · [DisSModel ecosystem](https://dissmodel.github.io/)
+- **Publications**: [Selected papers and full list](/publications/)
+- **Teaching materials**: [Open-access e-books](/ebooks/)
 - **Email**: [lambdageo@ufma.br](mailto:lambdageo@ufma.br) (group) · [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br) (Principal Investigator)
 
-> _"A ciência não deve ser reescrita para ir para a produção."_  
-> _("Science should not need to be rewritten to go into production.")_  
-> — **DisSModel Design Principle**
+> _"Do dado aberto ao modelo verificado, em código que qualquer um pode rodar."_  
+> _("From open data to a verified model, in code anyone can run.")_  
+> — **LambdaGeo**
