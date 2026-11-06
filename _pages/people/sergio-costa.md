@@ -69,6 +69,19 @@ He holds MSc and PhD degrees in Applied Computing from the National Institute fo
 
 Supervises undergraduate research (PIBIC/PIBITI) and master's students in the Graduate Program in Environmental Science and Technology and in the Professional Master's in Computing Education (PROFCOMP) — see [people](/people/) and [mentorship](/mentorship/). Prospective students interested in environmental modelling, GIS and reproducible research software can write to [lambdageo@ufma.br](mailto:lambdageo@ufma.br).
 
+## Elsewhere
+
+Research profiles, code, talks and writing. Course materials (updated during the semester) are on [Notion](https://profsergiocosta.notion.site).
+
+<div class="software-meta">
+  <a class="software-chip" href="https://www.researchgate.net/profile/Sergio-Souza-Costa"><i class="ai ai-researchgate"></i> ResearchGate</a>
+  <a class="software-chip" href="https://gitlab.com/profsergiocosta"><i class="fa-brands fa-gitlab"></i> GitLab</a>
+  <a class="software-chip" href="https://www.slideshare.net/skosta"><i class="fa-brands fa-slideshare"></i> SlideShare</a>
+  <a class="software-chip" href="https://medium.com/@sergiocosta"><i class="fa-brands fa-medium"></i> Medium</a>
+  <a class="software-chip" href="https://www.youtube.com/channel/UCbchwyilbYF8AptP4ZIXMFg"><i class="fa-brands fa-youtube"></i> YouTube</a>
+  <a class="software-chip" href="https://www.linkedin.com/in/profsergiocosta"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+</div>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -89,7 +102,11 @@ Supervises undergraduate research (PIBIC/PIBITI) and master's students in the Gr
       "https://lambdageo.ufma.br/people/sergio-costa/",
       "http://lattes.cnpq.br/2073311645132958",
       "https://orcid.org/0000-0002-0232-4549",
-      "https://scholar.google.com/citations?user=ggu2II0AAAAJ"
+      "https://scholar.google.com/citations?user=ggu2II0AAAAJ",
+      "https://www.researchgate.net/profile/Sergio-Souza-Costa",
+      "https://github.com/profsergiocosta",
+      "https://gitlab.com/profsergiocosta",
+      "https://www.linkedin.com/in/profsergiocosta"
     ]
   }
 }
