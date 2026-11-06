@@ -62,7 +62,7 @@ _Declarative TOML pipelines turn open data into model-ready grids, and the model
 
 **Textbooks** (open-access, in Portuguese — see the [Geospatial Track](/ebooks/)):
 
-- **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** — the entry point: remote sensing with Google Earth Engine and spatial databases with PostGIS and QGIS.
+- **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo-edu.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** — the entry point: remote sensing with Google Earth Engine and spatial databases with PostGIS and QGIS.
 - **[Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/)** — a didactic textbook covering geospatial Python from scratch; chapters 1–16 are independent of DisSModel.
 
 > DisSModel builds on two decades of prior work: **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câmara) → **TerraHS** (2005, models as verifiable artifacts) → **TerraME / LuccME** (2007–10, INPE, spatially explicit dynamic models) → **DisSModel** (2024–26, Python, FAIR, verified against TerraME/LuccME).
@@ -93,7 +93,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 **[PlayReg](https://github.com/LambdaGeo/playreg)** — a regex engine built on Brzozowski derivatives, following the _"A Play on Regular Expressions"_ functional pearl, generalized via a Semiring abstraction to compute acceptance, match counts, or submatch positions.
 
-**Textbook**: **[Introdução à Programação Funcional](https://lambdageo.github.io/book-introducao-a-programacao-funcional/)** (Haskell/Clojure/Elixir) — part of the Computing Core series in our open-access [Computing Track](/ebooks/).
+**Textbook**: **[Introdução à Programação Funcional](https://lambdageo-edu.github.io/book-introducao-a-programacao-funcional/)** (Haskell/Clojure/Elixir) — part of the Computing Core series in our open-access [Computing Track](/ebooks/).
 
 ---
 

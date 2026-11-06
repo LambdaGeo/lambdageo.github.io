@@ -30,7 +30,7 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **Focus**: Lexical analysis, parsing, code generation, and optimization through hands-on compiler construction
 - **Why it matters internationally**: Develops transferable skills in formal languages, automata theory, and tooling — foundational for PL research, verification, and compiler engineering roles.
 - **Course page**: [Disciplina: Compiladores](https://profsergiocosta.notion.site/Disciplina-Compiladores-311cce97509380c4b8d7fac239454bb4)
-- **Ebook**: [Compiladores usando Nand2Tetris](https://lambdageo.github.io/nand2tetris-compilador/)
+- **Ebook**: [Compiladores usando Nand2Tetris](https://lambdageo-edu.github.io/book-compiladores-com-nand2tetris/)
 
 ### Algorithms & Data Structures
 
@@ -40,7 +40,7 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **Project Example**: Implement spatial indexing structures (R-trees, quadtrees) for land-use data queries
 - **Global relevance**: Core competency for technical interviews and research in computational geography, optimization, and large-scale data processing.
 - **Course page**: [Disciplina: Estrutura de Dados](https://profsergiocosta.notion.site/Disciplina-Estrutura-de-Dados-311cce97509380e3b4bfd86d38451136)
-- **Ebook**: [Estrutura de Dados](https://lambdageo.github.io/estrutura-dados/)
+- **Ebook**: [Estrutura de Dados](https://lambdageo-edu.github.io/book-estrutura-de-dados/)
 
 ### Programming Paradigms
 
@@ -48,7 +48,7 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **Paradigms Covered**: Imperative, Object-Oriented, Functional (Haskell), Logic
 - **Focus**: Comparative analysis of paradigms; when and why to choose each approach for scientific computing problems
 - **International value**: Prepares students for diverse codebases and research environments that mix paradigms (e.g., data engineering pipelines).
-- **Ebook**: [Paradigmas de Programação](https://lambdageo.github.io/paradigmas-programacao/)
+- **Ebook**: [Paradigmas de Programação](https://lambdageo-edu.github.io/book-paradigmas-de-programacao/)
 
 ### λ Functional Programming
 
@@ -57,7 +57,7 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **Focus**: Pure functions, type systems, monads, and declarative problem-solving for reproducible scientific workflows
 - **Connection to research**: Functional approaches support verifiable, side-effect-free geospatial data transformations
 - **Course page**: [Disciplina: Introdução à Programação Funcional](https://profsergiocosta.notion.site/Disciplina-Introdu-o-Programa-o-Funcional-22ecce97509380f889cfd7cf820aff51)
-- **Ebook**: [Introdução à Programação Funcional (IPF)](https://lambdageo.github.io/ipf/)
+- **Ebook**: [Introdução à Programação Funcional (IPF)](https://lambdageo-edu.github.io/book-introducao-a-programacao-funcional/)
 
 ### Introduction to Geoprocessing _(Graduate)_
 
@@ -72,4 +72,4 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **Program**: Professional Master's (PPGCTAmb / PROFCOMP)
 - **Focus**: Information representation, computer architecture fundamentals, operating system concepts for scientific workflows
 - **Course page**: [Disciplina: Introdução ao Computador](https://profsergiocosta.notion.site/Disciplina-Introdu-o-ao-Computador-311cce97509380b88a73d52065fad878)
-- **Ebook**: [Introdução ao Computador](https://lambdageo.github.io/introducao-computador/)
+- **Ebook**: [Introdução ao Computador](https://lambdageo-edu.github.io/book-introducao-ao-computador/)
