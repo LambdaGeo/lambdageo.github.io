@@ -77,6 +77,7 @@ Research profiles, code, talks and writing. Course materials (updated during the
   <a class="software-chip" href="https://www.researchgate.net/profile/Sergio-Souza-Costa"><i class="ai ai-researchgate"></i> ResearchGate</a>
   <a class="software-chip" href="https://gitlab.com/profsergiocosta"><i class="fa-brands fa-gitlab"></i> GitLab</a>
   <a class="software-chip" href="https://www.slideshare.net/skosta"><i class="fa-brands fa-slideshare"></i> SlideShare</a>
+  <a class="software-chip" href="https://speakerdeck.com/profsergiocosta"><i class="fa-brands fa-speaker-deck"></i> SpeakerDeck</a>
   <a class="software-chip" href="https://medium.com/@sergiocosta"><i class="fa-brands fa-medium"></i> Medium</a>
   <a class="software-chip" href="https://www.youtube.com/channel/UCbchwyilbYF8AptP4ZIXMFg"><i class="fa-brands fa-youtube"></i> YouTube</a>
   <a class="software-chip" href="https://www.linkedin.com/in/profsergiocosta"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>

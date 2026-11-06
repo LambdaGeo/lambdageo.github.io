@@ -6,8 +6,6 @@ nav: true
 nav_order: 3
 ---
 
-<!-- DEBUG: Found {{ site.presentations | size }} presentations -->
-
 <div class="presentations">
   {% assign presentations = site.presentations | sort: 'date' | reverse %}
   {% for talk in presentations %}
