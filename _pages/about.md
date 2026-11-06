@@ -9,15 +9,15 @@ subtitle: >
 
 profile:
   align: right
-  image: prof_pic.webp
-  image_circular: true
+  image: logo-icon.png
+  image_circular: false
   more_info: >
-    <p><a href="/people/sergio-costa/">Prof. Sérgio Souza Costa</a> — Principal Investigator</p>
-    <p>sergio.costa@ufma.br · lambdageo@ufma.br</p>
+    <p><strong>LambdaGeo</strong> — Research Group</p>
+    <p>lambdageo@ufma.br</p>
     <p>UFMA — São Luís, MA, Brazil</p>
-    <p><a href="http://lattes.cnpq.br/2073311645132958">Lattes</a> · 
-       <a href="https://scholar.google.com/citations?user=ggu2II0AAAAJ">Google Scholar</a> ·
-       <a href="https://orcid.org/0000-0002-0232-4549">ORCID</a></p>
+    <p><a href="http://dgp.cnpq.br/dgp/espelhogrupo/771872">CNPq Directory of Research Groups</a></p>
+    <p><a href="https://github.com/LambdaGeo">LambdaGeo</a> · 
+       <a href="https://github.com/DisSModel">DisSModel</a></p>
 
 selected_papers: true
 social: true
@@ -97,15 +97,13 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 
 ---
 
-## 👨‍🏫 Leadership & Mentorship
+## 👥 People
 
-**Prof. Sérgio Souza Costa**  
-_Associate Professor of Computer Engineering, UFMA_  
-_Researcher, Graduate Program in Environmental Science & Technology (PPGC&TAmb)_  
-_Professor, Professional Master's in Computing Education (PROFCOMP)_
+**[Prof. Sérgio Souza Costa](/people/sergio-costa/)** — Principal Investigator  
+_Associate Professor of Computer Engineering, UFMA · PPGC&TAmb · PROFCOMP_  
+Focus: reproducible geospatial modeling, functional programming, FAIR data infrastructure.
 
-**Background**: Applied Computing (UFMA); MSc & PhD in Applied Computing (INPE) — research in Geoprocessing & Dynamic Land-Use/Land-Cover Modeling
-**Focus**: Reproducible geospatial modeling, functional programming, FAIR data infrastructure
+[All members and full profiles →](/people/)
 
 ### Mentorship Workflow
 
