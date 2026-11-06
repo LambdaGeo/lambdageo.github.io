@@ -44,3 +44,5 @@ nav_order: 3
 {% endfor %}
 
 </div>
+
+More talks: [SpeakerDeck](https://speakerdeck.com/profsergiocosta) · [SlideShare](https://www.slideshare.net/skosta)
