@@ -67,6 +67,15 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 - **INPE Connection**: Builds on methodologies developed during my PhD research in dynamic land-use/land-cover modeling at INPE
 - **Output**: Students produce reproducible geoprocessing pipelines for regional environmental analysis
 
+### Spatial Dynamic Modelling _(Graduate, proposed elective)_
+
+- **Format**: 30 class hours (15 lab meetings), hands-on with Jupyter notebooks that also run on Google Colab; basic GIS knowledge is the only prerequisite, since Python is introduced in the first meetings
+- **Tools**: Python, with DisSModel, DisSCube and DisSLUCC; INPE's TerraME/LuccME as the reference
+- **Focus**: Spatial dynamic modelling paradigms (system dynamics, cellular automata, agents), reproducibility, building grids and data cubes from open data, land use and land cover change (demand, potential, allocation), verification, calibration and sensitivity analysis
+- **Status**: under development; the course materials are in Portuguese, and the course has not yet been taught to students
+- **Course page**: [Modelagem Dinâmica Espacial](https://lambdageo-edu.github.io/curso-modelagem-dinamica-espacial/)
+- **Companion textbook**: [Geospatial Modeling with Python](https://lambdageo.github.io/geospatial-modeling-python/) (in English)
+
 ### Introduction to Computers _(Graduate)_
 
 - **Program**: Professional Master's (PPGCTAmb / PROFCOMP)
