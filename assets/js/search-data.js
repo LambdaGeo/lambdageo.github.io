@@ -214,6 +214,11 @@ ninja.data = [{
           description: "Presentation of the DBCells architecture for publishing global cellular spaces as Linked Data.",
           section: "Presentations",handler: () => {
               window.location.href = "/presentations/2017-05-15-dbcells-presentation/";
+            },},{id: "presentations-introduction-to-satellite-image-processing-and-analysis-with-google-earth-engine",
+          title: 'Introduction to Satellite Image Processing and Analysis with Google Earth Engine',
+          description: "Minicourse slides (in Portuguese) introducing geoinformation and the Google Earth Engine JavaScript API.",
+          section: "Presentations",handler: () => {
+              window.location.href = "/presentations/2022-11-01-gee-intro-minicourse/";
             },},{id: "presentations-building-open-and-reproducible-geospatial-simulations-with-python",
           title: 'Building Open and Reproducible Geospatial Simulations with Python',
           description: "A seminar presenting the DisSModel framework and its philosophy for open and reproducible geospatial science.",
