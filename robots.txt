@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://lambdageo.github.io//sitemap.xml
+Sitemap: https://lambdageo.ufma.br/sitemap.xml
