@@ -12,9 +12,9 @@ calendar: true
 
 I have developed specialized materials for using cloud computing in Remote Sensing. _Note: These resources are currently available in Portuguese (PT-BR)._
 
-- **[Introduction to Satellite Image Processing and Analysis with GEE](https://www.notion.so/profsergiocosta/GEE-Introdu-o-ao-processamento-e-an-lise-de-imagens-de-sat-lites-com-Google-Earth-Engine-GEE-199e9c164cce439c8a46e8519303d4d2)** A comprehensive guide and talk covering the fundamentals of the GEE JavaScript API, focusing on image collections, reducers, and environmental analysis workflows.
+- **[Introduction to Satellite Image Processing and Analysis with GEE](/presentations/2022-11-01-gee-intro-minicourse/)** Slides of a minicourse (November 2022) covering the fundamentals of the GEE JavaScript API: the Data Catalog and Code Editor, geometries, features, images and image collections, and exporting results.
 
-- **[GEE in Remote Sensing and Geoprocessing Education](https://www.notion.so/profsergiocosta/Google-Earth-Engine-no-Ensino-de-Introdu-o-ao-Sensoriamento-Remoto-e-ao-Geoprocessamento-5120512373a3485ab1d2d22cb44ea7a7)** Educational material designed to integrate cloud-based workflows into undergraduate introductory courses, replacing traditional local processing with planetary-scale data analysis.
+- **[Introdução ao Geoprocessamento e Sensoriamento Remoto](https://lambdageo-edu.github.io/book-geoprocessamento-e-sensoriamento-remoto/)** The maintained open textbook that integrates cloud-based workflows (GEE) into introductory remote sensing and geoprocessing courses, together with PostGIS and QGIS.
 
 {: .alert .alert-info}
 For a complete list of my teaching materials, including labs, workshops, and tutorials, please visit my **[Notion](https://profsergiocosta.notion.site/Teaching-311cce97509380eda691e7243b158806?pvs=74)**.
