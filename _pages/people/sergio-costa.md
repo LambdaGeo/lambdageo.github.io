@@ -50,7 +50,7 @@ He holds MSc and PhD degrees in Applied Computing from the National Institute fo
 
 ## Current projects
 
-- **[DisSModel](/software/dissmodel/)** — Python framework for discrete spatial simulation and land-change modelling, successor to INPE's TerraME/LuccME ([DOI 10.5281/zenodo.23246106](https://doi.org/10.5281/zenodo.23246106)).
+- **[DisSModel](/software/dissmodel/)** — Python framework for discrete spatial simulation and land-change modelling, an independent Python alternative to INPE's TerraME/LuccME, which remain the reference ([DOI 10.5281/zenodo.23246106](https://doi.org/10.5281/zenodo.23246106)).
 - **Land change in Maranhão** — deforestation in the Maranhão Cerrado and land-cover classification accuracy in the São Luís region, with open code for each study.
 - **[QGISSPARQL](/software/qgissparql/)** — integration of Linked Data and GIS ([DOI 10.5281/zenodo.23102044](https://doi.org/10.5281/zenodo.23102044)).
 - **Open textbooks** — geoprocessing, remote sensing and geospatial modelling with Python ([lambdageo-edu](https://lambdageo-edu.github.io/)).
