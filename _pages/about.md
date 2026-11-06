@@ -35,7 +35,7 @@ latest_posts:
   heading: "Recent Updates"
 ---
 
-[**LambdaGeo**](http://dgp.cnpq.br/dgp/espelhogrupo/771872) is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**.
+**LambdaGeo** is a research group at the **Federal University of Maranhão (UFMA)** working at the intersection of **Computer Engineering**, **Geosciences**, and **Open Science**, registered in the [CNPq Directory of Research Groups](http://dgp.cnpq.br/dgp/espelhogrupo/771872).
 
 We develop reproducible, open-source tools for spatial simulation, semantic data integration, and environmental modeling — and we publish all our teaching materials as free, open books.
 
@@ -140,6 +140,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 - **Software**: [LambdaGeo tools and packages](/software/) · [DisSModel ecosystem](https://dissmodel.github.io/)
 - **Publications**: [Selected papers and full list](/publications/)
 - **Teaching materials**: [Open-access e-books](/ebooks/)
+- **Registration**: [CNPq Directory of Research Groups](http://dgp.cnpq.br/dgp/espelhogrupo/771872)
 - **Email**: [lambdageo@ufma.br](mailto:lambdageo@ufma.br) (group) · [sergio.costa@ufma.br](mailto:sergio.costa@ufma.br) (Principal Investigator)
 
 > _"Do dado aberto ao modelo verificado, em código que qualquer um pode rodar."_  
