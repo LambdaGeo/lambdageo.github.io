@@ -5,7 +5,7 @@ title: Sérgio Souza Costa
 description: Principal Investigator of the LambdaGeo research group · Associate Professor, Federal University of Maranhão (UFMA)
 nav: false
 ---
-)
+
 <div class="pi-profile">
   <img class="pi-photo" src="{{ '/assets/img/prof_pic.webp' | relative_url }}" alt="Prof. Sérgio Souza Costa">
   <div>
