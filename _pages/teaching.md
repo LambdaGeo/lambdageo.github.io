@@ -78,7 +78,7 @@ For a complete list of my teaching materials, including labs, workshops, and tut
 
 ### Introduction to Computers _(Graduate)_
 
-- **Program**: Professional Master's (PPGCTAmb / PROFCOMP)
+- **Program**: Professional Master's (PROFCOMP)
 - **Focus**: Information representation, computer architecture fundamentals, operating system concepts for scientific workflows
 - **Course page**: [Disciplina: Introdução ao Computador](https://profsergiocosta.notion.site/Disciplina-Introdu-o-ao-Computador-311cce97509380b88a73d52065fad878)
 - **Ebook**: [Introdução ao Computador](https://lambdageo-edu.github.io/book-introducao-ao-computador/)

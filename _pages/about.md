@@ -100,7 +100,7 @@ _Roots trace back to **TerraTranslator** (Lima Júnior, 2002; with Gilberto Câm
 ## 👥 People
 
 **[Prof. Sérgio Souza Costa](/people/sergio-costa/)** — Principal Investigator  
-_Associate Professor of Computer Engineering, UFMA · PPGC&TAmb · PROFCOMP_  
+Associate Professor of Computer Engineering, UFMA · PPGC&TAmb 
 Focus: reproducible geospatial modeling, functional programming, FAIR data infrastructure.
 
 [All members and full profiles →](/people/)
@@ -128,7 +128,7 @@ We welcome motivated **PIBIC** and **master's** students interested in:
 - **[UFMA](https://www.ufma.br)** — Federal University of Maranhão
 - **[INPE](http://www.inpe.br/)** — National Institute for Space Research (Brazil)
 - **PPGC&TAmb** — [Graduate Program in Environmental Science & Technology](https://ppgctamb.ufma.br/)
-- **PROFCOMP** — [Professional Master's in Computing Education](https://sigaa.ufma.br/sigaa/public/programa/apresentacao_stricto.jsf?lc=pt_BR&idPrograma=1997) (national network coordinated by SBC)
+
 
 ---
 
