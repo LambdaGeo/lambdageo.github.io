@@ -128,7 +128,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "post-construindo-e-testando-uma-biblioteca-haskell-json-pretty-printing-e-quickcheck",
+        },{id: "post-edital-de-seleção-para-o-mestrado-em-ciência-e-tecnologia-ambiental-ppgc-amp-tamb-ufma-ingresso-em-2027",
+        
+          title: "Edital de seleção para o Mestrado em Ciência e Tecnologia Ambiental (PPGC&amp;TAmb/UFMA) –...",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/edital-mestrado-ppgctamb-2027/";
+          
+        },
+      },{id: "post-construindo-e-testando-uma-biblioteca-haskell-json-pretty-printing-e-quickcheck",
         
           title: "Construindo e Testando uma Biblioteca Haskell: JSON, Pretty Printing e QuickCheck",
         
