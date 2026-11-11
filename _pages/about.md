@@ -22,11 +22,6 @@ profile:
 selected_papers: true
 social: true
 
-announcements:
-  enabled: true
-  scrollable: true
-  limit: 3
-  heading: "News & Opportunities"
 
 latest_posts:
   enabled: true
